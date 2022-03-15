@@ -1,0 +1,159 @@
+Unix
+Unix
+Parte de la familia Unix
+
+
+
+Evolución de Unix y los sistemas tipos Unix
+
+Desarrollador
+Ken Thompson, Dennis Ritchie, Brian Kernighan, Douglas McIlroy, y Joe Ossanna en los Laboratorios Bell
+http://opengroup.org/unix
+Información general
+Modelo de desarrollo	Históricamente código propietario
+Lanzamiento inicial	1969 (hace 48 años). Primer manual en 1971 y anunciado en octubre de 1973 por los Laboratorios Bell
+Última versión estable	Unix V7
+Tipo de mercado	Servidores
+Escrito en	C y ensamblador
+Núcleo	Unix kernel
+Tipo de núcleo	Monolítico
+Interfaz gráfica predeterminada	Línea de comandos y X Window System
+Plataformas soportadas	PDP-7, PDP-11/20, familia VAX
+Licencia	Propietaria y licencias tipo free/open-source
+Idiomas	Inglés
+En español	
+
+ 
+
+Predecesor:	Multics
+Sucesor:	BSD, GNU, linux, Solaris, AIX, HP-UX, macOS, Xenvergaix
+[editar datos en Wikidata]
+Unix (registrado oficialmente como UNIX®) es un sistema operativo portable, multitarea y multiusuario; desarrollado, en principio, en 1969, por un grupo de empleados de los laboratorios Bell de AT&T, entre los que figuran Dennis Ritchie, Ken Thompson y Douglas McIlroy.[1][2]
+
+El sistema, junto con todos los derechos fueron vendidos por AT&T a Novell, Inc. Esta vendió posteriormente el software a Santa Cruz Operation en 1995, y esta, a su vez, lo revendió a Caldera Software en 2001, empresa que después se convirtió en el grupo SCO. Sin embargo, Novell siempre argumentó que solo vendió los derechos de uso del software, pero que retuvo el copyright sobre "UNIX®". En 2010, y tras una larga batalla legal, ésta ha pasado nuevamente a ser propiedad de Novell.[3]
+
+Solo los sistemas totalmente compatibles y que se encuentran certificados por la especificación Single UNIX Specification pueden ser denominados "UNIX®" (otros reciben la denominación «similar a un sistema Unix» o «similar a Unix»). En ocasiones, suele usarse el término "Unix tradicional" para referirse a Unix o a un sistema operativo que cuenta con las características de UNIX Versión 7 o UNIX System V o unix versión 6.
+
+Historia
+A finales de la década de 1960 el Instituto Tecnológico de Massachusetts, los Laboratorios Bell de AT&T y General Electric trabajaban en un sistema operativo experimental llamado Multics (Multiplexed Information and Computing Service),[4] desarrollado para ejecutarse en una computadora central (mainframe) modelo GE-645. El objetivo del proyecto era desarrollar un gran sistema operativo interactivo que contase con muchas innovaciones, entre ellas mejoras en las políticas de seguridad. El proyecto consiguió dar a luz versiones para producción, pero las primeras versiones contaban con un pobre rendimiento. Los laboratorios Bell de AT&T decidieron desvincularse y dedicar sus recursos a otros proyectos.
+
+Uno de los programadores de los laboratorios Bell, Ken Thompson, siguió trabajando para la computadora GE-645[5] y escribió un juego llamado Space Travel,[6][7] (Viaje espacial). Sin embargo, descubrió que el juego era lento en la máquina de General Electric y resultaba realmente caro, algo así como 75 dólares de EE. UU. por cada partida.
+
+De este modo, Thompson escribió nuevamente el programa, con ayuda de Dennis Ritchie, en lenguaje ensamblador, para que se ejecutase en una computadora DEC PDP-7. Esta experiencia, junto al trabajo que desarrolló para el proyecto Multics, condujo a Thompson a iniciar la creación de un nuevo sistema operativo para la DEC PDP-7.[8] Thompson y Ritchie lideraron un grupo de programadores, entre ellos a Rudd Canaday, en los laboratorios Bell, para desarrollar tanto el sistema de ficheros como el sistema operativo multitarea en sí. A lo anterior, agregaron un intérprete de órdenes (o intérprete de comandos) y un pequeño conjunto de programas. El proyecto fue bautizado UNICS, como acrónimo Uniplexed Information and Computing System, pues solo prestaba servicios a dos usuarios (de acuerdo con Andrew Tanenbaum, era solo a un usuario[9]). La autoría de esta sigla se le atribuye a Brian Kernighan, ya que era un hack de Multics. Dada la popularidad que tuvo un juego de palabras que consideraba a UNICS un sistema MULTICS castrado (pues eunuchs, en inglés, es un homófono de UNICS), se cambió el nombre a UNIX, dando origen al legado que llega hasta nuestros días.[10]
+
+Hasta ese instante, no había existido apoyo económico por parte de los laboratorios Bell, pero eso cambió cuando el Grupo de Investigación en Ciencias de la Computación decidió utilizar UNIX en una máquina superior a la PDP-7. Thompson y Ritchie lograron cumplir con la solicitud de agregar herramientas que permitieran el procesamiento de textos a UNIX en una máquina PDP-11/20, y como consecuencia de ello consiguieron el apoyo económico de los laboratorios Bell. Fue así como por vez primera, en 1970, se habla oficialmente del sistema operativo UNIX[11] ejecutado en una PDP-11/20. Se incluía en él un programa para dar formato a textos (runoff) y un editor de texto. Tanto el sistema operativo como los programas fueron escritos en el lenguaje ensamblador de la PDP-11/20. Este "sistema de procesamiento de texto" inicial, compuesto tanto por el sistema operativo como de runoff y el editor de texto, fue utilizado en los laboratorios Bell para procesar las solicitudes de patentes que ellos recibían. Pronto, runoff evolucionó hasta convertirse en troff, el primer programa de edición electrónica que permitía realizar composición tipográfica. El 3 de noviembre de 1971 Thomson y Ritchie publicaron un manual de programación de UNIX (título original en inglés: "UNIX Programmer's Manual").[12]
+
+En 1972 se tomó la decisión de escribir nuevamente UNIX, pero esta vez en el lenguaje de programación C.[13] Este cambio significaba que UNIX podría ser fácilmente modificado para funcionar en otras computadoras (de esta manera, se volvía portable) y así otras variaciones podían ser desarrolladas por otros programadores. Ahora, el código era más conciso y compacto, lo que se tradujo en un aumento en la velocidad de desarrollo de UNIX. AT&T puso a UNIX a disposición de universidades y compañías, también al gobierno de los Estados Unidos, a través de licencias.[14] Una de estas licencias fue otorgada al Departamento de Computación de la Universidad de California, con sede en Berkeley.[14] En 1975 esta institución desarrolló y publicó su propio sucedáneo de UNIX, conocida como Berkeley Software Distribution (BSD), que se convirtió en una fuerte competencia para la familia UNIX de AT&T.
+
+Mientras tanto, AT&T creó una división comercial denominada Unix Systems Laboratories para la explotación comercial del sistema operativo. El desarrollo prosiguió, con la entrega de las versiones 4, 5 y 6[15] en el transcurso de 1975. Estas versiones incluían los pipes o tuberías, lo que permitió dar al desarrollo una orientación modular respecto a la base del código, consiguiendo aumentar aún más la velocidad de desarrollo. Ya en 1978, cerca de 600 o más máquinas estaban ejecutándose con alguna de las distintas encarnaciones de UNIX.
+
+La versión 7,[15] la última versión del UNIX original con amplia distribución, entró en circulación en 1979. Las versiones 8, 9 y 10[15] se desarrollaron durante la década de 1980, pero su circulación se limitó a unas cuantas universidades, a pesar de que se publicaron los informes que describían el nuevo trabajo. Los resultados de esta investigación sirvieron de base para la creación de Plan 9 from Bell Labs, un nuevo sistema operativo portable y distribuido, diseñado para ser el sucesor de UNIX en investigación por los Laboratorios Bell.
+
+AT&T entonces inició el desarrollo de UNIX System III, basado en la versión 7, como una variante de tinte comercial y así vendía el producto de manera directa. La primera versión del sistema III se lanzó en 1981.[15] A pesar de lo anterior, la empresa subsidiaria Western Electric seguía vendiendo versiones antiguas de Unix basadas en las distintas versiones hasta la séptima. Para finalizar con la confusión con todas las versiones divergentes, AT&T decidió combinar varias versiones desarrolladas en distintas universidades y empresas, dando origen en 1983 al Unix System V Release 1.[15] Esta versión presentó características tales como el editor Vi y la biblioteca curses, desarrolladas por Berkeley Software Distribution en la Universidad de California, Berkeley. También contaba con compatibilidad con las máquinas VAX de la compañía DEC.
+
+Hacia 1991, un estudiante de ciencias de la computación de la Universidad de Helsinki, llamado Linus Torvalds desarrolló un núcleo para computadoras con arquitectura x86 de Intel que emulaba muchas de las funcionalidades de UNIX y lo lanzó en forma de código abierto en 1991, bajo el nombre de Linux. En 1992, el Proyecto GNU comenzó a utilizar el núcleo Linux junto a sus programas.
+
+En 1993, la compañía Novell adquirió la división Unix Systems Laboratories de AT&T junto con su propiedad intelectual.[16] Esto ocurrió en un momento delicado en el que Unix Systems Laboratories disputaba una demanda en los tribunales contra BSD por infracción de los derechos de copyright, revelación de secretos y violación de marca de mercado.[17]
+
+Aunque BSD ganó el juicio, Novell descubrió que gran parte del código de BSD fue copiada ilegalmente en UNIX System V. En realidad, la propiedad intelectual de Novell se reducía a unos cuantos archivos fuente.[17] La correspondiente contra-demanda acabó en un acuerdo extrajudicial cuyos términos permanecen bajo secreto a petición de Novell.
+
+A finales de 1993, Novell vendió su división UNIX comercial[16](es decir, la antigua Unix Systems Laboratories) a Santa Cruz Operation (SCO) reservándose, aparentemente, algunos derechos de propiedad intelectual sobre el software.[18] Xinuos (antes UnXis) continúa la comercialización de System V en su producto UnixWare tras adquirir a SCO en abril de 2011.
+
+Familias UNIX más significativas
+AT&T: La familia que tuvo su origen en el UNIX de AT&T. Considerada la familia UNIX "pura" y original. Sus sistemas operativos más significativos son UNIX System III y UNIX System V.
+BSD: Familia originada por el licenciamiento de UNIX a Berkely. BSD se reescribió para no incorporar propiedad intelectual originaria de AT&T en la versión 4. La primera implementación de los protocolos TCP/IP que dieron origen a Internet son la pila (stack) TCP/IP BSD.
+AIX: Esta familia surge por el licenciamiento de UNIX System III a IBM.
+Xenix: Familia derivada de la adquisición de los derechos originales de AT&T primero por parte de Microsoft y de esta los vendió a SCO.
+GNU: En 1983, Richard Stallman anunció el Proyecto GNU, un ambicioso esfuerzo para crear un sistema similar a Unix, que pudiese ser distribuido libremente. El software desarrollado por este proyecto -por ejemplo, GNU Emacs y GCC - también han sido parte fundamental de otros sistemas UNIX.
+Linux: En 1991, cuando Linus Torvalds empezó a proponer el núcleo Linux y a reunir colaboradores, las herramientas GNU eran la elección perfecta. Al combinarse ambos elementos, conformaron la base del sistema operativo (basado en POSIX), que hoy se conoce como GNU/Linux. Las distribuciones basadas en el núcleo, el software GNU y otros agregados entre las que se pueden mencionar a Slackware Linux, Red Hat Linux y Debian GNU/Linux se han hecho populares tanto entre los aficionados a la computación como en el mundo empresarial. Obsérvese que Linux tiene un origen independiente, por lo que se considera un 'clónico' de UNIX y no un UNIX en el sentido histórico.
+Las interrelaciones entre estas familias son las siguientes, aproximadamente en orden cronológico:
+
+La familia BSD surge del licenciamiento del UNIX original de AT&T.
+Xenix también surge por licenciamiento del UNIX original de AT&T, aunque aún no era propiedad de SCO.
+AIX surge por licenciamiento de UNIX System III, pero también incorpora propiedad intelectual de BSD.
+La familia original AT&T incorpora ilegalmente propiedad intelectual de BSD en UNIX System III r3.
+La familia AIX vuelve a incorporar propiedad intelectual de la familia AT&T, esta vez procedente de UNIX System V.
+Linux incorpora propiedad intelectual de BSD, gracias a que éste también se libera con una licencia de código abierto denominada Open-source BSD.
+Según SCO Group, Linux incorpora propiedad intelectual procedente de AIX gracias a la colaboración de IBM en la versión 2.4. Aún no está demostrado y hay un proceso judicial: Disputas de SCO sobre Linux.
+La marca
+UNIX® es una marca registrada de Novell, después de una disputa con The Open Group en Estados Unidos y otros países. Esta marca solo se puede aplicar a los sistemas operativos que cumplen la "Single Unix Specification" de esta organización y han pagado las regalías establecidas.
+
+En la práctica, el término UNIX se utiliza en su acepción de familia. Se aplica también a sistemas multiusuario basados en POSIX (tales como GNU/Linux, Mac OS X [el cual, en su versión 10.5 ya ha alcanzado la certificación UNIX], FreeBSD, NetBSD, OpenBSD), los cuales no buscan la certificación UNIX por resultar cara para productos destinados al consumidor final o que se distribuyen libremente en Internet. En estos casos, el término se suele escribir como "UN*X", "UNIX*", "*NIX", o "*N?X". Para referirse a ellos (tanto a Unix, como a los sistema basados en Unix/POSIX) también se utiliza "Unixes", pero "Unices" (que trata la palabra Unix como un nombre latino de la tercera declinación) es asimismo popular.
+
+Implementaciones más importantes
+A lo largo de la historia ha surgido una gran multitud de implementaciones comerciales de UNIX. Sin embargo, un conjunto reducido de productos ha consolidado el mercado y prevalece gracias a un continuo esfuerzo de desarrollo por parte de sus fabricantes. Los más importantes son:
+
+Solaris de Sun Microsystems. Uno de los sistemas operativos Unix más difundidos en el entorno empresarial y conocido por su gran estabilidad. Parte del código fuente de Solaris se ha liberado con licencia de fuentes abiertas (OpenSolaris).
+AIX de IBM. El UNIX "propietario" de IBM cumplió 20 años de vida en el 2006 y continúa en pleno desarrollo, con una perceptible herencia del mainframe en campos como la virtualización o la RAS de los servicios, heredada de sus "hermanos mayores".
+HP-UX de Hewlett-Packard. Este sistema operativo también nació ligado a las computadoras departamentales de este fabricante. También es un sistema operativo estable que continua en desarrollo.
+macOS. Se trata de un UNIX completo, aprobado por The Open Group. Su diferencia marcada es que posee una interfaz gráfica propietaria llamada Aqua, y es principalmente desarrollada en Objective-C en lugar de C o C++.
+Existen sistemas operativos basados en el núcleo Linux, y el conjunto de aplicaciones GNU (también denominado GNU/Linux), entre las más utilizadas encontramos:
+
+Red Hat Enterprise Linux. Cuyo fabricante Red Hat es conocido por su amplia gama de soluciones y aportes al desarrollo de software libre. Apoya el proyecto Fedora del cual se beneficia y de ella se derivan distribuciones compatibles como Oracle Enterprise Linux y CentOS, también distribuciones como Mandriva Linux, se basó en una de sus primeras versiones.
+SUSE Linux de Novell. Originalmente liberado por la compañía alemana SuSE. Es popular por sus herramientas de administración centralizada. De manera análoga a RedHat con Fedora, apoya el proyecto openSUSE.
+Debian GNU/Linux. Con una de las comunidades más grandes y antiguas del movimiento de software libre, es base para distribuciones como Xandros, Mepis, Linspire, Ubuntu y Linux Mint.
+También son populares los sistemas operativos descendientes del 4.4BSD:
+
+FreeBSD. Quizá el sistema operativo más popular de la familia, de propósito múltiple. Con una implementación SMP muy elaborada, es el sistema operativo utilizado por los servidores de Yahoo. Y base de muchos sistemas operativos entre ellos Mac OS X de Apple.
+OpenBSD. Ampliamente reconocida por su seguridad proactiva y auditoría permanente del código fuente. Es utilizada en ambientes donde la seguridad prima sobre todo, es usual encontrarlo instalado en servidores que actúan como Firewall, VPN o Proxy.
+NetBSD. Se le conoce por su portabilidad, a octubre de 2008: 53 arquitecturas soportadas. La NASA lo ha utilizado para la investigación en redes TCP/IP satelitales, al igual que para reciclar computadoras viejas con software moderno.
+Las siguientes implementaciones de UNIX tienen importancia desde el punto de vista histórico, no obstante, actualmente están en desuso:
+
+Tru64 UNIX actualmente de Hewlett-Packard (antes de Compaq y originalmente de Digital Equipment Corporation).
+UnixWare y SCO OpenServer anteriormente de Santa Cruz Operation y SCO Group, ahora de Xinuos (UnXis).
+UX/4800 de NEC.
+IRIX de Silicon Graphics Inc..
+Órdenes clásicas de UNIX
+Algunos comandos básicos de UNIX son:
+
+Navegación/creación de directorios/archivos: ls cd pwd mkdir rm rmdir cp.
+Edición/visión de archivos: touch more ed vi nano.
+Procesamiento de textos: echo cat grep sort uniq sed awk tail head.
+Comparación de archivos: comm cmp diff patch.
+Administración del sistema: chmod chown ps find xargs sd w who.
+Comunicación: mail telnet ssh ftp finger rlogin.
+Shells: sh csh ksh.
+Documentación: man.
+Esta es una lista de los sesenta comandos de usuario de la sección 1 de la Primera Edición:
+
+ar as b bas bcd boot cat chdir check chmod chown cmp cp date db (Unix) dbppt dc df dsw dtf du ed find for form hup lbppt ld ln ls mail mesg mkdir mkfs mount mv nm od pr rew (Unix) rkd rkf rkl rm rmdir roff sdate sh stat strip (Unix) su sum tap (Unix) tm tty type un wc who write
+Otros comandos
+
+Tiempo: cal
+Véase también
+Jerarquía de directorios en sistemas tipo UNIX
+The Open Group
+Xinuos
+BSD
+OS X de Apple
+GNU/Linux
+Anexo:Programas para Unix (Lista de programas para Unix)
+Plan 9 from Bell Labs
+Referencias
+↑ Bell Labs. The Creation of the UNIX* Operating System. (en inglés)
+↑ Bell Labs. THE UNIX ORAL HISTORY PROJECT. Edited and Transcribed by Michael S. Mahoney. Princeton University. Princeton, New Jersey (en inglés).
+↑ «Unix pertenece a Novell». El País. 31 de marzo de 2010.
+↑ Bell Labs. Before Multics there was chaos, and afterwards, too The Creation of the UNIX* Operating System. (en inglés)
+↑ Bell Labs. The famous PDP-7 comes to the rescue The Creation of the UNIX* Operating System. (en inglés)
+↑ Ritchie, Dennis M. (septiembre de 1979) The Evolution of the Unix Time-sharing System Bell Labs. 1996.. Lucent Technologies Inc. (en inglés).
+↑ Ritchie, Dennis M. Thompson's Space Travel Game
+Archivado el 9 de abril de 2007 en la Wayback Machine. Bell Labs. 2001. Lucent Technologies Inc. (en inglés).
+↑ Bell Labs. The UNIX system begins to take shape The Creation of the Unix Operating System (en inglés).
+↑ Tanenbaum, Andrew S. (20 May 2004) Some Notes on the "Who wrote Linux" Kerfuffle, Release 1.5 Departament of Computer Science, Vrije Universiteit, Amsterdam (en inglés).
+↑ Bell Labs. It looked like an operating system, almost The Creation of the UNIX* Operating System. (en inglés)
+↑ Bell Labs. Porting UNIX for its first commercial application The Creation of the UNIX* Operating System (en inglés).
+↑ Dennis M. Ritchie Unix Programmer's Manual, First Edition (1971)
+Archivado el 18 de mayo de 2008 en la Wayback Machine. Bell Labs. Lucent Technologies Inc. (en inglés).
+↑ Bell Labs. From B language to NB to C The Creation of the UNIX* Operating System. (en inglés)
+1 2 Bell Labs. Sharing UNIX with the rest of the world The Creation of the UNIX* Operating System (en inglés).
+1 2 3 4 5 Bell Labs. Early versions of the UNIX* system The Creation of the UNIX* Operating System. (en inglés)
+1 2 «The Creation of the UNIX* Operating System: UNIX moves on» (en inglés). Archivado desde el original el 21 de noviembre de 2011. Consultado el 14 de septiembre de 2011.
+1 2 «La colorida historia del UNIX». Consultado el 14 de septiembre de 2011.
+↑ Novell, Inc. Press Release (20 September 1995) HP, Novell and SCO To Deliver High-Volume UNIX OS With Advanced Network And Enterprise Services Novell, Inc. New York. (en inglés)
+Enlaces externos
+ Wikimedia Commons alberga una categoría multimedia sobre Unix.
+ Wikilibros alberga un libro o manual sobre Hacks para sistemas operativos Unix-like.
+Sistemas Unix del Open Group
+Software sinfonía anónima Karol G
+
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

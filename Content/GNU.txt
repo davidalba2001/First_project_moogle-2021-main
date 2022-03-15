@@ -1,0 +1,56 @@
+GNU
+GNU
+Parte de la familia Unix
+
+
+
+Desarrollador
+Proyecto GNU
+www.gnu.org
+Información general
+Modelo de desarrollo	?
+Escrito en	C, Guile Scheme (oficial para extensiones) y otros
+Núcleo	GNU Hurd
+Tipo de núcleo	Microkernel
+Interfaz gráfica predeterminada	GNOME (oficial, opcional). Otras disponibles
+Plataformas soportadas	IA-32 con el núcleo Hurd. Muchas otras con el núcleo Linux-libre
+Sistema de gestión de paquetes	GNU Guix (oficial) y otros
+Licencia	GNU General Public License y otras
+Estado actual	En desarrollo
+En español	?
+[editar datos en Wikidata]
+GNU es un sistema operativo de tipo Unix desarrollado por y para el Proyecto GNU, y auspiciado por la Free Software Foundation. Está formado en su totalidad por software libre, mayoritariamente bajo términos de copyleft. GNU es el acrónimo recursivo de "GNU's Not Unix" (en español: GNU no es Unix),[1][2] nombre elegido debido a que GNU sigue un diseño tipo Unix y se mantiene compatible con éste, pero se distingue de Unix por ser software libre y por no contener código de Unix.[3][1][4][5]
+
+El ñu es el animal simbólico o mascota o logo de este proyecto
+
+El desarrollo de GNU ha sido liderado desde su inicio en 1983 por Richard Stallman,[1][6] auxiliado por un número de académicos, programadores voluntarios y formalmente empleados, con el objetivo de crear el primer sistema operativo completamente libre. A fecha de diciembre de 2013 todavía no hay un lanzamiento oficial de GNU[1][7][8][9] pero el proyecto ha sido responsable por la creación de varios programas ampliamente utilizados; como los compiladores GCC, el intérprete de comandos Bash, el editor de texto Emacs e incluso el escritorio GNOME. La Free Software Foundation considera que el objetivo principal del Proyecto GNU ha sido alcanzado con la ayuda de otros programas de software libre ajenos a GNU, por lo que el desarrollo de un sistema operativo puramente GNU se ha vuelto una tarea secundaria al crecimiento y manutención del sistema existente (GNU/Linux), y secundaria a la garantía de la libertad de sus usuarios y la promoción de tales ideas. Richard Stallman así como muchos otros partidarios del movimiento del software libre considera al sistema operativo GNU como «un medio técnico para un fin social».[10]
+
+El proyecto GNU originalmente pretendía remplazar el núcleo de Unix con su propio núcleo llamado GNU Hurd, pero las implementaciones comunes de GNU siempre han usado Linux en lugar de Hurd; combinación a la cual se le llama GNU/Linux o simplemente Linux.[11][12][13] Linux-libre se ha convertido en un paquete oficial de GNU, a la par de Hurd, con el afán de limpiar las partes privativas en el kernel Linux genérico e incentivar a las distribuciones de GNU/Linux a que usen dicha versión. Nótese que el Proyecto GNU denomina a GNU como "sistema operativo" en el sentido coloquial del término, similar al de distribución, como sucede cuando se habla de sistemas operativos como Windows, Mac OS, Android e incluso Unix; mientras que en un sentido más técnico algunos programas particulares como Linux y GNU Hurd también son llamados sistemas operativos, en calidad de kernels o núcleos.
+
+Véase también
+ Portal:Software Libre. Contenido relacionado con Software Libre.
+GNU Hurd
+Creative Commons
+Movimiento del software libre
+Historia del software libre y de código abierto
+Anexo:Paquetes GNU
+Referencias
+1 2 3 4 Kirk St.Amant & Brian Still. Handbook of Research on Open Source Software: Technological, Economic, and Social Perspectives. ISBN 1591409993.
+↑ «GNU's Not Unix». Thefreedictionary.com. Consultado el 22 de septiembre de 2012.
+↑ «The GNU Operating system». Consultado el 18 de agosto de 2008.
+↑ «GNU Manifesto». Gnu.org. Consultado el 27 de julio de 2011.
+↑ Raymond, Eric (1 de febrero de 2001). The Cathedral & the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary. pp. 10-12. ISBN 9780596001087.
+↑ Marshall, Rosalie (17 de noviembre de 2008). «Q&A: Richard Stallman, founder of the GNU Project and the Free Software Foundation». PC & Tech Authority. Consultado el 22 de septiembre de 2012.
+↑ Vaughan-Nichols, Steven J. "Opinion: The top 10 operating system stinkers" in Computerworld, April 9, 2009: "But after more than 25 years in development, GNU remains incomplete: Its kernel, Hurd, has never really made it out of the starting blocks.... Almost no one has actually been able to use the OS; it's really more a set of ideas than an operating system."
+↑ Hillesley, Richard. "GNU HURD: Altered visions and lost promise", June 30, 2010. See especially page 3: "Nearly twenty years later the HURD has still to reach maturity, and has never achieved production quality."... "Some of us are still wishing and hoping for the real deal, a GNU operating system with a GNU kernel."
+↑ Lessig, Lawrence. The Future of Ideas: The Fate of the Commons in a Connected World, p. 54. Random House, Inc., 2001. ISBN 978-0-375-50578-2. Referring to Stallman, Lessig wrote, "He had mixed all of the ingredients needed for an operating system to function, but he was missing the core."
+↑ Richard Stallman's speech in Stockholm, Sweden in 1986 www.gnu.org
+↑ «Information about the Linux OS (Operating System)». Ntchosting.com. Consultado el 22 de septiembre de 2012.
+↑ «[Chapter 1] 1.2 What is Linux?». Oreilly.com. 5 de octubre de 1991. Consultado el 22 de septiembre de 2012.
+↑ «What is GNU/Linux?». Help.ubuntu.com. Archivado desde el original el 16 de marzo de 2013. Consultado el 22 de septiembre de 2012.
+Enlaces externos
+ Wikimedia Commons alberga una galería multimedia sobre GNU.
+Página web oficial
+Ports of GNU utilities for Microsoft Windows
+The daemon, the GNU and the penguin
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

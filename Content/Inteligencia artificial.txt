@@ -1,0 +1,250 @@
+Inteligencia artificial
+Inteligencia artificial
+IA
+
+TOPIO, un robot Humanoide, en la Feria Internacional del Juguete de Núremberg de 2009.
+Campo de aplicación	Desarrollo de agentes racionales no vivos
+Subárea de	Ciencias de la computación
+[editar datos en Wikidata]
+La inteligencia artificial (IA), también llamada inteligencia computacional, es la inteligencia exhibida por máquinas. En ciencias de la computación, una máquina «inteligente» ideal es un agente racional flexible que percibe su entorno y lleva a cabo acciones que maximicen sus posibilidades de éxito en algún objetivo o tarea.[1][2][3][4] Coloquialmente, el término inteligencia artificial se aplica cuando una máquina imita las funciones «cognitivas» que los humanos asocian con otras mentes humanas, como por ejemplo: "aprender" y "resolver problemas". [5] A medida que las máquinas se vuelven cada vez más capaces, tecnología que alguna vez se pensó que requería de inteligencia se elimina de la definición. Por ejemplo, el reconocimiento óptico de caracteres ya no se percibe como un ejemplo de la "inteligencia artificial" habiéndose convertido en una tecnología común.[6] Avances tecnológicos todavía clasificados como inteligencia artificial son los sistemas capaces de jugar ajedrez, GO y manejar por si mismos.
+
+Según Tayekas (2007) la IA es una rama de las ciencias computacionales encargada de estudiar modelos de cómputo capaces de realizar actividades propias de los seres humanos en base a dos de sus características primordiales: el razonamiento y la conducta.[7]
+
+En 1956, John McCarthy acuñó la expresión «inteligencia artificial», y la definió como: "...la ciencia e ingenio de hacer máquinas inteligentes, especialmente programas de cómputo inteligentes".[8]
+
+Para Nils John Nilsson son cuatro los pilares básicos en los que se apoya la inteligencia artificial:
+
+Búsqueda del estado requerido en el conjunto de los estados producidos por las acciones posibles.
+Algoritmos genéticos (análogo al proceso de evolución de las cadenas de ADN).
+Redes neuronales artificiales (análogo al funcionamiento físico del cerebro de animales y humanos).
+Razonamiento mediante una lógica formal análogo al pensamiento abstracto humano.
+También existen distintos tipos de percepciones y acciones, que pueden ser obtenidas y producidas, respectivamente, por sensores físicos y sensores mecánicos en máquinas, pulsos eléctricos u ópticos en computadoras, tanto como por entradas y salidas de bits de un software y su entorno software.
+
+Varios ejemplos se encuentran en el área de control de sistemas, planificación automática, la habilidad de responder a diagnósticos y a consultas de los consumidores, reconocimiento de escritura, reconocimiento del habla y reconocimiento de patrones. Los sistemas de IA actualmente son parte de la rutina en campos como economía, medicina, ingeniería y la milicia, y se ha usado en gran variedad de aplicaciones de software, juegos de estrategia, como ajedrez de computador, y otros videojuegos.
+
+Categorías de la inteligencia artificial
+Búsqueda heurística. Podemos definir una heurística como un truco o estrategia que limita grandiosamente la búsqueda de soluciones ante grandes espacios de problemas. Por lo tanto, ante un problema, nos ayuda a seleccionar las bifurcaciones dentro de un árbol con más posibilidades; con ello se restringe la búsqueda, aunque no siempre se garantiza una solución adecuada. Todo lo que se debe tener en cuenta para que una heurística sea adecuada es que nos proporcione soluciones que sean lo suficientemente buenas. Además, con la utilización de la búsqueda heurística, no será necesario replantear un problema cada vez que se afronte, ya que si ya ha sido planteado anteriormente, ésta sugerirá la forma en que se ha de proceder para resolverlo.
+
+Representación del conocimiento. La representación es una cuestión clave a la hora de encontrar soluciones adecuadas a los problemas planteados. Si analizamos más detenidamente el término encontramos varias definiciones: según Barr y Feigenbaum, la representación del conocimiento es una combinación de estructuras de datos y procedimientos de interpretación que, si son utilizados correctamente por un programa, éste podrá exhibir una conducta inteligente; según Fariñas y Verdejo, la Inteligencia Artificial tiene como objetivo construir modelos computacionales que al ejecutarse resuelvan tareas con resultados similares a los obtenidos por una persona, por lo que el tema central de esta disciplina es el estudio del conocimiento y su manejo; y según Buchanan y Shortliffe, la Representación del Conocimiento en un programa de Inteligencia Artificial significa elegir una serie de convenciones para describir objetos, relaciones, y procesos en el mundo. Gran parte del esfuerzo realizado en la consecución de ordenadores inteligentes, según Rahael, ha sido caracterizado por el intento continuo de conseguir más y mejores estructuras de representación del conocimiento, junto con técnicas adecuadas para su manipulación, que permitiesen la resolución inteligente de algunos de los problemas ya planteados. Otra característica importante es la inclusión en los programas de Inteligencia artificial, aunque por separado, de los conocimientos y la unidad que controla y dirige la búsqueda de soluciones. Dada esta disposición, en estos programas la modificación, ampliación y actualización de los mismos es sencilla.
+
+El razonamiento que puede tener cualquier persona, ha demostrado ser una de los aspectos más difíciles de modelar "dentro" de un ordenador. El sentido común a menudo nos ayuda a prever multitud de hechos y fenómenos corrientes, pero, como ya hemos dicho, es muy complicado representarlos en un ordenador, dado que los razonamientos son casi siempre inexactos y que sus conclusiones y reglas en las que se basan solamente son aproximadamente verdaderas.
+
+Lenguajes, entornos y herramientas de Inteligencia Artificial. En la Inteligencia Artificial, se han desarrollado diferentes lenguajes específicos para los diferentes campos de aplicación. Estos lenguajes en su mayoría cuentan con una serie de características comunes que podemos resumir de la siguiente forma: Este tipo de software ofrece una gran modularidad. Poseen gran capacidad de tomar decisiones de programación hasta el último momento, es decir cuando el programa ya está ejecutándose. Ofrecen grandes facilidades en el manejo de listas, y esto es importante, ya que las listas son la estructura más habitual usada para la representación del conocimiento en la Inteligencia Artificial. Facilitan la realización de ciertos tipos de deducción automática permitiendo también la creación de una base de hechos (lugar donde se recogen los datos iniciales del problema a resolver y los resultados intermedios una vez obtenidos). Permite el uso simultáneo de estructuras que incorporan conocimiento declarativo y conocimiento procedimental. Tienen una marcada orientación gráfica. Además, las herramientas de Inteligencia Artificial permiten hacer un seguimiento de todos los cambios realizados a lo largo de toda la sesión Disponen herramientas capaces de desarrollar programas que son capaces de comprender otros programas y también de realizar modificaciones sobre ellos.
+
+Stuart Russell y Peter Norvig diferencian estos tipos de la inteligencia artificial:[9]
+
+Sistemas que piensan como humanos.- Estos sistemas tratan de emular el pensamiento humano; por ejemplo las redes neuronales artificiales. La automatización de actividades que vinculamos con procesos de pensamiento humano, actividades como la toma de decisiones, resolución de problemas y aprendizaje.[10]
+Sistemas que actúan como humanos.- Estos sistemas tratan de actuar como humanos; es decir, imitan el comportamiento humano; por ejemplo la robótica. El estudio de cómo lograr que los computadores realicen tareas que, por el momento, los humanos hacen mejor.[11]
+Sistemas que piensan racionalmente.- Es decir, con lógica (idealmente), tratan de imitar o emular el pensamiento lógico racional del ser humano; por ejemplo los sistemas expertos. El estudio de los cálculos que hacen posible percibir, razonar y actuar.[12]
+Sistemas que actúan racionalmente (idealmente).– Tratan de emular de forma racional el comportamiento humano; por ejemplo los agentes inteligentes. Está relacionado con conductas inteligentes en artefactos.[13]
+Escuelas de pensamiento
+La IA se divide en dos escuelas de pensamiento:
+
+La inteligencia artificial convencional.
+La inteligencia computacional.
+Inteligencia artificial convencional
+Se conoce también como IA simbólico-deductiva. Está basada en el análisis formal y estadístico del comportamiento humano ante diferentes problemas:
+
+Razonamiento basado en casos: Ayuda a tomar decisiones mientras se resuelven ciertos problemas concretos y, aparte de que son muy importantes, requieren de un buen funcionamiento.
+Sistemas expertos: Infieren una solución a través del conocimiento previo del contexto en que se aplica y ocupa de ciertas reglas o relaciones.
+Redes bayesianas: Propone soluciones mediante inferencia probabilística.
+Inteligencia artificial basada en comportamientos: Esta inteligencia contiene autonomía y puede auto-regularse y controlarse para mejorar.
+Smart process management: Facilita la toma de decisiones complejas, proponiendo una solución a un determinado problema al igual que lo haría un especialista en la dicha actividad.
+Inteligencia artificial computacional
+La Inteligencia Computacional (también conocida como IA subsimbólica-inductiva) implica desarrollo o aprendizaje interactivo (por ejemplo, modificaciones interactivas de los parámetros en sistemas de conexiones). El aprendizaje se realiza basándose en datos empíricos.
+
+Historia
+El término “inteligencia artificial” fue acuñado formalmente en 1956 durante la conferencia de Darthmounth, pero para entonces ya se había estado trabajando en ello durante cinco años en los cuales se había propuesto muchas definiciones distintas que en ningún caso habían logrado ser aceptadas totalmente por la comunidad investigadora. La IA es una de las disciplinas más nuevas junto con la genética moderna.
+Las ideas más básicas se remontan a los griegos, antes de Cristo. Aristóteles (384-322 a. C.) fue el primero en describir un conjunto de reglas que describen una parte del funcionamiento de la mente para obtener conclusiones racionales, y Ctesibio de Alejandría (250 a. C.) construyó la primera máquina autocontrolada, un regulador del flujo de agua (racional pero sin razonamiento).
+En 1315 Ramon Llull en su libro Ars magna tuvo la idea de que el razonamiento podía ser efectuado de manera artificial.
+En 1936 Alan Turing diseña formalmente una Máquina universal que demuestra la viabilidad de un dispositivo físico para implementar cualquier cómputo formalmente definido.
+En 1943 Warren McCulloch y Walter Pitts presentaron su modelo de neuronas artificiales, el cual se considera el primer trabajo del campo, aun cuando todavía no existía el término. Los primeros avances importantes comenzaron a principios del año 1950 con el trabajo de Alan Turing, a partir de lo cual la ciencia ha pasado por diversas situaciones.
+En 1955 Herbert Simon, Allen Newell y J. C. Shaw, desarrollan el primer lenguaje de programación orientado a la resolución de problemas, el IPL-11. Un año más tarde desarrollan el LogicTheorist, el cual era capaz de demostrar teoremas matemáticos.
+En 1956 fue inventado el término inteligencia artificial por John McCarthy, Marvin Minsky y Claude Shannon en la Conferencia de Dartmouth, un congreso en el que se hicieron previsiones triunfalistas a diez años que jamás se cumplieron, lo que provocó el abandono casi total de las investigaciones durante quince años.
+En 1957 Newell y Simon continúan su trabajo con el desarrollo del General Problem Solver (GPS). GPS era un sistema orientado a la resolución de problemas.
+En 1958 John McCarthy desarrolla en el Instituto de Tecnología de Massachusetts (MIT) el LISP. Su nombre se deriva de LISt Processor. LISP fue el primer lenguaje para procesamiento simbólico.
+En 1959 Rosenblatt introduce el Perceptrón.
+A finales de la década de 1950 y comienzos de la de 1960 Robert K. Lindsay desarrolla «Sad Sam», un programa para la lectura de oraciones en inglés y la inferencia de conclusiones a partir de su interpretación.
+En 1963 Quillian desarrolla las redes semánticas como modelo de representación del conocimiento.
+En 1964 Bertrand Raphael construye el sistema SIR (Semantic Information Retrieval) el cual era capaz de inferir conocimiento basado en información que se le suministra. Bobrow desarrolla STUDENT.
+A mediados de los años 60, aparecen los sistemas expertos, que predicen la probabilidad de una solución bajo un set de condiciones. Por ejemplo DENDRAL, iniciado en 1965 por Buchanan, Feigenbaum y Lederberg, el primer Sistema Experto, que asistía a químicos en estructuras químicas complejas euclidianas, MACSYMA, que asistía a ingenieros y científicos en la solución de ecuaciones matemáticas complejas.
+Posteriormente entre los años 1968-1970 Terry Winograd desarrolló el sistema SHRDLU, que permitía interrogar y dar órdenes a un robot que se movía dentro de un mundo de bloques.
+En 1968 Marvin Minsky publica Semantic Information Processing.
+En 1968 Seymour Papert, Danny Bobrow y Wally Feurzeig desarrollan el lenguaje de programación LOGO.
+En 1969 Alan Kay desarrolla el lenguaje Smalltalk en Xerox PARC y se publica en 1980.
+En 1973 Alain Colmenauer y su equipo de investigación en la Universidad de Aix-Marseille crean PROLOG (del francés PROgrammation en LOGique) un lenguaje de programación ampliamente utilizado en IA.
+En 1973 Shank y Abelson desarrollan los guiones, o scripts, pilares de muchas técnicas actuales en Inteligencia Artificial y la informática en general.
+En 1974 Edward Shortliffe escribe su tesis con MYCIN, uno de los Sistemas Expertos más conocidos, que asistió a médicos en el diagnóstico y tratamiento de infecciones en la sangre.
+En las décadas de 1970 y 1980, creció el uso de sistemas expertos, como MYCIN: R1/XCON, ABRL, PIP, PUFF, CASNET, INTERNIST/CADUCEUS, etc. Algunos permanecen hasta hoy (Shells) como EMYCIN, EXPERT, OPSS.
+En 1981 Kazuhiro Fuchi anuncia el proyecto japonés de la quinta generación de computadoras.
+En 1986 McClelland y Rumelhart publican Parallel Distributed Processing (Redes Neuronales).
+En 1988 se establecen los lenguajes Orientados a Objetos.
+En 1997 Gari Kaspárov, campeón mundial de ajedrez, pierde ante la computadora autónoma Deep Blue.
+En 2006 se celebró el aniversario con el Congreso en español 50 años de Inteligencia Artificial - Campus Multidisciplinar en Percepción e Inteligencia 2006.
+En el año 2009 ya hay en desarrollo sistemas inteligentes terapéuticos que permiten detectar emociones para poder interactuar con niños autistas.
+En el año 2011 IBM desarrolló una supercomputadora llamada Watson, la cual ganó una ronda de tres juegos seguidos de Jeopardy!, venciendo a sus dos máximos campeones, y ganando un premio de 1 millón de dólares que IBM luego donó a obras de caridad.[14]
+En 2016, un programa informático ganó cinco a cero al triple campeón de Europa de Go.[15]
+Existen personas que al dialogar sin saberlo con un chatbot no se percatan de hablar con un programa, de modo tal que se cumple la prueba de Turing como cuando se formuló: «Existirá Inteligencia Artificial cuando no seamos capaces de distinguir entre un ser humano y un programa de computadora en una conversación a ciegas».
+Como anécdota, muchos de los investigadores sobre IA sostienen que «la inteligencia es un programa capaz de ser ejecutado independientemente de la máquina que lo ejecute, computador o cerebro».
+La inteligencia artificial, la conciencia y los sentimientos
+El concepto de IA es aún demasiado difuso. Contextualizando, y teniendo en cuenta un punto de vista científico, podríamos definir esta ciencia como la encargada de imitar el cerebro, que no el cuerpo, de una persona en todas sus funciones. Estas pueden ser las ya existentes en el humano o bien otras novedosas e incorporadas en el desarrollo de una máquina inteligente.
+
+En relación a la conciencia y las emociones, y aunque por el momento la mayoría de los investigadores en el ámbito de la Inteligencia Artificial se centran sólo en el aspecto racional, hay expertos que consideran seriamente la posibilidad de incorporar componentes «emotivos» como indicadores de estado, a fin de aumentar la eficacia de los sistemas inteligentes en determinadas situaciones.
+
+A diferencia de los humanos, hay términos que la Inteligencia Artificial no puede comprender o entender conceptos humanos como el amor, el matrimonio, el sentido de la vida, el libre albedrío el cariño o las emociones humanas
+
+Particularmente, en el caso de los robots móviles, es necesario que estos cuenten con algo similar a las emociones con el objeto de saber –en cada instante y como mínimo– qué hacer a continuación [Pinker, 2001, p. 481].
+
+Al tener «sentimientos» y, al menos potencialmente, «motivaciones», podrán actuar de acuerdo con sus «intenciones» [Mazlish, 1995, p. 318]. Así, se podría equipar a un robot con dispositivos que controlen su medio interno; por ejemplo, que «sientan hambre» al detectar que su nivel de energía está descendiendo o que «sientan miedo» cuando este esté demasiado bajo.
+
+Esta señal podría interrumpir los procesos de alto nivel y obligar al robot a conseguir el preciado elemento [Johnson-Laird, 1993, p. 359]. Incluso se podría introducir el «dolor» o el «sufrimiento físico», a fin de evitar las torpezas de funcionamiento como, por ejemplo, introducir la mano dentro de una cadena de engranajes o saltar desde una cierta altura, lo cual le provocaría daños irreparables.
+
+Esto significa que los sistemas inteligentes deben ser dotados con mecanismos de retroalimentación que les permitan tener conocimiento de estados internos, igual que sucede con los humanos que disponen de propiocepción, interocepción, nocicepción, etcétera. Esto es fundamental tanto para tomar decisiones como para conservar su propia integridad y seguridad. La retroalimentación en sistemas está particularmente desarrollada en cibernética: por ejemplo, en el cambio de dirección y velocidad autónomo de un misil, utilizando como parámetro la posición en cada instante en relación al objetivo que debe alcanzar. Esto debe ser diferenciado del conocimiento que un sistema o programa computacional puede tener de sus estados internos, por ejemplo la cantidad de ciclos cumplidos en un loop o bucle en sentencias tipo do... for, o la cantidad de memoria disponible para una operación determinada.
+
+A los sistemas inteligentes el no tener en cuenta elementos emocionales les permite no olvidar la meta que deben alcanzar. En los humanos el olvido de la meta o el abandonar las metas por perturbaciones emocionales es un problema que en algunos casos llega a ser incapacitante. Los sistemas inteligentes, al combinar una memoria durable, una asignación de metas o motivación, junto a la toma de decisiones y asignación de prioridades con base en estados actuales y estados meta, logran un comportamiento en extremo eficiente, especialmente ante problemas complejos y peligrosos.
+
+En síntesis, lo racional y lo emocional están de tal manera interrelacionados entre sí, que se podría decir que no sólo no son aspectos contradictorios sino que son –hasta cierto punto– complementarios.
+
+Véase también: La era de las máquinas espirituales
+Críticas
+Las principales críticas a la inteligencia artificial tienen que ver con su capacidad de imitar por completo a un ser humano. Sin embargo, hay expertos en el tema que indican que ningún humano individual tiene capacidad para resolver todo tipo de problemas, y autores como Howard Gardner han teorizado que existen inteligencias múltiples. Un sistema de inteligencia artificial debería resolver problemas por lo que es fundamental en su diseño la delimitación de los tipos de problemas que resolverá y las estrategias y algoritmos que utilizará para encontrar la solución.
+
+En los humanos, la capacidad de resolver problemas tiene dos aspectos: los aspectos innatos y los aspectos aprendidos. Los aspectos innatos permiten, por ejemplo, almacenar y recuperar información en la memoria, mientras que en los aspectos aprendidos reside el saber resolver un problema matemático mediante el algoritmo adecuado. Del mismo modo que un humano debe disponer de herramientas que le permitan solucionar ciertos problemas, los sistemas artificiales deben ser programados de modo tal que puedan llegar a resolverlos.
+
+Muchas personas consideran que el test de Turing ha sido superado, citando conversaciones en que al dialogar con un programa de inteligencia artificial para chat no saben que hablan con un programa. Sin embargo, esta situación no es equivalente a un test de Turing, que requiere que el participante esté sobre aviso de la posibilidad de hablar con una máquina.
+
+Otros experimentos mentales como la Habitación china, de John Searle, han mostrado cómo una máquina podría simular pensamiento sin realmente poseerlo, pasando el test de Turing sin siquiera entender lo que hace, tan solo reaccionando de una forma concreta a determinados estímulos (en el sentido más amplio de la palabra). Esto demostraría que la máquina en realidad no está pensando, ya que actuar de acuerdo con un programa preestablecido sería suficiente. Si para Turing el hecho de engañar a un ser humano que intenta evitar que le engañen es muestra de una mente inteligente, Searle considera posible lograr dicho efecto mediante reglas definidas a priori.
+
+Uno de los mayores problemas en sistemas de inteligencia artificial es la comunicación con el usuario. Este obstáculo es debido a la ambigüedad del lenguaje, y se remonta a los inicios de los primeros sistemas operativos informáticos. La capacidad de los humanos para comunicarse entre sí implica el conocimiento del lenguaje que utiliza el interlocutor. Para que un humano pueda comunicarse con un sistema inteligente hay dos opciones: o bien que el humano aprenda el lenguaje del sistema como si aprendiese a hablar cualquier otro idioma distinto al nativo, o bien que el sistema tenga la capacidad de interpretar el mensaje del usuario en la lengua que el usuario utiliza.
+
+Un humano, durante toda su vida, aprende el vocabulario de su lengua nativa o materna, siendo capaz de interpretar los mensajes (a pesar de la polisemia de las palabras) utilizando el contexto para resolver ambigüedades. Sin embargo, debe conocer los distintos significados para poder interpretar, y es por esto que lenguajes especializados y técnicos son conocidos solamente por expertos en las respectivas disciplinas. Un sistema de inteligencia artificial se enfrenta con el mismo problema, la polisemia del lenguaje humano, su sintaxis poco estructurada y los dialectos entre grupos.
+
+Los desarrollos en inteligencia artificial son mayores en los campos disciplinares en los que existe mayor consenso entre especialistas. Un sistema experto es más probable que sea programado en física o en medicina que en sociología o en psicología. Esto se debe al problema del consenso entre especialistas en la definición de los conceptos involucrados y en los procedimientos y técnicas a utilizar. Por ejemplo, en física hay acuerdo sobre el concepto de velocidad y cómo calcularla. Sin embargo, en psicología se discuten los conceptos, la etiología, la psicopatología y cómo proceder ante cierto diagnóstico. Esto dificulta la creación de sistemas inteligentes porque siempre habrá desacuerdo sobre la forma en que debería actuar el sistema para diferentes situaciones. A pesar de esto hay grandes avances en el diseño de sistemas expertos para el diagnóstico y toma de decisiones en el ámbito médico y psiquiátrico (Adaraga Morales, Zaccagnini Sancho, 1994).
+
+Al desarrollar un robot con inteligencia artificial se debe tener cuidado con la autonomía,[16]hay que tener cuidado en no vincular el hecho de que el robot interaccione con seres humanos a su grado de autonomía. Si la relación de los humanos con el robot es de tipo maestro esclavo, y el papel de los humanos es dar órdenes y el del robot obedecerlas, entonces sí cabe hablar de una limitación de la autonomía del robot. Pero si la interacción de los humanos con el robot es de igual a igual, entonces su presencia no tiene por qué estar asociada a restricciones para que el robot pueda tomar sus propias decisiones.
+
+Animatrónica e inteligencia artificial
+La animatrónica junto con la inteligencia artificial es lo que da como resultado los androides, como se suele conocer a los robots que imitan el comportamiento humano. Tenemos una técnica capaz de dotar del aspecto y comportamiento de seres vivos a máquinas. Es decir, humanizar' a los robots. Pero ya no sólo hablamos que los movimientos sean muy reales, sino que además, parece real gracias a la piel sintética que han usado y al maquillaje.
+
+La empresa Disney está a punto de usar la animatrónica y la inteligencia artificial para simular uno de sus personajes en la vida real: Pascal, uno de los personajes de la película "Enredados".
+
+Por otro lado, Dubai ya está usando policías robots creados por PAL Robotics.
+
+Tecnologías de apoyo
+Interfaces de usuario
+Visión artificial
+Smart process management
+Aplicaciones de la inteligencia artificial
+
+Un asistente automático en línea dando servicio de atención al cliente en un sitio web – una de las muchas aplicaciones primitivas de la inteligencia artificial.
+Las técnicas desarrolladas en el campo de la inteligencia artificial son numerosas y ubicuas. Comúnmente cuando un problema es resuelto mediante inteligencia artificial la solución es incorporada en ámbitos de la industria y de la vida diaria de los usuarios de programas de computadora, pero la percepción popular se olvida de los orígenes de estas tecnologías que dejan de ser percibidas como inteligencia artificial. A este fenómeno se le conoce como el efecto IA.[17]
+
+Lingüística computacional
+Minería de datos (Data Mining)
+Industria.
+Medicina
+Mundos virtuales
+Procesamiento de lenguaje natural (Natural Language Processing)
+Robótica
+Mecatrónica
+Sistemas de apoyo a la decisión
+Videojuegos
+Prototipos informáticos
+Análisis de sistemas dinámicos
+Smart Process Management
+Simulación de multitudes
+Aplicaciones prácticas
+La mayoría de los juegos de mesa y una gran cantidad de problemas informáticos mediante la modelización del problema en estados con la posterior aplicación de un algoritmo de búsqueda entre estos estados.
+
+La aplicación más evidente es el control de los PNJ en el juego. La búsqueda de ruta es otro de uso común para la IA, buscar un camino para mover un PNJ de un punto en un mapa a otro, teniendo en cuenta el terreno y evitando los obstáculos. Más allá de búsqueda de caminos, la navegación es un subcampo de la IA del juego que se centra en dar a los PNJ la capacidad de navegar en su entorno, la búsqueda de un camino hacia un objetivo, evitando colisiones con otras entidades o colaborar con ellos. La IA también está involucrada con el equilibrio de la dificultad del juego, que consiste en el ajuste de la dificultad de un juego de videojuego en tiempo real basado en la habilidad del jugador, aumentando la dificultad del juego se aumentaría la capacidad de la IA reduciendo así el "tiempo de reacción" a determinados sucesos.
+
+Las tres en raya
+Una de las aplicaciones de la IA en la que es muy fácil entender el funcionamiento y la programación de la misma es por ejemplo en el tic-tac-toe, es decir, "las tres en raya".¿Cómo podría programarse un juego de este tipo?:
+
+Para empezar, el tablero es una estructura de datos de tipo matriz que contiene unas casillas las cuales están ocupadas por un jugador o vacías. Una partida es una secuencia de estados por los que pasa un tablero. Para programar la inteligencia artificial para que pueda ganarnos debemos hacer que aprenda los distintos estados e ir avanzando por los que pueda ganar:
+
+Una opción para enseñar a la inteligencia artificial es enseñarle todos los distintos estados ganadores que pueden darse en el tablero. Pero esto puede ser muy costoso ya que cuantas más casillas tenga el tablero, mas estados tiene.
+Otro punto de vista sería programar la IA para que actúe en cada turno, es decir, que la instruyamos para que actúe de acuerdo a unas instrucciones estipuladas. Por ejemplo, cuando el jugador tenga dos fichas alineadas, la IA debe colocar su ficha en la posición en la que el jugador fuese a ganar para cortarle la victoria, así pues, cuando la IA tenga dos fichas alineadas la siguiente que debe colocar es en la posición ganadora. Si no se da ninguno de estos dos casos podría elegir un sitio aleatorio.
+Normalmente para estos juegos se utiliza la estrategia minimax, la cual imita el comportamiento humano tras examinar un cierto número de jugadas anteriormente. En este enfoque existe una función de evaluación que da un valor a cada posible movimiento.
+
+Investigadores en el campo de la inteligencia artificial
+Jeff Hawkins
+John McCarthy
+Marvin Minsky
+Judea Pearl
+Alan Turing, discípulo de John von Neumann, diseñó el Test de Turing que debería utilizarse para comprender si una máquina lógica es inteligente o no.
+Joseph Weizenbaum
+Raúl Rojas
+Ray Kurzweil
+Véase también
+Aprendizaje
+Aprendizaje automático
+Bot conversacional
+Cerebro artificial
+Cibernética
+Dinámica de sistemas
+Dr. Abuse
+Eliza
+Inteligencia Artificial Fuerte
+Inteligencia computacional
+Inteligencia sintética
+Razonamiento automatizado
+Red neuronal artificial
+Sistema complejo
+Sistema dinámico
+Sistema inteligente
+Referencias
+↑ [http://people.cs.ubc.ca/~poole/ci/ch1.pdf
+↑ http://www.csail.mit.edu/
+↑ http://decsai.ugr.es/
+↑ http://ai.stanford.edu/]
+↑ , Russell y Norvig, 2009, p. 2.
+↑ Schank, Roger C. (1991). «Where's the AI» 12 (4). AI magazine. p. 38.
+↑ Tayekas, B. «introducción a la inteligencia artificial». Consultado el 30/01/18.
+↑ «Basic Questions». Consultado el 27 de octubre de 2011.)
+↑ Stuart Russell and Peter Norvig, Inteligencia Artificial: Un Enfoque Moderno http://aima.cs.berkeley.edu/contents.html
+↑ Bellman, 1978
+↑ Rich y knight, 1991
+↑ Winston, 1992
+↑ Nilsson, 1998
+↑ «Copia archivada». Archivado desde el original el 8 de marzo de 2011. Consultado el 21 de febrero de 2011.
+↑ «La inteligencia artificial conquista el último tablero de los humanos». Consultado el 27 de enero de 2016.
+↑ Salichs, Miguel A.; Malfaz, María; Gorostiza, Javi F. (1 de octubre de 2010). «Toma de Decisiones en Robótica». Revista Iberoamericana de Automática e Informática Industrial RIAI 7 (4): 5-16. doi:10.1016/S1697-7912(10)70055-8. Consultado el 21 de marzo de 2016.
+↑ «AI set to exceed human brain power» (en inglés). CNN. 26 de julio de 2006.
+Bibliografía
+Tirso de Andrés, Homo Cybersapiens. La Inteligencia artificial y la humana, 2002, ISBN 84-313-1982-8
+Luis Mª Gonzalo, Inteligencia Humana e Inteligencia Artificial, Madrid, 1987. ISBN 84-7118-490-7
+Víctor Gómez Pin, Entre lobos y autómatas. La causa del hombre, Espasa, Madrid, 2006. ISBN 978-84-670-2303-9
+Revista “Inteligencia Artificial” Revista Iberoamericana de Inteligencia Artificial. ISSN 1137-3601
+Adaraga Morales P., Zaccagnini Sancho J. L., Psicología e inteligencia artificial, Editorial Trotta, Madrid, 1994. ISBN 84-87699-77-4
+Alberto García Serrano, Inteligencia Artificial. Fundamentos, práctica y aplicaciones., Editorial RC Libros, 2012. ISBN 978-84-939450-2-2
+Definition of AI as the study of intelligent agents:
+
+Poole, Mackworth y Goebel, 1998, p. 1, which provides the version that is used in this article. Note that they use the term "computational intelligence" as a synonym for artificial intelligence.
+Russell y Norvig (2003) (who prefer the term "rational agent") and write "The whole-agent view is now widely accepted in the field" (Russell y Norvig, 2003, p. 55).
+Nilsson, 1998
+Legg y Hutter, 2007.
+
+
+Enlaces externos
+ Wikimedia Commons alberga una categoría multimedia sobre Inteligencia artificial.
+ Wikilibros alberga un libro o manual sobre Ingeniería del conocimiento.
+Publicaciones
+Revista “Inteligencia Artificial”. Revista iberoamericana de inteligencia artificial.
+Página sobre inteligencia artificial. Web que desde 1998 trata este tema de forma diversificada. Tiene enlaces a proyectos.
+Asociaciones
+AEPIA - Asociación Española de Inteligencia Artificial.
+IBERAMIA - Sociedad Iberoamericana de Inteligencia Artificial.
+Robótica
+Robots Sitio de robótica con artículos de contenido técnico y didáctico (en español).
+Videos
+Inteligencia Artificial - Qué es, usos y peligros
+Inteligencia artificial - El futuro, la fusión del alma y la tecnología -2008- Redes, n.º 10, en RTVE a la carta.
+Otros
+Una nueva tecnología percibe la información antes de que llegue al consciente.
+Introduzione all'intelligenza artificiale (en italiano).
+Inteligencia artificial - David Arroyo Menéndez
+Inteligencia artificial. Una mirada al futuro del hombre.
+Lista de películas con mención a la IA (en inglés).
+Máquinas de computación, creatividad artificial y cine digital.
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

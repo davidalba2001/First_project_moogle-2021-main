@@ -1,0 +1,208 @@
+Sucesión matemática
+
+Una sucesión infinita de números reales (en azul). La sucesión no es ni creciente, ni decreciente, ni convergente, ni es una sucesión de Cauchy. Sin embargo, sí es una sucesión acotada.
+En análisis matemático y álgebra, una sucesión es una aplicación cuyo dominio es el conjunto de los números naturales y su codominio es cualquier otro conjunto , generalmente de números de diferente naturaleza, también pueden ser figuras geométricas o funciones. Cada uno de ellos es denominado término (también elemento o miembro) de la sucesión y al número de elementos ordenados (posiblemente infinitos) se le denomina la longitud de la sucesión. No debe confundirse con una serie matemática, que es la suma de los términos de una sucesión.
+
+A diferencia de un conjunto, el orden en que aparecen los términos sí es relevante y un mismo término puede aparecer en más de una posición. De manera formal, una sucesión puede definirse como una función sobre el conjunto de los números naturales (o un subconjunto del mismo) y es por tanto una función discreta.
+
+Por ejemplo, la sucesión (A, B, C) es una sucesión de letras que difiere de la sucesión (C, A, B). En este caso se habla de sucesiones finitas (de longitud igual a 3). Un ejemplo de sucesión infinita sería la sucesión de números positivos pares: 2, 4, 6, 8...
+
+En ocasiones se identifica a las sucesiones finitas con palabras sobre un conjunto. Puede considerarse también el caso de una sucesión vacía (sin elementos), pero este caso puede excluirse dependiendo del contexto.
+
+Historia
+Las sucesiones que siguen una regla determinada han llamado siempre la atención de los matemáticos de todas las generaciones. Pero, a pesar de esto y de que se conocían desde tiempos lejanos, no fueron estudiadas de forma detallada hasta la época de mayor desarrollo de las matemáticas en el siglo XVIII. Fue en ese tiempo cuando se perfeccionó el concepto de límite de una sucesión como el valor al cual se acercan de forma sucesiva sus términos.
+
+Sin cuestión alguna, Leonhard Euler fue el matemático más destacado de esa época, gracias a sus contribuciones decisivas en diversos campos de las matemáticas, sobre todo, en el campo de las sucesiones y de las series numéricas. También cabe destacar al matemático italiano Leonardo de Pisa, quien, en el siglo siglo XII, introdujo en Europa una de las sucesiones matemáticas que mayor existencia tiene en los fenómenos naturales, los números de Fibonacci.
+
+En general, las sucesiones se utilizan para representar listas ordenadas de elementos pero, sobre todo, dentro de las matemáticas discretas son empleadas de otras diversas maneras como, por ejemplo, dentro de las ciencias de la computación y en la teoría de juegos.
+
+Generalidades
+Notación
+Existen diferentes notaciones y nociones de sucesión en matemáticas, dependiendo del área de estudio, algunas de las cuales (como por ejemplo sucesión exacta) no quedan comprendidas en la notación que se introduce a continuación.
+
+Se suele usar la notación {\displaystyle \{a_{n}\}} para indicar una sucesión, donde a_{n} hace referencia al elemento de la sucesión en la posición n, llamado término general. El subíndice {n\in \mathbb{N}} indica el lugar que ocupa en dicha sucesión. Un ejemplo puede ser el de los números positivos pares, denotando dicha sucesión por {\displaystyle \{a_{n}\}}:
+
+{\displaystyle \{a_{n}\}=2,4,6,8,10,12,...}
+
+entonces
+
+{\displaystyle a_{1}=2,\ a_{2}=4,\ a_{3}=6,\ a_{4}=8,\ldots }
+
+En el caso de que los elementos de la sucesión queden determinados por una regla, se puede especificar la sucesión haciendo referencia a la fórmula de un término arbitrario. En la sucesión anterior {\displaystyle \{a_{n}\}} puede especificarse mediante la fórmula {\displaystyle a_{n}=2n}.
+
+Es frecuente encontrar sucesiones donde los subíndices que denoten posición inicien desde cero, en vez desde uno, particularmente en matemática discreta o en ciencias de la computación. También se puede usar una variable distinta a n para denotar el término general, cuando así convenga para evitar confusión con otras variables.
+
+En la literatura es posible encontrar una gran variedad de notaciones alternativas. Por ejemplo, uso de paréntesis en vez de llaves, o indicaciones de los límites mediante variantes con super y subíndices, a continuación se muestran algunos pocos ejemplos:
+
+{\displaystyle (a_{n})=a_{1},a_{2},a_{3},\ldots }
+( a_k )_{k=1}^m =a_1,a_2,a_3,\ldots, a_m 
+\{ a_n \}_{n\in \N} =a_1,a_2,a_3,\ldots, 
+Sucesiones definidas por recurrencia
+Una relación de recurrencia para una sucesión {\displaystyle \left\{{a_{n}}\right\}_{n\in \mathbb {N} _{0}}} es una ecuación la cual establece el término an en función de los términos anteriores {\displaystyle a_{0},\;a_{1},\;a_{2},\;...\;,\;a_{n_{0}-1}} para todos los enteros n tales que {\displaystyle n\geq n_{0}}. La sucesión en sí es la solución de la relación de recurrencia si sus términos cumplen la relación para todo entero positivo n.
+
+Los algoritmos recursivos proporcionan solución a un problema de tamaño n en términos de la solución de uno o más casos del mismo problema, pero de menor tamaño. Un ejemplo de sucesión por recurrencia es la sucesión de Fibonacci, en la cual, cada término a partir del tercero es la suma de los dos términos anteriores. Esta sucesión en términos generales se define como:
+
+{\displaystyle a_{n}=a_{n-1}+a_{n-2}\,}
+
+Cuando se realiza la complejidad de un algoritmo recursivo basado en una sucesión, se obtiene una relación de recurrencia que expresa el número de operaciones necesarias para resolver un problema de tamaño n en términos del número de operaciones necesarias para resolver el mismo problema con unos datos de tamaño menor.
+
+De esta manera, se puede comprobar la existencia de una gran relación entre las relaciones de recurrencia y la recursión, ya que sirven para resolver una gran cantidad de problemas como, por ejemplo, calcular el interés compuesto, calcular el número de movimientos del juego de las Torres de Hanói y el número de conejos de una isla (problema propuesto por Fibonacci y relacionado, por tanto, con la sucesión de Fibonacci).
+
+Ejemplos
+Entre las sucesiones comunes y muy utilizadas se pueden encontrar las que están en progresión aritmética o en progresión geométrica. La diferencia básica es que en la sucesión aritmética la razón de cambio entre un miembro y otro es la suma o resta de la misma razón, y en la sucesión geométrica el siguiente número de la sucesión se logra por multiplicar o dividir la razón de cambio. En cualquier caso la razón de cambio es constante y no puede variar, a menos que el cambio de la razón también corresponda a una sucesión, lo que supone tener una sucesión dentro de otra sucesión.
+
+Definición formal y propiedades básicas
+Las diferentes definiciones suelen estar ligadas al área de trabajo, la más común y general es la definición de sucesión numérica, en la práctica se usan sucesiones de forma intuitiva.
+
+Definición formal
+Una sucesión numérica se formaliza como una aplicación de los números naturales sobre otro conjunto numérico X, de manera:
+
+{\displaystyle {\begin{matrix}a:&\mathbb {N} &\to &X\\&n&\to &a_{n}\end{matrix}}}
+
+Una sucesión siendo el conjunto X = N puede ser por ejemplo, la sucesión de Fibonacci. Por norma general, la sucesión numérica se formaliza como una aplicación de los números naturales en los números reales. En cualquier caso se denota simplemente como \left\{{a_n}\right\}_{n \in \mathbb{N}} o, si se da por entendido que los subíndices son enteros, también se denota como \left\{{a_n}\right\}_{n \geq 0}.
+
+El nombre que recibe la sucesión también puede hacer referencia a los valores que toma sobre los reales; así, si la imagen de a_{}^{} fuesen los racionales, es decir fracciones enteras del tipo \scriptstyle \frac{x}{y}, \; y \neq 0, se puede llamar sucesión de números racionales, y lo mismo para los irracionales, naturales, enteros, algebraicos, trascendentes, ...
+
+Finitud e infinitud
+Una sucesión finita {\displaystyle \{a_{n}\}} (de longitud r) con elementos pertenecientes a un conjunto S, se define como una función
+
+f:\{1,2,\ldots,r\}\to S.
+
+y en este caso el elemento a_{n} corresponde a {\displaystyle f(n)}. Por ejemplo, la sucesión finita, (de longitud 4) de números primos menores que 10 (2,3,5,7) corresponde a la función f:\{1,2,3,4\} \to \mathbb{P} (donde \mathbb{P} es el conjunto de números primos) definida por:
+
+f(1)=2, f(2)=3, f(3)=5, f(4)=7.
+
+Una sucesión infinita {\displaystyle \{a_{k}\}} con elementos pertenecientes a un conjunto S, se define como una función
+
+f:\N\to S.
+
+en donde, de forma análoga, {\displaystyle \{a_{n}\}} corresponde a {\displaystyle f(n)}.
+
+Subsucesión
+Una subsucesión o sucesión parcial de una sucesión {\displaystyle \{a_{n}\}} es la sucesión formada de la sucesión dada mediante la eliminación de algunos de sus elementos sin perturbar la posición relativa de los elementos restantes. Por ejemplo, la sucesión formada por los números pares positivos (2, 4, 6, ...) es una sucesión parcial de los números naturales (1, 2, 3, ...). Las posiciones de algunos elementos cambian cuando se eliminan otros elementos. Sin embargo, las posiciones relativas se conservan.
+
+Formalmente, una subsucesión de una sucesión {\displaystyle \{a_{n}\}_{n\in \mathbb {N} }} es cualquier sucesión de la forma {\displaystyle \{a_{n_{k}}\}_{k\in \mathbb {N} }}, donde {\displaystyle \{n_{k}\}_{k\in \mathbb {N} }} es una sucesión estrictamente creciente de enteros positivos. Obviamente para una sucesión existen varias subsucesiones.[1]
+
+Sucesiones monótonas
+En una sucesión monótona, la diferencia entre cada término y el siguiente es siempre del mismo signo. Pueden ser crecientes o decrecientes.[2]
+
+Una sucesión creciente es aquella en la que se impone la desigualdad no estricta a_n^{} \leq a_{n+1}, es decir, en la que cada término es menor o igual al término siguiente. Dentro de estas se pueden incluir, entre otras, las sucesiones constantes. Si se impone la condición de que a_n^{} < a_{n+1}, es decir, que el siguiente término  a_{n+1}^{} siempre sea estrictamente mayor que su predecesor a_n^{}, se denominan sucesiones estrictamente crecientes.
+
+De la misma manera se puede definir la sucesión decreciente, según el término general, si a_n^{} \geq a_{n+1}. Será estrictamente decreciente si a_n^{} > a_{n+1}.
+
+Sucesiones acotadas
+Se pueden dar tres formas de sucesión acotada:
+
+Una sucesión {an} estará acotada superiormente en el caso que exista un número real M que limite de la siguiente forma la secuencia: {an} ≤ M.
+Por otro lado, la sucesión estará acotada inferiormente cuando un número real N la límite de la forma contraria a la anterior: {an} ≥ N.
+Finalmente, en caso de que se den ambas opciones {an} será una sucesión acotada.
+Límites y convergencia
+
+Gráfica de una sucesión convergente {an} que se muestra en azul. Del gráfico se puede ver que la sucesión es convergente al límite cero cuando se incrementa n.
+Sucesiones Convergentes
+Una propiedad importante de las sucesiones es la convergencia. Si una sucesión converge, esta tiende a un valor particular conocido como límite. Si una sucesión converge a algún límite, entonces es convergente. Una sucesión que no es convergente es divergente.
+
+Informalmente, una sucesión tiene límite si los elementos de la sucesión se hacen cada vez más y más cercanos a algún valor L (llamado límite de la sucesión), y se quedan «arbitrariamente» cercanos a L, lo que significa que dado un número real \varepsilon  mayor que cero, todos menos un número finito de elementos de la sucesión tienen una distancia a L menor que \varepsilon .
+
+Formalmente, una sucesión \{a_n\}, \ a_n \in \mathbb{R}, converge a L o tiene por límite L (cuando n \rightarrow \infty), y se escribe,
+
+{\displaystyle \lim _{n}a_{n}=L}
+
+cuando,
+
+{\displaystyle \forall \varepsilon >0,\exists n_{0}\in \mathbb {N} :\mid a_{n}-L\mid <\varepsilon ,\forall n\geq n_{0}}
+
+Esto quiere decir que, la sucesión es convergente si existe un lugar (en la sucesión) a partir del cual la diferencia entre los términos de la sucesión y el límite sea pequeña.
+
+Se puede comprobar fácilmente que si una sucesión \{a_n\}, \ a_n \in \mathbb{R} es convergente, entonces el \lim_{n} a_n es único (se aplica reducción al absurdo y se llega a una contradicción) y la sucesión es acotada (consecuencia inmediata de la definición).
+
+La sucesiones oscilantes son divergentes. Sus términos alternan indefinidamente de mayor a menor o viceversa, por lo que no tienen límite. Intuitivamente se llama sucesión alternada cuando alterna valores de signo opuesto, como a_n=(-1)^{n} que genera la sucesión: a0=1, -1, 1, -1, 1, -1, ... utilizada por series alternadas.
+
+Sucesiones de Cauchy
+
+Gráfica de una sucesión de Cauchy {xn}.
+Dada la sucesión {an} de números reales, se llama sucesión de Cauchy o sucesión fundamental, en el caso de que satisfaga el requisito siguiente: dado un número real r positivo se pueda conseguir dos enteros positivos p, q tal que de p > n0 y q > n0 se deduzca que |cp - cq| < r.[3]
+
+En los números reales toda sucesión de Cauchy converge a algún límite. Esta particularidad implica un resultado importante en el análisis real que es la caracterización de Cauchy para la convergencia de sucesiones:
+
+Una sucesión de números reales es convergente (en los reales) si y solo si es de Cauchy.
+
+A los espacios métricos que verifiquen la implicación hacia la derecha se les llama espacios completos. O sea, \mathbb{R} es un espacio completo. En general, se puede probar fácilmente que {\displaystyle \mathbb {R} ^{N}} es un espacio completo.
+
+Extensión a los reales
+
+Compruébese que \scriptstyle \{ a_n^{}\} =f(n)=f(n)+\sin(n \pi) , ilustrando que dos funciones reales diferentes pueden corresponder a una misma sucesión sobre los enteros.
+Dada una función  f: \mathbb{N} \to \mathbb{R} , llamaremos extensión en los reales de f_{}^{} a una función  P: \mathbb{R} \to \mathbb{R}  cuyos valores coinciden en el dominio de f_{}^{}, es decir, f_{ | \mathbb{N}}=P_{ | \mathbb{N}}.
+
+Es incorrecto representar a la extensión en los reales con el mismo nombre ( f: \mathbb{R} \to \mathbb{R} ), pues, se trata de una asociación totalmente arbitraria y no unívoca que trae confusión y no tiene sentido para algunas funciones definidas a trozos. Se suele llamar a la extendida por ejemplo  P_{}^{}, \; Q_{}^{}, \; \phi_{}^{} o  \psi_{}^{} si es un polinomio, o g_{}^{} o h_{}^{} si son funciones trigonométricas, agregando subíndices si hace falta.
+
+La función f puede adquirir propiedades de la extendida P, si existe P con dichas propiedades, como límites al infinito, monotonía, acotaciones, entre otras.
+
+Generalización en distintas áreas
+Estos ejemplos pretenden ser una pequeña muestra de la infinidad, propiamente dicha, de usos que tienen dichas sucesiones en matemáticas.
+
+El trabajo interno en el desarrollo de cada tema en cada área obliga a diversificar el modo de nominar y notar las sucesiones, haciéndose frecuente el uso de índices, subíndices y superíndices para salvar la sobrecarga de notación y hacerlas más legibles y estéticas en cuanto a la presentación.
+
+El espacio de sucesiones finitas complejas \mathbb{C}
+Se puede tener una sucesión \left\{ {a^{(i)}}\right\}_{i\in \mathbb{N}} tal que  {a^{(i)}} {:=(a_1^{(i)},...,a_{n_i}^{(i)} ,0,...)\text{, donde } a_j^{(i)}}\in \mathbb{C}-\left\{0\right\}
+
+El espacio de sucesiones complejas o ℓ2 \mathbb{C}^n
+Se puede tener una sucesión \left\{{V^{(i)}}\right\}_{i\in \mathbb{N}} tal que  {V^{(i)}} {:=(a_1^{(i)},...,a_n^{(i)})\text{, donde } a_j^{(i)}}\in \mathbb{C}
+
+El espacio de polinómico K[x]
+Un polinomio P(x) \in K[x] no es más que una sucesión finita \left\{{a_n}\right\}_n tal que a_n \in K representada como P(x)_{}^{}=a_0+a_1x+a_2x^2+...+a_nx^n.
+
+El espacio de las matrices  M_{m \times n}(k)
+Se puede tener una sucesión \left\{{A_i}\right\}_{i \in \mathbb{N}} tal que A_i:= \begin{pmatrix} a_{1,1}^{(i)} & \ldots & a_{1,n}^{(i)} \\ \vdots && \vdots \\ a_{m,1}^{(i)} & \ldots & a_{m,n}^{(i)} \end{pmatrix}, donde a_{j,k}^{(i)} \in K.
+
+En un espacio vectorial topológico
+Se puede tener una sucesión \left\{{V_{i}^{}}\right\}_{i\epsilon\mathbb{N}}, donde  V_n^{}:= \alpha_n B, donde  \alpha_n \in \mathbb{R} es una sucesión real arbitraria y B un abierto.
+
+Sucesiones funcionales
+Se puede tener una sucesión de funciones continuas \left\{{{f(x)}_n}\right\}_{n\epsilon\mathbb{N}}=\sin(x)^n.
+
+En el lenguaje proposicional
+Sea {\displaystyle \mathrm {A} _{}} un alfabeto, llamaremos {\displaystyle \mathrm {A} ^{n}} al conjunto de sucesiones finitas de n elementos de {\displaystyle \mathrm {A} _{}}, se define inductivamente por la sucesión de productos cartesianos siguiente: {\displaystyle \mathrm {A} ^{1}=\mathrm {A} ,\mathrm {A} ^{2}=\mathrm {A} \times \mathrm {A} ,\,\cdots ,\,\mathrm {A} ^{n}:=\mathrm {A} ^{n-1}\times \mathrm {A} }
+
+así {\displaystyle \langle a_{1},\cdots ,a_{n}\rangle :=\langle \langle a_{1},\cdots ,a_{n-1}\rangle ,a_{n}\rangle \in \mathrm {A} ^{n}{\text{, y }}a_{i}:=\langle a_{i}\rangle \in \mathrm {A} }.
+En homología simplicial
+El complejo de cadenas simplicial del complejo simplicial K, no es más que una determinada sucesión de grupos abelianos y morfismos.
+
+En el lenguaje de las categorías
+Sea  \mathcal{A}  una categoría, podemos tener una sucesión \left\{{A_n}\right\}_{n \in \mathbb{N}}, donde {\displaystyle A_{n}^{}\in \mathrm {Ob} ({\mathcal {A}})}.
+
+Véase también
+Límite de una sucesión
+Serie matemática
+Sucesión exacta
+Sucesión de Cauchy
+Sucesión de Farey
+Sucesión de Fibonacci
+Sucesión de Goodstein
+Sucesión de Padovan
+Sucesión de Thue-Morse
+Ecuaciones en diferencias
+Transformada Z
+Número de Perrin
+Enciclopedia electrónica de secuencias de enteros
+Progresión aritmética
+Progresión geométrica
+OEIS
+Sucesión de números primos
+Referencias
+↑ Watson Fulks. Cálculo Avanzado. Limusa. México, 1973
+↑ A.Bouvier:Diccionario de matemáticas(1979)
+↑ Lages Lima. Curso de Análisis Matemático. Edunsa. Barcelona, 1991
+Bibliografía
+Fernández Novoa, Jesús (1991). Análisis Matemático I (Tomo 1). Madrid: UNED. ISBN 9788436216684.
+Watson Fulks. "Cálculo avanzado".
+J. Dieudonné. " Fundamentos de análisis moderno".
+Lages Lima. " Curso de análisis matemático
+Banach. " Cálculo".
+Spivak . "Calculus"
+V.F. Butúzov. " Análisis matemático"
+Enlaces externos
+ Wikimedia Commons alberga una galería multimedia sobre Sucesión.
+Cálculo de la fórmula de una sucesión
+El contenido de este artículo incorpora material de una entrada de la Enciclopedia Libre Universal, publicada en español bajo la licencia Creative Commons Compartir-Igual 3.0.
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

@@ -1,0 +1,200 @@
+Matemáticas
+
+El teorema de Pitágoras es uno de los enunciados más conocidos y antiguos de las matemáticas.
+
+Un ábaco, instrumento que sirve para efectuar operaciones aritméticas sencillas (sumas, restas y también multiplicaciones), y que fue muy utilizado en otros tiempos.
+
+Margarita filosófica o Madame Aritmética, grabado de 1508 de Gregor Reisch.
+
+Euclides (sosteniendo los calibradores), matemático griego, siglo III AC, según lo imaginado por Rafael Sanzio en este detalle de La escuela de Atenas.[Nota 1]
+Las matemáticas o la matemática[1] (del latín mathematĭca, y este del griego μαθηματικά, derivado de μάθημα, ‘conocimiento’) es una ciencia formal que, partiendo de axiomas y siguiendo el razonamiento lógico, estudia las propiedades y relaciones entre entidades abstractas como números, figuras geométricas o símbolos.
+
+La matemática en realidad es un conjunto de lenguajes formales que pueden ser usados como herramienta para plantear problemas de manera no ambigua en contextos específicos. Por ejemplo, el siguiente enunciado podemos decirlo de dos formas: X es mayor que Y e Y es mayor que Z, o forma simplificada podemos decir que X > Y > Z. Este es el motivo por el cual las matemáticas son tan solo un lenguaje simplificado con una herramienta para cada problema específico (por ejemplo 2+2= 4, o 2x2= 4).
+
+Las ciencias naturales han cambiado un uso extensivo de las matemáticas para explicar diversos fenómenos observables, tal como lo expresó Eugene Paul Wigner (Premio Nobel de física en 1963):[2]
+
+La enorme utilidad de las matemáticas en las ciencias naturales es algo que roza lo misterioso, y no hay explicación para ello. No es en absoluto natural que existan “leyes de la naturaleza”, y mucho menos que el hombre sea capaz de descubrirlas. El milagro de lo apropiado que resulta el lenguaje de las matemáticas para la formulación de las leyes de la física es un regalo maravilloso que no comprendemos ni nos merecemos.
+
+Mediante la abstracción y el uso de la lógica en el razonamiento, las matemáticas han evolucionado basándose en las cuentas, el cálculo y las mediciones, junto con el estudio sistemático de la forma y el movimiento de los objetos físicos. Las matemáticas, desde sus comienzos, han tenido un fin práctico.
+
+Las explicaciones que se apoyaban en la lógica aparecieron por primera vez con la matemática helénica, especialmente con los Elementos de Euclides. Las matemáticas siguieron desarrollándose, con continuas interrupciones, hasta que en el Renacimiento las innovaciones matemáticas interactuaron con los nuevos descubrimientos científicos. Como consecuencia, hubo una aceleración en la investigación que continúa hasta la actualidad.
+
+Hoy en día, las matemáticas se usan en todo el mundo como una herramienta esencial en muchos campos, entre los que se encuentran las ciencias naturales, la ingeniería, la medicina y las ciencias sociales, e incluso disciplinas que, aparentemente, no están vinculadas con ella, como la música (por ejemplo, en cuestiones de resonancia armónica). Las matemáticas aplicadas, rama de las matemáticas destinada a la aplicación del conocimiento matemático a otros ámbitos, inspiran y hacen uso de los nuevos descubrimientos matemáticos y, en ocasiones, conducen al desarrollo de nuevas disciplinas. Los matemáticos también participan en las matemáticas puras, sin tener en cuenta la aplicación de esta ciencia, aunque las aplicaciones prácticas de las matemáticas puras suelen ser descubiertas con el paso del tiempo.
+
+Introducción
+Origen y etimología
+La palabra «matemática» (del griego μαθηματικά mathēmatiká , «cosas que se aprenden») viene del griego antiguo μάθημα (máthēma), que quiere decir «campo de estudio o instrucción».Las matemáticas requieren un esfuerzo de aprendizaje o instrucción, refiriéndose a áreas del conocimiento que sólo pueden entenderse tras haber sido instruido en las mismas, como la astronomía. «El arte matemática», (μαθηματική τέχνη, mathēmatikḗ tékhnē) se contrapondría en esto a la música , «el arte de las musas», (μουσική τέχνη, mousikē téchnē), que sería un arte, como la poesía, retórica y similares, que se puede apreciar directamente, «que se puede entender sin haber sido instruido».[3] Aunque el término ya era usado por los pitagóricos (matematikoi) en el siglo VI a. C., alcanzó su significado más técnico y reducido de «estudio matemático» en los tiempos de Aristóteles (siglo IV a. C.). Su adjetivo es μαθηματικός (mathēmatikós), «relacionado con el aprendizaje», lo cual, de manera similar, vino a significar «matemático». En particular, μαθηματική τέχνη (mathēmatikḗ tékhnē; en latín ars mathematica), significa «el arte matemática».
+
+La forma más usada es el plural matemáticas, que tiene el mismo significado que el singular[1] y viene de la forma latina mathematica (Cicerón), basada en el plural en griego τα μαθηματικά (ta mathēmatiká), usada por Aristóteles y que significa, a grandes rasgos, «todas las cosas matemáticas». Algunos autores, sin embargo, hacen uso de la forma singular del término; tal es el caso de Bourbaki, en el tratado Elementos de matemática (Élements de mathématique), (1940), destaca la uniformidad de este campo aportada por la visión axiomática moderna, aunque también hace uso de la forma plural como en Éléments d'histoire des mathématiques (Elementos de historia de las matemáticas) (1969), posiblemente sugiriendo que es Bourbaki quien finalmente realiza la unificación de las matemáticas.[4] Así mismo, en el escrito L'Architecture des mathématiques (1948) plantea el tema en la sección «Matemáticas, singular o plural» donde defiende la unicidad conceptual de las matemáticas aunque hace uso de la forma plural en dicho escrito.[5]
+
+Algunas definiciones de matemática
+Establecer definiciones claras y precisas es el fundamento de la matemática, pero definirla ha sido difícil, se muestran algunas definiciones de pensadores famosos:
+
+René Descartes: (Cirilo Flórez Miguel, ed. Obra completa. Biblioteca de Grandes Pensadores 2004) "La matemática es la ciencia del orden y la medida, de bellas cadenas de razonamientos, todos sencillos y fáciles".
+David Hilbert: (Putnam, Hilary: On the infinite. Philosophy of Mathematics, p.187, 1998). “En un cierto sentido, el análisis matemático es una sinfonía del infinito. La matemática es el sistema de las fórmulas demostrables”.
+Benjamin Peirce: (Nahin, Paul , The Story of i , p.68, 1998). “La matemática es la ciencia que extrae conclusiones necesarias.”
+Bertrand Russell: (Principia mathematica, 1913). “Las matemáticas poseen no solo la verdad, sino cierta belleza suprema. Una belleza fría y austera, como la de una escultura.”
+Ibo Bonilla: (Qué es matemática?, Academia.edu, 2014). "Hacer matemática es desentrañar los ritmos del Universo". "La matemática es la ciencia de estructurar una realidad estudiada, es el conjunto de sus elementos, proporciones, relaciones y patrones de evolución en condiciones ideales para un ámbito delimitado".
+John David Barrow: (Imposibilidad. P 96. Gedisa, 1999). “En el fondo, matemática es el nombre que le damos a la colección de todas las pautas e interrelaciones posibles. Algunas de estas pautas son entre formas, otras en secuencias de números, en tanto que otras son relaciones más abstractas entre estructuras. La esencia de la matemática está en la relación entre cantidades y cualidades”.
+Epistemología y controversia sobre la matemática como ciencia
+El carácter epistemológico y científico de las matemáticas ha sido ampliamente discutido. En la práctica, las matemáticas se emplean para estudiar relaciones cuantitativas, estructuras, relaciones geométricas y las magnitudes variables. Los matemáticos buscan patrones,[6][7] formulan nuevas conjeturas e intentan alcanzar la verdad matemática mediante deducciones rigurosas. Estas les permiten establecer los axiomas y las definiciones apropiados para dicho fin.[8] Algunas definiciones clásicas restringen las matemáticas al razonamiento sobre cantidades,[1] aunque solo una parte de las matemáticas actuales usan números, predominando el análisis lógico de construcciones abstractas no cuantitativas.
+
+Existe cierta discusión acerca de si los objetos matemáticos, como los números y puntos, realmente existen o simplemente provienen de la imaginación humana. El matemático Benjamin Peirce definió las matemáticas como "la ciencia que señala las conclusiones necesarias".[9] Por otro lado, Albert Einstein declaró que: "cuando las leyes de la matemática se refieren a la realidad, no son exactas; cuando son exactas, no se refieren a la realidad".[10]
+
+Se ha discutido el carácter científico de las matemáticas debido a que sus procedimientos y resultados poseen una firmeza e inevitabilidad inexistentes en otras disciplinas como pueden ser la física, la química o la biología. Así, la matemática sería tautológica, infalible y a priori, mientras que otras, como la geología o la fisiología, serían falibles y a posteriori. Son estas características lo que hace dudar de colocarse en el mismo rango que las disciplinas antes citadas. John Stuart Mill afirmaba:
+
+La lógica no observa ni inventa ni descubre, pero juzga.
+
+Así, los matemáticos pueden descubrir nuevos procedimientos para resolver integrales o teoremas, pero se muestran incapaces de descubrir un suceso que ponga en duda el Teorema de Pitágoras o cualquier otro, como sí sucede constantemente con las ciencias de la naturaleza.[11]
+
+La matemática puede ser entendida como ciencia; si es así debiera señalarse su objeto y su método. Sin embargo, algunos plantean que la matemática es un lenguaje formal, seguro, eficiente, aplicable al entendimiento de la naturaleza, tal como indicó Galileo; además muchos fenómenos de carácter social, otros de carácter biológico o geológico, pueden ser estudiados mediante la aplicación de ecuaciones diferenciales, cálculo de probabilidades o teoría de conjunto.[12] Precisamente, el avance de la física y de la química ha exigido la invención de nuevos conceptos, instrumentos y métodos en la matemática, sobre todo en el análisis real, análisis complejo y el análisis matricial.[13]
+
+Aspectos formales, metodológicos y estéticos
+La inspiración, las matemáticas puras, aplicadas y la estética
+
+Sir Isaac Newton (1643-1727), comparte con Leibniz la autoría del desarrollo del cálculo integral y diferencial.
+Es muy posible que el arte del cálculo haya sido desarrollado antes incluso que la escritura,[14] relacionado fundamentalmente con la contabilidad y la administración de bienes, el comercio, en la agrimensura y, posteriormente, en la astronomía.
+
+Actualmente, todas las ciencias aportan problemas que son estudiados por matemáticos, al mismo tiempo que aparecen nuevos problemas dentro de las propias matemáticas. Por ejemplo, el físico Richard Feynman propuso la integral de caminos como fundamento de la mecánica cuántica, combinando el razonamiento matemático y el enfoque de la física, pero todavía, no se ha logrado una definición plenamente satisfactoria en términos matemáticos. Similarmente, la teoría de cuerdas, una teoría científica en desarrollo que trata de unificar las cuatro fuerzas fundamentales de la física, sigue inspirando a las más modernas matemáticas.[15]
+
+Algunas matemáticas solo son relevantes en el área en la que estaban inspiradas y son aplicadas para otros problemas en ese campo. Sin embargo, a menudo las matemáticas inspiradas en un área concreta resultan útiles en muchos ámbitos, y se incluyen dentro de los conceptos matemáticos generales aceptados. El notable hecho de que incluso la matemática más pura habitualmente tiene aplicaciones prácticas es lo que Eugene Wigner ha definido como «la irrazonable eficacia de las matemáticas en las Ciencias Naturales».[16]
+
+Como en la mayoría de las áreas de estudio, la explosión de los conocimientos en la era científica ha llevado a la especialización de las matemáticas. Hay una importante distinción entre las matemáticas puras y las matemáticas aplicadas. La mayoría de los matemáticos que se dedican a la investigación se centran únicamente en una de estas áreas y, a veces, la elección se realiza cuando comienzan su licenciatura. Varias áreas de las matemáticas aplicadas se han fusionado con otras áreas tradicionalmente fuera de las matemáticas y se han convertido en disciplinas independientes, como pueden ser la estadística, la investigación de operaciones o la informática.
+
+Aquellos que sienten predilección por las matemáticas, consideran que prevalece un aspecto estético que define a la mayoría de las matemáticas. Muchos matemáticos hablan de la elegancia de la matemática, su intrínseca estética y su belleza interna. En general, uno de sus aspectos más valorados es la simplicidad. Hay belleza en una simple y contundente demostración, como la demostración de Euclides de la existencia de infinitos números primos, y en un elegante análisis numérico que acelera el cálculo, así como en la transformada rápida de Fourier. G. H. Hardy en A Mathematician's Apology (Apología de un matemático) expresó la convicción de que estas consideraciones estéticas son, en sí mismas, suficientes para justificar el estudio de las matemáticas puras.[17] Los matemáticos con frecuencia se esfuerzan por encontrar demostraciones de los teoremas que son especialmente elegantes, el excéntrico matemático Paul Erdős se refiere a este hecho como la búsqueda de pruebas de "El Libro" en el que Dios ha escrito sus demostraciones favoritas.[18][19] La popularidad de la matemática recreativa es otra señal que nos indica el placer que produce resolver las preguntas matemáticas.
+
+Véase también: Belleza matemática
+Notación, lenguaje y rigor
+
+Leonhard Euler. Probablemente el más prolífico matemático de todos los tiempos.
+La mayor parte de la notación matemática que se utiliza hoy en día no se inventó hasta el siglo XVIII.[20] Antes de eso, las matemáticas eran escritas con palabras, un minucioso proceso que limitaba el avance matemático. En el siglo XVIII, Euler, fue responsable de muchas de las notaciones empleadas en la actualidad. La notación moderna hace que las matemáticas sean mucho más fácil para los profesionales, pero para los principiantes resulta complicada. La notación reduce las matemáticas al máximo, hace que algunos símbolos contengan una gran cantidad de información. Al igual que la notación musical, la notación matemática moderna tiene una sintaxis estricta y codifica la información que sería difícil de escribir de otra manera.
+
+
+El símbolo de infinito en diferentes tipografías.
+El lenguaje matemático también puede ser difícil para los principiantes. Palabras tales como o y solo tienen significados más precisos que en lenguaje cotidiano. Además, palabras como abierto y cuerpo tienen significados matemáticos muy concretos. La jerga matemática, o lenguaje matemático, incluye términos técnicos como homeomorfismo o integrabilidad. La razón que explica la necesidad de utilizar la notación y la jerga es que el lenguaje matemático requiere más precisión que el lenguaje cotidiano. Los matemáticos se refieren a esta precisión en el lenguaje y en la lógica como el «rigor».
+
+El rigor es una condición indispensable que debe tener una demostración matemática. Los matemáticos quieren que sus teoremas a partir de los axiomas sigan un razonamiento sistemático. Esto sirve para evitar teoremas erróneos, basados en intuiciones falibles, que se han dado varias veces en la historia de esta ciencia.[21] El nivel de rigor previsto en las matemáticas ha variado con el tiempo: los griegos buscaban argumentos detallados, pero en tiempos de Isaac Newton los métodos empleados eran menos rigurosos. Los problemas inherentes de las definiciones que Newton utilizaba dieron lugar a un resurgimiento de un análisis cuidadoso y a las demostraciones oficiales del siglo XIX. Ahora, los matemáticos continúan apoyándose entre ellos mediante demostraciones asistidas por ordenador.[22]
+
+Un axioma se interpreta tradicionalmente como una «verdad evidente», pero esta concepción es problemática. En el ámbito formal, un axioma no es más que una cadena de símbolos, que tiene un significado intrínseco solo en el contexto de todas las fórmulas derivadas de un sistema axiomático.
+
+La matemática como ciencia
+
+Carl Friedrich Gauss, apodado el "príncipe de los matemáticos", se refería a la matemática como "la reina de las ciencias".
+Carl Friedrich Gauss se refería a la matemática como «la reina de las ciencias».[23] Tanto en el latín original Scientiārum Regīna, así como en alemán Königin der Wissenschaften, la palabra ciencia debe ser interpretada como (campo de) conocimiento. Si se considera que la ciencia es el estudio del mundo físico, entonces las matemáticas, o por lo menos las matemáticas puras, no son una ciencia.
+
+Muchos filósofos creen que las matemáticas no son experimentalmente falsables, y, por tanto, no es una ciencia según la definición de Karl Popper.[24] No obstante, en la década de 1930 una importante labor en la lógica matemática demuestra que las matemáticas no puede reducirse a la lógica, y Karl Popper llegó a la conclusión de que «la mayoría de las teorías matemáticas son, como las de física y biología, hipotético-deductivas. Por lo tanto, las matemáticas puras se han vuelto más cercanas a las ciencias naturales cuyas hipótesis son conjeturas, así ha sido hasta ahora».[25] Otros pensadores, en particular Imre Lakatos, han solicitado una versión de Falsacionismo para las propias matemáticas.
+
+Una visión alternativa es que determinados campos científicos (como la física teórica) son matemáticas con axiomas que pretenden corresponder a la realidad. De hecho, el físico teórico, J. M. Ziman, propone que la ciencia es «conocimiento público» y, por tanto, incluye a las matemáticas.[26] En cualquier caso, las matemáticas tienen mucho en común con muchos campos de las ciencias físicas, especialmente la exploración de las consecuencias lógicas de las hipótesis. La intuición y la experimentación también desempeñan un papel importante en la formulación de conjeturas en las matemáticas y las otras ciencias. Las matemáticas experimentales siguen ganando representación dentro de las matemáticas. El cálculo y simulación están jugando un papel cada vez mayor tanto en las ciencias como en las matemáticas, atenuando la objeción de que las matemáticas no se sirven del método científico. En 2002 Stephen Wolfram sostiene, en su libro Un nuevo tipo de ciencia, que la matemática computacional merece ser explorada empíricamente como un campo científico.
+
+Las opiniones de los matemáticos sobre este asunto son muy variadas. Muchos matemáticos consideran que llamar a su campo ciencia es minimizar la importancia de su perfil estético, además supone negar su historia dentro de las siete artes liberales. Otros consideran que hacer caso omiso de su conexión con las ciencias supone ignorar la evidente conexión entre las matemáticas y sus aplicaciones en la ciencia y la ingeniería, que ha impulsado considerablemente el desarrollo de las matemáticas. Otro asunto de debate, que guarda cierta relación con el anterior, es si la matemática fue creada (como el arte) o descubierta (como la ciencia). Este es uno de los muchos temas de incumbencia de la filosofía de las matemáticas.
+
+Los premios matemáticos se mantienen generalmente separados de sus equivalentes en la ciencia. El más prestigioso premio dentro de las matemáticas es la Medalla Fields,[27][28] fue instaurado en 1936 y se concede cada cuatro años. A menudo se le considera el equivalente del Premio Nobel para la ciencia. Otros premios son el Premio Wolf en matemática, creado en 1978, que reconoce los logros en vida de los matemáticos, y el Premio Abel, otro gran premio internacional, que se introdujo en 2003. Estos dos últimos se conceden por un excelente trabajo, que puede ser una investigación innovadora o la solución de un problema pendiente en un campo determinado. Una famosa lista de esos 23 problemas sin resolver, denominada los «Problemas de Hilbert», fue recopilada en 1900 por el matemático alemán David Hilbert. Esta lista ha alcanzado gran popularidad entre los matemáticos y, al menos, nueve de los problemas ya han sido resueltos. Una nueva lista de siete problemas fundamentales, titulada «Problemas del milenio», se publicó en 2000. La solución de cada uno de los problemas será recompensada con 1 millón de dólares. Curiosamente, tan solo uno (la hipótesis de Riemann) aparece en ambas listas.
+
+Ramas de estudio de las matemáticas
+La Sociedad Estadounidense de Matemática distingue unas 5000 ramas distintas de matemáticas.[29] En una subdivisión amplia de las matemáticas se distinguen cuatro objetos de estudio básicos: la cantidad, la estructura, el espacio y el cambio[cita requerida] que se corresponden a la aritmética, álgebra, geometría y cálculo.[cita requerida] Además, hay ramas de las matemáticas conectadas a otros campos como la lógica y teoría de conjuntos, y las matemáticas aplicadas[cita requerida].
+
+Matemáticas puras
+Cantidad
+1, 2, 3, ...	..., −2, −1, 0, 1, 2, ...	−2, 2⁄3, 1,21	−e, {\displaystyle {\boldsymbol {\sqrt {2}}}}, 3, {\displaystyle {\boldsymbol {\pi }}}	2, i, −2 + 3i,
+2ei4π⁄3
+Números naturales	Enteros	Números racionales	Números reales	Números complejos
+Estructura
+{\begin{matrix}(1,2,3)&(1,3,2)\\(2,1,3)&(2,3,1)\\(3,1,2)&(3,2,1)\end{matrix}}					
+Combinatoria	Teoría de números	Teoría de grupos	Teoría de grafos	Teoría del orden	Álgebra
+Espacio
+					
+Geometría	Trigonometría	Geometría diferencial	Topología	Geometría fractal	Teoría de la medida
+Cambio
+					
+Cálculo	Cálculo vectorial	Ecuaciones diferenciales	Sistemas dinámicos	Teoría del caos	Análisis complejo
+Matemáticas aplicadas
+El término matemáticas aplicadas se refiere a aquellos métodos y herramientas matemáticas que pueden ser utilizados en el análisis o resolución de problemas pertenecientes al área de las ciencias básicas o aplicadas.
+
+Muchos métodos matemáticos han resultado efectivos en el estudio de problemas en física, química, biología, medicina, ciencias sociales, ingeniería, economía, finanzas, ecología entre otras.
+
+Sin embargo, una posible diferencia es que en matemáticas aplicadas se procura el desarrollo de las matemáticas "hacia afuera", es decir su aplicación o transferencia hacia el resto de las áreas. Y en menor grado "hacia dentro" o sea, hacia el desarrollo de las matemáticas mismas. Este último sería el caso de las matemáticas puras o matemáticas elementales.
+
+Las matemáticas aplicadas se usan con frecuencia en distintas áreas tecnológicas para modelado, simulación y optimización de procesos o fenómenos, como el túnel de viento o el diseño de experimentos.
+
+Estadística y ciencias de la decisión
+La estadística trata de las técnicas para recolectar, organizar, presentar, analizar un conjunto de datos numéricos y a partir de ellos y de un marco teórico, hacer las inferencias de lugar. Es una herramienta fundamental para la investigación científica y empírica en los campos de la economía, genética, informática, ingeniería, sociología, psicología, medicina, contabilidad, etc.
+
+Se consagra en forma directa al gran problema universal de como tomar las decisiones inteligentes y acertadas en condiciones de incertidumbre. Sirve como fuente de instrucción para los niveles introductorios de estadística descriptiva y, por tanto, los conceptos manejados y las técnicas empleadas han sido presentadas de la forma más simple, claramente posibles.
+
+Matemática computacional
+						
+Física matemática	Dinámica de fluidos	Análisis numérico	Optimización	Teoría de la probabilidad	Estadística	Criptografía
+						
+Geometría computacional	Matemáticas financieras	Teoría de juegos	Biología matemática	Química matemática	Economía matemática	Teoría de control
+Véase también
+Historia de la matemática
+Filosofía de la matemática
+Fundamentos de la matemática
+Belleza matemática
+Matemático
+Matemáticos importantes.
+Áreas de las matemáticas
+Modelo matemático
+Ciencia
+Olimpiada Internacional de Matemática
+Clasificación UNESCO de las matemáticas
+ Portal:Matemática. Contenido relacionado con Matemática.
+Notas
+↑ Ninguna semejanza o descripción de la apariencia física de Euclides durante su vida sobrevivió a la antigüedad. Por lo tanto, la representación de Euclides en las obras de arte depende de la imaginación del artista (véase Euclides).
+Referencias
+1 2 3 «matemática», Diccionario de la lengua española (avance de la vigésima tercera edición). Consultado el 20 de enero de 2013.
+Utilízase más en plural con el mismo significado que en singular.
+
+↑ Libro "Del átomo a la mente", 2002, de Ignacio Martínez y Juan Luis Arsuaga. Capítulo 1 "La carta de Dios", subtítulo "El Libro de la Naturaleza", aproximadamente en el sitio 5.5% del libro.
+↑ Heath, Thomas (1921). A History of Greek Mathematics. Oxford, Clarendon Press. OCLC 2014918.
+↑ Maurice Marshaal (2006). Bourbaki: a secret society of mathematicians (en inglés). American Mathematical Society. p. 56. ISBN 978-0-8218-3967-6.
+↑ Francois Le Lionnais (1948). Les grands courants de la penseé mathématique (en francés). pp. 35-47.
+↑ Steen, LA, (29 de abril de 1988). Mathematics:The Science of Patterns (Scientific American Library, 1994) Science, 240: 611-616.
+↑ Keith Devlin (1996). Matemáticas: La ciencia de los patrones: La búsqueda de la Orden en la vida, la mente y el Universo. Scientific American. ISBN 978-0-7167-5047-5.
+↑ Jourdain
+↑ Peirce, p.97
+↑ Einstein, p. 15. La cita es la respuesta de Einstein a la pregunta: "¿Cómo puede ser que las matemáticas, siendo después de todo un producto del pensamiento humano independiente de la experiencia, estén tan admirablemente adaptadas a los objetos de la realidad? "
+↑ Sánchez Ron, José Manuel (8 de febrero de 2000). «La matemática, instrumento universal de conocimiento: de Euclides a Gödel» (conferencia). Aula Abierta: La ciencia a través de su historia. Madrid: Fundación Juan March.
+↑ Takeuchi-Ramírz- Ruíz. Ecuaciones diferenciales. Limusa, Departamento de Matemáticas, Universidad Nacional de Colombia, 3ra. edición (1978)
+↑ Boyer. Historia de la matemática
+↑ Hazewinkel, Michiel, ed. (2001), «Arithmetic», Encyclopaedia of Mathematics (en inglés), Springer, ISBN 978-1556080104
+↑ Johnson, Gerald W.; Lapidus, Michel L. (2002). Oxford University Press, ed. The Feynman Integral and Feynman's Operational Calculus.
+↑ Eugene Wigner, 1960, "La irracional eficacia de las matemáticas en la de Ciencias Exactas y Naturales" Communications on Pure and Applied Mathematics13 '(1): 1-14.
+↑ Hardy, GH (1940). A Mathematician's Apology. Cambridge University Press.
+↑ Oro, Bonnie; Simons, A. Rogers (2008). MAA, ed. Proof and Other Dilemmas: Mathematics and Philosophy.
+↑ Aigner, Martin; Ziegler, M. Gunter (2001). Proofs from the Book. Springer.
+↑ Utilización de diversos símbolos matemáticos (Véase Anexo:Símbolos matemáticos)
+↑ Véase falsa demostración para comprobar mediante ejemplos sencillos los errores que se pueden cometer en una demostración oficial. El teorema de los cuatro colores contiene ejemplos de demostraciones falsas aceptadas accidentalmente por otros matemáticos del momento.
+↑ Ivars Peterson,La matemática turística, Freeman, 1988, ISBN 0-7167-1953-3. p. 4 "Algunos se quejan de que el programa de ordenador no puede ser verificado correctamente," (en referencia a la Haken de Apple la prueba de color Teorema de los Cuatro).
+↑ Waltershausen
+↑ Shasha, Dennis Elliot; Lazere, Cathy A. (1998). Fuera de su mente: La vida y de 15 de los Grandes Descubrimientos científicos. p. 228.
+↑ Popper 1995, p. 56
+↑ Ziman
+↑ «Actualmente la Medalla Fields es sin duda el mejor y el más influyente premio en las matemáticas». Monastyrsky
+↑ Riehm
+↑ «msc2010final-Aug10.pdf». ams.org. 21 de diciembre de 2009. Consultado el 25 de octubre de 2016.
+Bibliografía
+Pierce, Benjamin (1882). Linear Associative Algebra. Van Nostrand. Digitalizado por University of California Libraries. Págs. 97-229.
+Einstein, Albert (1923). «Geometry and experience», en Sidelights on relativity. P. Dutton., Co.
+Peterson, Ivars. (2001). Mathematical Tourist, New and Updated Snapshots of Modern Mathematics. Owl Books. ISBN 0-8050-7159-8.
+Jourdain, Philip E. B., «The Nature of Mathematics», en The World of Mathematics. Courier Dover Publications. ISBN 0-486-41153-8.
+Waltershausen, Wolfgang Sartorius von (1856, repr. 1965). Gauss zum Gedächtniss. Sändig Reprint Verlag H. R. Wohlwend. ISBN 3-253-01702-8.
+Popper, Karl R. (1995). «On knowledge», en In Search of a Better World: Lectures and Essays from Thirty Years. Routledge. ISBN 0-415-13548-6.
+Ziman, J.M., F.R.S. (1968). Public Knowledge:An essay concerning the social dimension of science. Cambridge University Press.
+Riehm, Carl (August 2002). «The Early History of the Fields Medal», en Notices of the AMS. AMS 49 (7). Págs. 778–782.
+Enlaces externos
+ Wikimedia Commons alberga una categoría multimedia sobre Matemáticas.
+ Wikilibros alberga libros y manuales sobre Matemáticas.
+ Wikcionario tiene definiciones y otra información sobre matemática.
+ Wikinoticias tiene noticias relacionadas con Matemáticas.
+ Wikisource contiene obras originales de o sobre Matemáticas.
+ Wikiquote alberga frases célebres de o sobre Matemáticas.
+
+
+Control de autoridades	
+Wd: Q395
+GND: 4037944-9
+NDL: 00571521
+HDS: 8274
+AAT: 300054522
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

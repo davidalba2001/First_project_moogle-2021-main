@@ -1,0 +1,313 @@
+Núcleo Linux
+Para el sistema operativo libre compuesto principalmente por el núcleo Linux y GNU, véase GNU/Linux.
+Para la versión de Linux que no incluye software privativo, véase Linux-libre.
+Linux Kernel
+Parte de la familia Linux
+
+
+
+
+El núcleo Linux 3.0.0 en proceso de arranque
+Desarrollador
+Linus Torvalds, y la comunidad de colaboradores alrededor del mundo.
+Linux Kernel Archives
+Información general
+Modelo de desarrollo	Desarrollo iterativo, mediante código abierto y colaboración de la comunidad.[1]
+Lanzamiento inicial	25 de agosto de 1991 (26 años, 7 meses y 20 días)[2] (comp.os.minix info)
+Última versión estable	Kernel: 4.15.15 (info)
+31 de marzo de 2018 (14 días)[3]
+Última versión en pruebas	4.16-rc7 (info)
+25 de marzo de 2018 (20 días)[4]
+Escrito en	C, ensamblador[5]
+Núcleo	Monolítico
+Tipo de núcleo	Unix-like
+Plataformas soportadas	DEC Alpha, ARM, AVR32, Blackfin, ETRAX CRIS, FR-V, H8/300, Itanium, M32R, m68k, Microblaze, MIPS, MN103, PA-RISC, PowerPC, s390, S+core, SuperH, SPARC, TILE64, Unicore32, x86, Xtensa
+Licencia	GPL v2
+Estado actual	En Desarrollo
+Idiomas	Inglés
+En español	
+
+ 
+
+Artículos relacionados
+Historia de Linux
+GNU/Linux
+Anexo:Distribuciones GNU/Linux - Distribuciones Linux: Debian GNU/Linux, Ubuntu, Red Hat Enterprise Linux, Slackware, SUSE Linux, etc.
+[editar datos en Wikidata]
+Linux es un núcleo mayormente libre semejante al núcleo de Unix.[6] Linux es uno de los principales ejemplos de software libre y de código abierto.[7] Linux está licenciado bajo la GPL v2 y la mayor parte del software incluido en el paquete que se distribuye en su sitio web es software libre. Está desarrollado por colaboradores de todo el mundo. El desarrollo del día a día tiene lugar en la Linux Kernel Mailing List Archive.
+
+El núcleo Linux fue concebido por el entonces estudiante de ciencias de la computación finlandés Linus Torvalds en 1991.[8] Linux consiguió rápidamente desarrolladores y usuarios que adoptaron códigos de otros proyectos de software libre para usarlos con el nuevo núcleo de sistema.[9] A día de hoy miles de programadores de todo el mundo contribuyen en su desarrollo.[10]
+
+Linux es multiprogramado, dispone de memoria virtual, gestión de memoria, conectividad en red y permite bibliotecas compartidas. Linux es multiplataforma y es portable a cualquier arquitectura siempre y cuando ésta disponga de una versión de GCC compatible.[11]
+
+Núcleo de sistema operativo
+Núcleo
+En el archivo Léeme de Linux se indica que es un clon del sistema operativo Unix. [11] Sin embargo Linux es un núcleo semejante al núcleo de un sistema operativo Unix. De hecho inicialmente se publicó como núcleo semejante a Minix,[6] que a su vez era semejante a Unix pero con una concepción de micronúcleo en vez de monolítica.
+
+Un micronúcleo contiene una funcionalidad mínima en comparación con un núcleo monolítico tradicional.
+
+It's important to realize that these programs are not part of the operating system (...). The operating system is the portion of the software that runs in kernel mode (...). A trend in modern operating systems is to take this idea of moving code up into higher layers even further and remove as much as possible from the operating system, leaving a minimal kernel.
+
+Es importante darse cuenta que estos programas no son parte del sistema operativo (...). El sistema operativo es la porción de software que se ejecuta en modo kernel (...). Una tendencia en sistemas operativos modernos es tomar esta idea de mover código hacia capas más lejanas y eliminar cuanto sea posible del sistema operativo, dejando un kernel mínimo.
+
+Operating Systems Design & Implementation, Tanenbaum y Woodhull. (Refiriéndose a un sistema micronúcleo basado en el modelo cliente-servidor. El autor indica repetidamente que es razonable argumentar que las funciones que pasan a ejecutarse en espacio de usuario siguen siendo parte del sistema operativo).
+Darwin y GNU Hurd tienen núcleos que son una versión de Mach. Minix, sistema operativo en el que se basó inicialmente Linux, también es micronúcleo. Todos ellos tienen en común el traslado de parte de la funcionalidad en espacio privilegiado a espacio de usuario.
+
+Sistema operativo
+ubuntu-minimal
+La instalación mínima de Ubuntu consiste en una serie de software que forma una distribución mínima de GNU/Linux. Todo el software termina dependiendo del entorno de ejecución del proyecto GNU, la biblioteca de C GNU libc.
+La parte de un sistema operativo que se ejecuta sin privilegios o en espacio de usuario es la biblioteca del lenguaje C, que provee el entorno de tiempo de ejecución, y una serie de programas o herramientas que permiten la administración y uso del núcleo y proveer servicios al resto de programas en espacio de usuario, formando junto con el núcleo el sistema operativo.
+
+En un sistema con núcleo monolítico como Linux la biblioteca de lenguaje C consiste en una abstracción de acceso al núcleo. Algunas bibliotecas como la biblioteca de GNU proveen funcionalidad adicional para facilitar la vida del programador y usuario o mejorar el rendimiento de los programas.
+
+En un sistema con micronúcleo la biblioteca de lenguaje C puede gestionar sistemas de archivos o controladores además del acceso al núcleo del sistema.
+
+A los sistemas operativos que llevan Linux se les llama de forma genérica distribuciones Linux. Éstas consisten en una recopilación de software que incluyen el núcleo Linux y el resto de programas necesarios para completar un sistema operativo.[12] Las distribuciones más comunes son de hecho distribuciones GNU/Linux o distribuciones Android. El hecho de que compartan núcleo no significa que sean compatibles entre sí. Una aplicación hecha para GNU/Linux no es compatible con Android sin la labor adicional necesaria para que sea multiplataforma.
+
+Las distribuciones GNU/Linux usan Linux como núcleo junto con el entorno de tiempo de ejecución del Proyecto GNU y una serie de programas y herramientas del mismo que garantizan un sistema funcional mínimo. La mayoría de distribuciones GNU/Linux incluye software adicional como entornos gráficos o navegadores web así como los programas necesarios para permitirse instalar a sí mismas.[12] Los programas de instalación son aportados por el desarrollador de la distribución. Se les conoce como gestores de paquetes. Los creadores de una distribución también se pueden encargar de añadir configuraciones iniciales de los distintos programas incluidos en la distribución.
+
+Las distribuciones Android incluyen el núcleo Linux junto con el entorno de ejecución y herramientas del proyecto AOSP de Google. Cada fabricante de teléfonos dispone de su propia distribución de Android a la cual modifica, elimina o añade programas extra: interfaces gráficas, tiendas de aplicaciones y clientes de correo electrónico son algunos ejemplos de programas susceptibles de ser añadidos, modificados o eliminados. Además de las distribuciones de los fabricantes de teléfonos existen grupos de programadores independientes que también desarrollan distribuciones de Android. LineageOS y Replicant son dos ejemplos de distribuciones Android independientes.
+
+Historia
+
+Notas de publicación de Linux 0.01
+En abril de 1991,[2] Linus Torvalds, de 21 años, empezó a trabajar en unas simples ideas para un núcleo de un sistema operativo. Comenzó intentando obtener un núcleo de sistema operativo gratuito similar a Unix que funcionara con microprocesadores Intel 80386. Para ello tomó como base al sistema Minix (un clon de Unix) e hizo un núcleo monolítico compatible que inicialmente requería software de Minix para funcionar.[6] El 26 de agosto de 1991 Torvalds escribió en el grupo de noticias comp.os.minix:[13]
+
+"Estoy haciendo un sistema operativo (gratuito, sólo un hobby, no será nada grande ni profesional como GNU) para clones AT 386(486). Llevo en ello desde abril y está empezando a estar listo. Me gustaría saber su opinión sobre las cosas que les gustan o disgustan en minix, ya que mi SO tiene algún parecido con él.[...] Actualmente he portado bash(1.08) y gcc(1.40), y parece que las cosas funcionan. Esto implica que tendré algo práctico dentro de unos meses..."
+
+Tras dicho mensaje, muchas personas ayudaron con el código. En septiembre de 1991 se lanzó la versión 0.01 de Linux. Tenía 10.239 líneas de código. En octubre de ese año (1991), salió la versión 0.02 de Linux; luego, en diciembre se lanzó la versión 0.11(1991). Esta versión fue la primera en ser self-hosted (autoalbergada). Es decir, Linux 0.11 podía ser compilado por una computadora que ejecutase Linux 0.11, mientras que las versiones anteriores de Linux se compilaban usando otros sistemas operativos. Cuando lanzó la siguiente versión, Torvalds adoptó la GPL como su propio boceto de licencia, la cual no permite su redistribución con otra licencia que no sea GPL. Antes de este cambio, se impedía el cobro por la distribución del código fuente.
+
+
+La ubicuidad del núcleo Linux
+Se inició un grupo de noticias llamado alt.os.linux y el 19 de enero de 1992 se publicó en ese grupo el primer post. El 31 de marzo, alt.os.linux se convirtió en comp.os.linux. XFree86, una implementación del X Window System, fue portada a Linux, la versión del núcleo 0.95 fue la primera en ser capaz de ejecutarla. Este gran salto de versiones (de 0.1x a 0.9x) fue por la sensación de que una versión 1.0 acabada no parecía estar lejos. Sin embargo, estas previsiones resultaron ser un poco optimistas: desde 1993 hasta principios de 1994 se desarrollaron 15 versiones diferentes de 0.99 (llegando a la versión 0.99r15).
+
+El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código. En marzo de 1995 se lanzó Linux 1.2.0, que ya estaba compuesto de 310.950 líneas de código.
+
+Mayo de 1996: Torvalds decidió adoptar al pingüino Tux como mascota para Linux.
+9 de junio de 1996: se lanzó la versión 2 de Linux, con una recepción positiva.
+25 de enero de 1999: se lanzó Linux 2.2.0 con 1.800.847 líneas de código.
+18 de diciembre de 1999: se publicaron parches de IBM Mainframe para 2.2.13, permitiendo de esta forma que Linux fuera usado en ordenadores corporativos.
+4 de enero de 2001: se lanzó Linux 2.4.0 con 3.377.902 líneas de código.
+17 de diciembre de 2003: se lanzó Linux 2.6.0 con 5.929.913 líneas de código.
+19 de mayo de 2008: La Free Software Foundation publica Linux-libre, una bifurcación de Linux que no incluye en su distribución ningún BLOB privativo, como firmware de dispositivos.
+24 de diciembre de 2008: se lanzó Linux 2.6.28 con 10.195.402 líneas de código.[14]
+20 de octubre de 2010: se lanzó Linux 2.6.36 con 13.499.457 líneas de código.[15]
+30 de mayo de 2011: Linus Torvalds anunció[16] que la versión del núcleo dará el salto a la 3.0 en la siguiente publicación.
+21 de julio de 2011: Torvalds publicó en su perfil en la red social Google+ que el núcleo versión 3.0 estaba listo con la frase "3.0 Pushed Out".[17]
+22 de julio de 2011: fue lanzada la versión 3.0 del núcleo en http://www.kernel.org
+12 de mayo y 13 de mayo de 2012: fueron lanzadas las versiones 3.3.6 y 3.4-rc7 del núcleo en http://www.kernel.org respectivamente.
+2 de febrero de 2015: fue lanzada la versión 3.19.
+12 de abril de 2015: fue lanzada la versión 4.0.
+Su código fuente está disponible para descarga en el sitio web oficial: http://www.kernel.org
+
+Aspectos técnicos
+Linux provee controladores, planificadores, gestores de memoria virtual, sistemas de archivos y protocolos de red como IPv4 e IPv6.[11] Además está disponible para múltiples arquitecturas hardware y está diseñado de manera que se facilite su portabilidad a arquitecturas nuevas.
+
+Arquitectura
+
+Diagrama del núcleo 2.4.0.
+Actualmente Linux es un núcleo monolítico híbrido. Los controladores de dispositivos y las extensiones del núcleo normalmente se ejecutan en un espacio privilegiado conocido como anillo 0 (ring 0), con acceso irrestricto al hardware, aunque algunos se ejecutan en espacio de usuario. A diferencia de los núcleos monolíticos tradicionales, los controladores de dispositivos y las extensiones al núcleo se pueden cargar y descargar fácilmente como módulos, mientras el sistema continúa funcionando sin interrupciones. A diferencia de los núcleos monolíticos tradicionales, los controladores también pueden ser pre-volcados (detenidos momentáneamente por actividades más importantes) bajo ciertas condiciones. Esta habilidad fue agregada para gestionar correctamente interrupciones de hardware y para mejorar el soporte de multiprocesamiento simétrico.
+
+El hecho de que Linux no fuera desarrollado siguiendo el diseño de un micronúcleo (diseño que, en aquella época, era considerado el más apropiado para un núcleo por muchos teóricos informáticos), fue motivo de una famosa y acalorada discusión entre Linus Torvalds y Andrew S. Tanenbaum. [18] [19]
+
+Arquitectura de máquina virtual
+El núcleo Linux puede correr sobre muchas arquitecturas de máquina virtual, tanto como host del sistema operativo o como cliente. La máquina virtual usualmente emula la familia de procesadores Intel x86, aunque en algunos casos también son emulados procesadores de PowerPC o ARM.
+
+Depuración
+Para verificar el correcto funcionamiento del núcleo éste provee la posibilidad de compilarse contra la arquitectura ficticia bajo «User Mode Linux» (UML). Compilando Linux para UML el núcleo pasa a ejecutarse como un proceso más de usuario corriendo sobre el núcleo Linux del sistema anfitrión. También puede servir como virtualización o para aislar procesos, entre otros usos.
+
+Formatos binarios soportados
+Linux 1.0 admitía sólo el formato binario a.out. La siguiente serie estable (Linux 1.2) agregó la utilización del formato ELF, el cual simplifica la creación de bibliotecas compartidas (usadas de forma extensa por los actuales ambientes de escritorio como GNOME y KDE). ELF es el formato usado de forma predeterminada por el GCC desde alrededor de la versión 2.6.0. El formato a.out actualmente no es usado, convirtiendo a ELF en el formato binario utilizado por Linux en la actualidad.
+
+Linux tiene la capacidad de permitir al usuario añadir el manejo de otros formatos binarios. También binfmt_misc permite correr el programa asociado a un archivo de datos.
+
+Jerarquía de directorios
+En Linux existe un sistema de archivos que carga y contiene todos los directorios, redes, programas, particiones, dispositivos, etc. que el sistema sabe reconocer, o por lo menos, identificar. Este sistema de ficheros y directorios, tiene como base al carácter (/); ese mismo carácter sirve también para demarcar los directorios, como por ejemplo: "/home/usuario/imagen.jpg". El directorio especificado por una ruta consistente sólo por este carácter contiene toda la jerarquía de los directorios que constituyen todo el sistema. A este directorio suele llamárselo directorio raíz. En Linux, a los discos no se les asigna una letra como en Windows (p.e. "C:"), sino que se les asigna un directorio de la jerarquía del directorio raíz (/), como por ejemplo: "/media/floppy". Es práctica común en el sistema de ficheros de Linux, utilizar varias sub-jerarquías de directorios, según las diferentes funciones y estilos de utilización de los archivos.[20] Estos directorios pueden clasificarse en:
+
+Estáticos: Contiene archivos que no cambian sin la intervención del administrador (root), sin embargo, pueden ser leídos por cualquier otro usuario. (/bin, /sbin, /opt, /boot, /usr/bin...)
+Dinámicos: Contiene archivos que son cambiantes, y pueden leerse y escribirse (algunos solo por su respectivo usuario y el root). Contienen configuraciones, documentos, etc. Para estos directorios, es recomendable una copia de seguridad con frecuencia, o mejor aún, deberían ser montados en una partición aparte en el mismo disco, como por ejemplo, montar el directorio /home en otra partición del mismo disco, independiente de la partición principal del sistema; de esta forma, puede repararse el sistema sin afectar o borrar los documentos de los usuarios. (/var/mail, /var/spool, /var/run, /var/lock, /home...)
+Compartidos: Contiene archivos que se pueden encontrar en un ordenador y utilizarse en otro, o incluso compartirse entre usuarios.
+Restringidos: Contiene ficheros que no se pueden compartir, solo son modificables por el administrador. (/etc, /boot, /var/run, /var/lock...)
+Kernel panic
+
+Kernel panic.
+En Linux, un panic es un error casi siempre insalvable del sistema detectado por el núcleo en oposición a los errores similares detectados en el código del espacio de usuario. Es posible para el código del núcleo indicar estas condiciones mediante una llamada a la función de pánico situada en el archivo header sys/systm.h. Sin embargo, la mayoría de las alertas son el resultado de excepciones en el código del núcleo que el procesador no puede manejar, como referencias a direcciones de memorias inválidas. Generalmente esto es indicador de la existencia de un bug en algún lugar de la cadena de alerta. También pueden indicar un fallo en el hardware como un fallo de la RAM o errores en las funciones aritméticas en el procesador, o por un error en el software. En muchas ocasiones es posible reiniciar o apagar adecuadamente el núcleo mediante una combinación de teclas como ALT+SysRq+REISUB.
+
+Lenguajes de programación
+Linux está escrito en el lenguaje de programación C, en la variante utilizada por el compilador GCC (que ha introducido un número de extensiones y cambios al C estándar), junto a unas pequeñas secciones de código escritas con el lenguaje ensamblador. Por el uso de sus extensiones al lenguaje, GCC fue durante mucho tiempo el único compilador capaz de construir correctamente Linux. Sin embargo, Intel afirmó haber modificado su compilador C de forma que permitiera compilarlo correctamente.
+
+Asimismo se usan muchos otros lenguajes en alguna forma, básicamente en la conexión con el proceso de construcción del núcleo (el método a través del cual las imágenes arrancables son creadas desde el código fuente). Estos incluyen a Perl, Python y varios lenguajes shell scripting. Algunos drivers también pueden ser escritos en C++, Fortran, u otros lenguajes, pero esto no es aconsejable. El sistema de construcción de Linux oficialmente solo soporta GCC como núcleo y compilador de controlador.
+
+Portabilidad
+
+iPod ejecutando un núcleo Linux.
+Aún cuando Linus Torvalds no ideó originalmente Linux como un núcleo portable, ha evolucionado en esa dirección. Linux es ahora de hecho, uno de los núcleos más ampliamente portados, y funciona en sistemas muy diversos que van desde iPAQ (una handheld) hasta un zSeries (un mainframe masivo). Linux se ha convertido en el sistema operativo principal de las supercomputadoras de IBM, Blue Gene, lo cual ha reducido los costos e incrementado considerablemente el rendimiento.[21]
+
+De todos modos, es importante notar que los esfuerzos de Torvalds también estaban dirigidos a un tipo diferente de portabilidad. Según su punto de vista, la portabilidad es la habilidad de compilar fácilmente en un sistema aplicaciones de los orígenes más diversos; así, la popularidad original de Linux se debió en parte al poco esfuerzo necesario para tener funcionando las aplicaciones favoritas de todos, ya sean software libre o de código abierto.
+
+Las arquitecturas principales soportadas por Linux son DEC Alpha, ARM, AVR32, Blackfin, ETRAX CRIS, FR-V, H8, IA64, M32R, m68k, MicroBlaze, MIPS, MN10300, PA-RISC, PowerPC, System/390, SuperH, SPARC, x86, x86 64 y Xtensa[22]
+
+Linux dispone de una arquitectura ficticia llamada «UserMode Linux» (UML). Esta arquitectura permite ejecutar Linux como un proceso más en espacio de usuario. Los procesos ejecutados bajo UML tienen la visión de una máquina propia disponible para ellos.
+
+Seguridad
+Dispone de una interfaz para crear módulos de seguridad llamada Linux Security Module. Con esta interfaz se pueden crear módulos para aplicar control de acceso obligatorio (MAC, Mandatory Access Control).[23]
+
+Versiones
+
+Infografía del Núcleo Linux
+
+Más allá de haber desarrollado su propio código y de integrar los cambios realizados por otros programas, Linus Torvalds continua lanzando nuevas versiones del núcleo Linux. Estos son llamados núcleos “vanilla”, lo que significa que no han sido modificados por nadie.
+
+Numeración
+La versión del núcleo Linux original constaba de cuatro números. Por ejemplo, asumamos que el número de la versión está compuesta de esta forma: A.B.C[.D] (ej.: 2.2.1, 2.4.13 ó 2.6.12.3).
+
+El número A denota la versión del núcleo. Es el que cambia con menor frecuencia y solo lo hace cuando se produce un gran cambio en el código o en el concepto del núcleo. Históricamente sólo ha sido modificado cuatro veces: en 1994 (versión 1.0), en 1996 (versión 2.0), en 2011 (versión 3.0) y en 2015 (versión 4.0).
+El número B denota la subversión del núcleo.
+Antes de la serie de Linux 2.6.x, los números pares indicaban la versión “estable” lanzada. Por ejemplo una para uso en producción, como el 1.2, 2.4 ó 2.6. Los números impares, en cambio, como la serie 2.5.x, son versiones de desarrollo, es decir que no son consideradas de producción.
+Comenzando con la serie Linux 2.6.x, no hay gran diferencia entre los números pares o impares con respecto a las nuevas herramientas desarrolladas en la misma serie del núcleo. Linus Torvalds dictaminó que este será el modelo en el futuro.
+El número C indica una revisión mayor en el núcleo. En la forma anterior de versiones con tres números, esto fue cambiado cuando se implementaron en el núcleo los parches de seguridad, bugfixes, nuevas características o drivers. Con la nueva política, solo es cambiado cuando se introducen nuevos drivers o características; cambios menores se reflejan en el número D.
+El número D se produjo cuando un grave error, que requiere de un arreglo inmediato, se encontró en el código NFS de la versión 2.6.8. Sin embargo, no había otros cambios como para lanzar una nueva revisión (la cual hubiera sido 2.6.9). Entonces se lanzó la versión 2.6.8.1, con el error arreglado como único cambio. Con 2.6.11, esto fue adoptado como la nueva política de versiones. Bug-fixes y parches de seguridad son actualmente manejados por el cuarto número dejando los cambios mayores para el número C.
+También, algunas veces luego de las versiones puede haber algunas letras como “rc1” o “mm2”. El “rc” se refiere a release candidate e indica un lanzamiento no oficial. Otras letras usualmente (pero no siempre) hacen referencia a las iniciales de la persona. Esto indica una bifurcación en el desarrollo del núcleo realizado por esa persona, por ejemplo ck se refiere a Con Kolivas, ac a Alan Cox, mientras que mm se refiere a Andrew Morton.
+
+El modelo de desarrollo para Linux 2.6 fue un cambio significativo desde el modelo de desarrollo de Linux 2.5. Previamente existía una rama estable (2.4) donde se habían producido cambios menores y seguros, y una rama inestable (2.5) donde estaban permitidos cambios mayores. Esto significó que los usuarios siempre tenían una versión 2.4 a prueba de fallos y con lo último en seguridad y casi libre de errores, aunque tuvieran que esperar por las características de la rama 2.5. La rama 2.5 fue eventualmente declarada estable y renombrada como 2.6. Pero en vez de abrir una rama 2.7 inestable, los desarrolladores de núcleos eligieron continuar agregando los cambios en la rama “estable” 2.6. De esta forma no había que seguir manteniendo una rama vieja pero estable y se podía hacer que las nuevas características estuvieran rápidamente disponibles y se pudieran realizar más pruebas con el último código.
+
+Sin embargo, el modelo de desarrollo del nuevo 2.6 también significó que no había una rama estable para aquellos que esperaban seguridad y bug fixes sin necesitar las últimas características. Los arreglos solo estaban en la última versión, así que si un usuario quería una versión con todos los bug fixed conocidos también tendría las últimas características, las cuales no habían sido bien probadas. Una solución parcial para esto fue la versión ya mencionada de cuatro números (y en 2.6.x.y), la cual significaba lanzamientos puntuales creados por el equipo estable (Greg Kroah-Hartman, Chris Wright, y quizás otros). El equipo estable solo lanzaba actualizaciones para el núcleo más reciente, sin embargo esto no solucionó el problema del faltante de una serie estable de núcleo. Distribuidores de Linux, como Red Hat y Debian, mantienen los núcleos que salen con sus lanzamientos, de forma que una solución para algunas personas es seguir el núcleo de una distribución.
+
+Como respuesta a la falta de un núcleo estable y de gente que coordinara la colección de corrección de errores, en diciembre de 2005 Adrian Bunk anunció que continuaría lanzando núcleos 2.6.16 aun cuando el equipo estable lanzara 2.6.17. Además pensó en incluir actualizaciones de controladores, haciendo que el mantenimiento de la serie 2.6.16 sea muy parecido a las viejas reglas de mantenimiento para las serie estables como 2.4. El núcleo 2.6.16 será reemplazado próximamente por el 2.6.27 como núcleo estable en mantenimiento durante varios años.
+
+Dado el nuevo modelo de desarrollo, que mantiene fija la subversión de 2.6, tras durante el Linux Kernel Summit de ese año, Linus Torvalds decidió modificar el sistema de numeración, sustituyendo los dos primeros números por una única cifra, de forma que Linux 2.6.39 fue seguida por Linux 3.0 [24]
+
+Fechas de publicación
+Versión	Fecha[25]	Nota	Ficheros[26]	LoC[27]	MiB	MiB (bz2)
+0.01	17 de septiembre de 1991	Initial Public Release	88	8.413	0,267	0,06
+0.02	5 de octubre de 1991		-	-	-	-
+0.11	8 de diciembre de 1991		100	11.907	0,363	0,076
+0.95	7 de marzo de 1992		122	19.200	0,533	0,111
+1.0.0	13 de marzo de 1994	Primera versión estable	561	170.581	4,633	0,969
+1.1.0	6 de abril de 1994	Versión de desarrollo	561	170.320	-	-
+1.2.0	6 de marzo de 1995		909	294.623	-	-
+1.3.0	12 de junio de 1995	Versión de desarrollo	992	323.581	-	-
+2.0.0	9 de junio de 1996		2.015	716.119	21,7	4,499
+2.1.0	30 de septiembre de 1996	Versión de desarrollo	1.727	735.736	-	-
+2.2.0	26 de enero de 1999		4.599	1.676.182	-	-
+2.3.0	11 de mayo de 1999	Versión de desarrollo	4.721	1.763.358	-	-
+2.4.0	4 de enero de 2001		8.187	3.158.560	96,8	18,79
+2.5.0	23 de noviembre de 2001	Versión de desarrollo	9.893	3.833.603	-	-
+2.6.0	18 de diciembre de 2003		15.007	5.475.685	170,7	31,7
+2.6.25	16 de abril de 2008		23.810	8.396.250	258,8	46,4
+2.6.30	10 de junio de 2009		27.878	10.419.567	322,3	56,7
+2.6.35	1 de agosto de 2010		33.315	12.250.679	376,2	66,1
+3.0	22 de julio de 2011		36.782	13.688.408	410,8	73,2
+3.0	27 de julio de 2012		37.792	19.688.408	460,8	73,2
+3.18.7	11 de febrero de 2015	Versión estable	-	-	-	77,2
+3.19	2 de febrero de 2016		-	-	-	77,9
+Top 8 desarrolladores
+Posición	2012[28]	2013[29]
+1	Red Hat	Google
+2	IBM	Linaro
+3	Texas Instruments	SUSE
+4	Broadcom	IBM
+5	Nokia	Samsung
+6	Samsung	Red Hat
+7	Oracle	Vision Engraving Systems Consultants
+8	Google	Wolfson Microelectronics
+Línea de tiempo de Linux
+
+Distribuciones
+
+Sharp Zaurus, un computador de bolsillo con Linux.
+Una distribución Linux es un conjunto de software acompañado del núcleo Linux que se enfoca a satisfacer las necesidades de un grupo específico de usuarios. De este modo hay distribuciones para hogares, empresas y servidores.
+
+Las distribuciones son ensambladas por individuos, empresas u otros organismos. Cada distribución puede incluir cualquier número de software adicional, incluyendo software que facilite la instalación del sistema. La base del software incluido con cada distribución incluye el núcleo Linux, en la mayoría de los casos las herramientas GNU, al que suelen añadirse también multitud de paquetes de software.
+
+Las herramientas que suelen incluirse en la distribución de este sistema operativo se obtienen de diversas fuentes, y en especial de proyectos de software libre, como: GNU, GNOME (creado por GNU) y KDE. También se incluyen utilidades de otros proyectos como Mozilla, Perl, Ruby, Python, PostgreSQL, MySQL, Xorg, casi todas con licencia GPL o compatibles con ésta (LGPL, MPL).
+
+Usualmente se utiliza la plataforma X.Org Server, basada en la antigua XFree86, para sostener la interfaz gráfica.
+
+Linux-libre
+Linux es mayormente software libre tal y como se distribuye desde su web y repositorio Git. Sin embargo hay fragmentos de código privativo que son empleados para hacer funcionar los dispositivos de un computador. Por ello Linux no ha podido ser integrado como un paquete de GNU. La Fundación del Software de América Latina decidió crear y mantener una bifurcación completamente libre llamada Linux-libre. Esta versión de Linux no incluye ningún complemento de código cerrado ni funciones ofuscadas que integran binarios en su código. La inclusión de estos binarios en el código de Linux no incumple la licencia GPL Versión 2 que usa Linux. Dicha licencia fue actualizada para evitar este tipo de uso privativo de la licencia, parecido a lo que ocurre con los dispositivos TiVo. La nueva licencia es la GPL Versión 3.[30]
+
+Copyright
+Inicialmente, Torvalds distribuyó Linux bajo los términos de una licencia que prohibía la explotación comercial. Pero esta licencia fue reemplazada, poco tiempo después, por la GNU GPL (versión 2 exclusivamente). Los términos de esta última licencia permiten la distribución y venta de copias o incluso modificaciones, pero requiere que todas las copias del trabajo original y trabajos de autoría derivados del original sean publicados bajo los mismos términos, y que el código fuente siempre pueda obtenerse por el mismo medio que el programa licenciado.
+
+Torvalds se ha referido a haber licenciado Linux bajo la GPL como "la mejor cosa que he hecho" (en inglés, "the best thing I ever did").[31]
+
+Sin embargo, la versión oficial del núcleo Linux contiene firmware de código cerrado[cita requerida], por ello, el Proyecto Linux-libre, auspiciado por la FSFLA, publica y mantiene versiones modificadas del núcleo Linux a las que se les ha quitado todo el software no libre.
+
+Marca
+A día de hoy, Linux es una marca registrada de Linus Torvalds en los Estados Unidos.[32]
+
+Hasta 1994 nadie registró la marca Linux en Estados Unidos. El 15 de agosto de 1994 cuando William R. Della Croce, Jr. registró la marca Linux, pidió el pago de regalías a los distribuidores de Linux. En 1996, Torvalds y algunas organizaciones afectadas denunciaron a Della Croce y en 1997 el caso se cerró y la marca fue asignada a Torvalds.[33]
+
+Desde entonces, el Linux Mark Institute gestiona la marca. En 2005 el LMI envió algunas cartas a empresas distribuidoras de Linux exigiendo el pago de una cuota por el uso comercial del nombre. Esto es así porque la legislación estadounidense exige que el dueño de una marca la defienda, por lo que se tuvo que pedir dinero por usar la marca Linux, algunas compañías de forma totalmente voluntaria han cumplido con dicha exigencia, a sabiendas de que dicho dinero se iba a usar para caridad o defender la marca Linux.[34]
+
+Críticas
+Soporte de hardware
+El núcleo Linux ha sido criticado con frecuencia por falta de controladores para cierto hardware de computadoras de escritorio. Sin embargo, el progresivo incremento en la adopción de Linux en el escritorio ha mejorado el soporte de hardware por parte de terceros o de los propios fabricantes, provocando que, en los últimos años, los problemas de compatibilidad se reduzcan.
+
+Empresas como IBM, Intel Corporation, Hewlett-Packard, Dell o MIPS Technologies[35] tienen programadores en el equipo de desarrolladores del núcleo Linux que se encargan de mantener los controladores para el hardware que fabrican. Este grupo de programadores también se le suman los que provee grandes distribuidores de soluciones Linux como Novell o Red Hat.
+
+Arquitectura monolítica
+Andy Tanenbaum escribió el 29 de enero de 1992:
+
+...Linux es un sistema monolítico. Esto es retroceder un paso gigante hacia la década de 1970. Es como tomar un programa existente escrito en C y reescribirlo en BASIC. Para mí, escribir un sistema monolítico en 1991 es verdaderamente una idea pobre.[36]
+
+Véase también
+ Portal:Linux. Contenido relacionado con Linux.
+ Portal:Software Libre. Contenido relacionado con Software Libre.
+Historia de Linux
+Disputas de SCO sobre Linux
+Glibc
+GNU/Linux
+GNU GRUB
+Llamada al sistema
+LinuxDNA
+Linux-libre
+Linux From Scratch
+Proceso de arranque en Linux
+Shell (informática)
+Qlinux
+Referencias
+↑ LMKL.ORG - the Linux Kernel Mailing List Archive, Sitio Oficial de Linux Kernel Mailing List.
+1 2 «Sobre Linux». Linux.org. Consultado el 19 de julio de 2012.
+↑ «Linux 4.15.1 [LWN.net]». lwn.net. Consultado el 7 de febrero de 2018.
+↑ «LKML: Linus Torvalds: *Not* final 4.15 this weekend». lkml.org. Consultado el 7 de febrero de 2018.
+↑ «The linux-kernel mailing list FAQ: Why is the Linux kernel written in C/assembly?». Tux.Org (en inglés). Consultado el 22 de mayo de 2013.
+1 2 3 Linus Torvalds (1991). «Notes for linux release 0.01» (en inglés). Consultado el 11 de junio de 2017.
+↑ Linus Torvalds (25 de septiembre de 2006). «Re: GPLv3 Position Statement» (en inglés). Consultado el 22 de mayo de 2013.
+↑ Marjorie Richardson (1 de noviembre de 1999). «Interview: Linus Torvalds». Linux Journal (en inglés). Consultado el 20 de agosto de 2009.
+↑ «Free as in Freedom by Sam Williams. O'Reilly books, 2002». Oreilly.com. Consultado el 12 de noviembre de 2010.
+↑ Greg Kroah-Hartman (abril de 2008). «Linux Kernel Development: How Fast it is Going, Who is Doing It, What They are Doing, and Who is Sponsoring It» (en inglés). «Since 2005, over 3700 individual developers from over 200 different companies have contributed to the kernel.»
+1 2 3 Linus Torvalds (11 de junio de 2017). «Linux kernel release 4.x <http://kernel.org/>» (en inglés). Consultado el 13 de junio de 2017.
+1 2 Linux Journal, ed. (1 de octubre de 1994). «Overview Of The Debian GNU/Linux System» (en inglés). Consultado el 11 de junio de 2017.
+↑ Linus Torvalds (25-08-1991) Message from discussion What would you like to see most in minix? Newsgroups: comp.os.minix, Google Groups (en inglés).
+↑ "Linux Kernel Data 2.6.28."
+↑ "Linux Kernel Data 2.6.36."
+↑ Linus Torvalds (30 de mayo de 2011). «Linux 3.0-rc1». Consultado el 30 de mayo de 2011.
+↑ Linus Torvalds (21 de julio de 2011). «Linux 3 Pushed Out - Linus Torvalds Google Plus Profile». Consultado el 27 de julio de 2011.
+↑ GNU/Linux Kernel Híbrido (en español)
+↑ Resumen de la afamada discusión entre Linus Torvalds y Andrew Tanenbaum (en inglés)
+↑ Organización de los directorios en Linux
+↑ «IBM100 - Blue Gene - Technical Breakthroughs» (en inglés). Consultado el 22 de diciembre de 2016.
+↑ /pub/scm / linux/kernel/git/torvalds/linux-2.6.git / tree
+↑ «Linux Security Module Usage — The Linux Kernel documentation». www.kernel.org (en inglés). Consultado el 26 de octubre de 2017.
+↑ 29 de mayo de 2011, anuncio de Linux 3.0-rc1.
+↑ Fechas de publicación de Linux
+↑ Contados con "find -type f | wc -l"
+↑ Lines of Code (Líneas de código), contados con "find -name *.[hcS] | xargs cat | wc -l"
+↑ http://www.linuxfoundation.org/news-media/announcements/2012/04/linux-foundation-releases-annual-linux-development-report The Linux Foundation Releases Annual Linux Development Report
+↑ The Linux Foundation Releases Annual Linux Development Report
+↑ The Linux Information Project (LINFO) (8 de enero de 2007). «The dangers of tivoization and the GPLv3» (en inglés). Consultado el 12 de junio de 2017.
+↑ Yamagata, Hiroo (11 de noviembre de 1997). «The Pragmatist of Free Software: Linus Torvalds Interview». Archivado desde el original el 26 de diciembre de 2007. Consultado el 30 de octubre de 2011.
+↑ «Registro en Estados Unidos No: 1916230». Oficina de Patentes y Marcas Comerciales de Estados Unidos. Consultado el 30 de octubre de 2011.
+↑ «Linux Timeline». Linux Journal. 31 de mayo de 2006.
+↑ «Linus gets tough on Linux trademark». 5 de septiembre de 2005. Consultado el 11 de junio de 2017.
+↑ «Who writes Linux». Agosto de 2009.
+↑ A. S. Tanenbaum (29 de enero de 1992), «LINUX is obsolete», http://groups.google.com/group/comp.os.minix/browse_thread/thread/c25870d7a41696d2/f447530d082cd95d?tvc=2, consultado el 30 de octubre de 2011.
+Enlaces externos
+ Wikimedia Commons alberga una galería multimedia sobre Núcleo Linux.
+Sitio web oficial de Linux
+Código fuente completo de varias versiones de Linux
+Kernel Newbies
+Noticias y guías para actualizar o cambiar de Kernel
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

@@ -1,0 +1,67 @@
+Motor de búsqueda
+Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su spider (también llamado araña web).[1] Un ejemplo son los buscadores de Internet (algunos buscan únicamente en la web, pero otros lo hacen además en noticias, servicios como Gopher, FTP, etc.) cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas.
+
+Como operan de forma automática, los motores de búsqueda contienen generalmente más información que los directorios. Sin embargo, estos últimos también han de construirse a partir de búsquedas (no automatizadas) o bien a partir de avisos dados por los creadores de páginas.
+
+Clasificación
+Se pueden clasificar en tres tipos
+
+Buscadores jerárquicos interfaces de interrogación textual contra bases de datos de representaciones de páginas web, creadas según un modelo vectorial.
+Directorios directorios de enlaces a páginas (agrupando sus enlaces por categorías) que ofrecen motores de búsqueda interna.
+Metabuscadores interfaces de reenvío de búsqueda a múltiples buscadores.
+Clases de buscadores
+Buscadores jerárquicos (arañas o spiders)
+Las arañas (también llamadas spiders) de los motores de búsqueda, recorren las páginas recopilando información sobre los contenidos de las páginas. Cuando se busca una información concreta en los buscadores, ellos consultan su base de datos y presentan resultados clasificados por su relevancia para esa búsqueda concreta. Los buscadores pueden almacenar en sus bases de datos desde la página de entrada de cada web, hasta todas las páginas que residan en el servidor, una vez que las arañas (spiders) las hayan reconocido e indexado.
+Si se busca una palabra (por ejemplo “ordenadores”), en los resultados que ofrecerá el motor de búsqueda aparecerán páginas que contengan esta palabra en alguna parte de su texto de contenido.
+Si consideran que un sitio web es importante para el usuario, tienden a registrar todas sus páginas. Si no la consideran importante, no se almacenan todas.
+Cada cierto tiempo, los motores revisan los sitios web, para actualizar los contenidos de su base de datos, por tanto puede que los resultados de la búsqueda estén desactualizados.
+Los buscadores jerárquicos tienen una colección de programas simples y potentes con diferentes cometidos. Se suelen dividir en tres partes. Los programas que exploran la red -arañas (spiders)-, los que construyen la base de datos y los que utiliza el usuario, el programa que explota la base de datos.
+Si se paga, se puede aparecer en las primeras posiciones de resultados, aunque los principales buscadores delimitan estos resultados e indican al usuario que se trata de anuncios (resultados esponsorizados o patrocinados). Hasta el momento, aparentemente, esta forma de publicidad es indicada explícitamente. Los buscadores jerárquicos se han visto obligados a comercializar este tipo de publicidad para poder seguir ofreciendo a los usuarios el servicio de forma gratuita.
+Directorios
+Una tecnología muy simple por gran cantidad de scripts disponibles, ya que no se requieren muchos recursos. En cambio, se requiere más soporte humano y mantenimiento.[2]
+
+Los algoritmos son mucho más sencillos, presentando la información sobre los sitios registrados como una colección de enlaces. No recorren los sitios web ni almacenan sus contenidos. Solo registran algunos de los datos de la página web, como el título y la descripción que se introduzcan en el momento de registrar el sitio en el directorio.
+Los resultados de la búsqueda estarán determinados por la información que se haya suministrado al directorio cuando se registra el sitio. En cambio, a diferencia de los motores, son revisadas por operadores humanos, y clasificadas según categorías, de forma que es más fácil encontrar las páginas buscadas.
+Más que buscar información sobre contenidos de la página, los resultados serán presentados haciendo referencia a los contenidos y temática del sitio.
+Su tecnología es muy barata y sencilla.
+Como inconveniente cabe resaltar que los resultados están ordenados por temática, o por fecha de publicación, pero no por relevancia o concordancia con una búsqueda concreta del usuario.
+Ejemplos de directorios son Open Directory Project, y los antiguos Yahoo! y Terra (antes Olé). estos directorios utilizaban una organización jerárquica de la información.
+
+Los multibuscadores se limitan a colocar en una página web una lista con los buscadores más comunes y con una ventana de texto para poder enviar la cadena de búsqueda introducida por el usuario a cada uno de ellos. También pueden enviar la cadena de búsqueda a una serie de motores de búsqueda e índices temáticos previamente definidos. Una vez realizada la consulta a los buscadores prefijados, el multibuscador devolverá la información de todos los enlaces encontrados. Con la utilización de multibuscadores, el usuario se evita tener que ir de buscador en buscador hasta encontrar la información deseada. El usuario elige los buscadores que quiere utilizar y desde allí realiza su consulta que ofrecerá las respuestas buscador por buscador. La única ventaja es la posibilidad de consultar un gran número de buscadores partiendo de una única página. La exhaustividad primará sobre la precisión, ya que el usuario encontrará un gran número de enlaces y muchas páginas repetidas.
+
+Metabuscadores
+Permite lanzar varias búsquedas en motores seleccionados respetando el formato original de los buscadores. Lo que hacen es realizar búsquedas en auténticos buscadores, analizan los resultados de la página y presentan sus propios resultados, según un orden definido por el sistema estructural del metabuscador.
+
+Los metabuscadores también permiten buscar en varios buscadores al mismo tiempo. Los metabuscadores no almacenan las descripciones de páginas en sus bases de datos, sino que contienen los registros de los motores de búsqueda y la información sobre ellos, adecuando su expresión a los diferentes motores para remitir la consulta a los motores. Una vez que reciben la respuesta, la remiten al usuario no directamente, sino tras realizar un filtrado de los resultados. Este filtrado consiste en eliminar y depurar los enlaces repetidos y en ordenar los enlaces. Además, sólo aparecerá un número limitado de enlaces, los que se consideren más importantes. Los más repetidos ocuparán los primeros puestos ya que el metabuscador considerará que son los más relevantes por estar dados de alta en mayor número de buscadores. Se trata de herramientas muy útiles, el único problema es que, por lo general, no permiten realizar búsquedas tan avanzadas como en un motor de búsqueda, con lo que las consultas tienen que ser generales y no se puede buscar en profundidad.
+
+En otras palabras para aludir al concepto más genérico de un buscador, podemos afirmar que un metabuscador es el buscador que incorpora un conjunto de buscadores. Algunos ejemplos de metabuscadores son Dogpile, Aleyares[3][4] Metacrawler, entre otros. Estos metabuscadores presentan ventajas, como ampliar el espacio de búsqueda y en algunos casos mostrar la posición de la web.[5]
+
+Buscadores verticales
+Los buscadores verticales o motores que no son de búsqueda temáticos son buscadores especializados en un sector concreto, lo que les permite analizar la información con mayor profundidad, disponer de resultados más actualizados y ofrecer al usuario herramientas de búsqueda avanzadas. Es importante resaltar que utilizan índices especializados, para de este modo, acceder a la información de una manera más específica y fácil. Algunos ejemplos de estos buscadores son Nestoria, Wolfram Alpha. Existen distintos tipos de estos buscadores, algunos están especializados en una rama de una ciencia, y algunos abarcan todo tipo de materias. También hay motores de búsqueda que solo ofrecen resultados sobre música, ropa u otras temáticas.
+
+Historia
+El primer buscador fue Wandex, un índice realizado por el World Wide Web Wanderer, un robot desarrollado por Mattew Gray en el MIT, en 1993. Otro de los primeros buscadores, Aliweb, también apareció en 1993 y todavía está en funcionamiento. El primer motor de búsqueda de texto completo fue WebCrawler, que apareció en 1994. A diferencia de sus predecesores, éste permitía a sus usuarios una búsqueda por palabras en cualquier página web, lo que llegó a ser un estándar para la gran mayoría de los buscadores. WebCrawler fue asimismo el primero en darse a conocer ampliamente entre el público. También apareció en 1994 Lycos (que comenzó en la Carnegie Mellon University).
+
+Muy pronto aparecieron muchos más buscadores, como Excite, Infoseek, Inktomi, Northern Light y Altavista. De algún modo, competían con directorios (o índices temáticos) populares tales como Yahoo!. Más tarde, los directorios se integraron o se añadieron a la tecnología de los buscadores para aumentar su funcionalidad.
+
+Antes del advenimiento de la Web, había motores de búsqueda para otros protocolos o usos, como el buscador Archie, para sitios FTP anónimos y el motor de búsqueda Verónica, para el protocolo Gopher.
+
+En 1996 Larry Page y Sergey Brin comenzaron un proyecto que llevaría a la aparición del buscador más utilizado hoy en día Google. El proyecto inicial se llamó BackRub,[6] que era el nombre de la tecnología utilizada para su desarrollo.
+
+BackRub basaba la importancia de los sitios web en la cantidad de enlaces que recibía. Presentaba una interfaz muy sencilla y capaz de mostrar al usuario los resultados más relevantes para cada una de los búsquedas.
+
+Con la llegada de Google, el modo en que los motores de búsqueda funcionaban cambió de forma radical, democratizando los resultados que se ofrecen en su buscador. Google basó el funcionamiento de su motor de búsqueda en la relevancia de los contenidos de cada sitio web para los propios usuarios, es decir, priorizando aquellos resultados que los usuarios consideraban más relevantes para una temática concreta. Para ello patentó su famoso PageRank, un conjunto de algoritmos que valoraban la relevancia de un sitio web asignándole un valor numérico del 0 al 10.
+
+Véase también
+AnexoMotores de búsqueda
+Penalización en motores de búsqueda
+Referencias
+↑ Tramullas, Jesús; Olvera-Lobo, Mª Dolores (2001). Recuperación de la información en Internet. Madrid Ra-Ma. ISBN 9788478974580.
+↑ Tramullas, Jesús; Navarro Bonilla, Diego (2005). «Directorios temáticos especializados definición, características y perspectivas de desarrollo». Revista Española de Documentación Científica, 28, 1, pp. 49-61.
+↑ López Curiel, Raúl (2014). ADP Asociación para el desarrollo del profesorado, ed. Las TIC en el aula de Tecnología. Guía para su aplicación a la metodología.. España LULU. p. 72. ISBN 9781291609295. Consultado el 24 de enero de 2016.
+↑ Perrone, Graciela (2012). «2». En conectar igualdad. El bibliotecario escolar en el modelo 1 a 1. Serie para la enseñanza en el modelo 1 a 1. Argentina Educar S.E. p. 36. ISBN 9789871433995. Consultado el 24 de enero de 2016.
+↑ Vargas Osorno, Teresa Genoveva (2015). «Bancos de datos jurídicos. Pasado, presente y futuro.». TESIS DOCTORAL (UNIVERSIDAD COMPLUTENSE DE MADRID) 158.
+↑ Social 4U. «Historia de los motores de búsqueda. Los inicios de Google». Consultado el 10 de noviembre de 2016.
+Enlaces externos
+ Wikimedia Commons alberga una categoría multimedia sobre Motor de búsqueda.
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

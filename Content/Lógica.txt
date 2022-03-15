@@ -1,0 +1,282 @@
+Lógica
+La lógica es la ciencia formal que estudia los principios de la demostración y la inferencia válida.[1] La palabra «lógica» deriva del griego antiguo λογική logikḗ, que significa «dotado de razón, intelectual, dialéctico, argumentativo», que a su vez viene de λόγος (lógos), «palabra, pensamiento, idea, argumento, razón o principio».
+
+Así como el objeto de estudio tradicional de la química es la materia, y el de la biología la vida, el de la lógica es la inferencia. La inferencia es el proceso por el cual se derivan conclusiones a partir de premisas.[2] La lógica investiga los fundamentos por los cuales algunas inferencias son aceptables, y otras no. Cuando una inferencia es aceptable, lo es por su estructura lógica, y no por el contenido específico del argumento o el lenguaje utilizado. Por esta razón la lógica se considera una ciencia formal, como la matemática, en vez de una ciencia empírica.
+
+Tradicionalmente se distinguen tres clases de inferencias: las deducciones, las inducciones y las abducciones, aunque a veces se cuenta a la abducción como un caso especial de inducción.[3] La validez o no de las inducciones es asunto de la lógica inductiva y del problema de la inducción. Las deducciones, en cambio, son estudiadas por la mayor parte de la lógica contemporánea. En un argumento deductivamente válido, la conclusión es una consecuencia lógica de las premisas.[4] El concepto de consecuencia lógica es, por lo tanto, un concepto central a la lógica.[4] Para estudiarlo, la lógica construye sistemas formales que capturan los factores relevantes de las deducciones como aparecen en el lenguaje natural.[5] Para entender esto, considérese la siguiente deducción:
+
+Está lloviendo y es de día.
+Por lo tanto, está lloviendo.
+La obvia validez de este argumento no se debe al significado de las expresiones «está lloviendo» y «es de día», porque estas podrían cambiarse por otras y el argumento permanecer válido. Por ejemplo:
+
+Está nevando y hace frío.
+Por lo tanto, está nevando.
+En cambio, la clave de la validez del argumento reside en la expresión «y». Si esta expresión se cambia por otra, entonces el argumento puede dejar de ser válido:
+
+Está nevando o hace frío.
+Por lo tanto, está nevando.
+Las expresiones de las que depende la validez de los argumentos se llaman constantes lógicas, y la lógica las estudia mediante sistemas formales.[6] Dentro de cada sistema formal, la relación de consecuencia lógica se puede definir de manera precisa, generalmente por medio de teoría de modelos o por medio de teoría de la demostración.
+
+La lógica tradicionalmente se considera una rama de la filosofía, pero desde fines del siglo XIX, su formalización simbólica ha demostrado una íntima relación con las matemáticas, y dio lugar a la lógica matemática. En el siglo XX la lógica ha pasado a ser principalmente la lógica matemática, un cálculo definido por símbolos y reglas de inferencia, lo que ha permitido su aplicación a la informática.
+
+Además de las inferencias, la lógica estudia las falacias, las paradojas y la noción de verdad.[7]
+
+Acepciones
+Ciencia argumentativa y propedéutica
+El término «lógica», se encuentra en los antiguos peripatéticos y estoicos como una teoría de la argumentación o argumento cerrado.[8]De este modo la forma argumentativa responde al principio de conocimiento que supone que representa adecuadamente la realidad.[9] Por ello, sin perder su condición de formalidad, no son formalistas y no acaban de desprenderse de las estructuras propias del lenguaje.[10]
+
+Ciencia del pensar
+
+Gottfried Leibniz (1646-1716).
+Los filósofos racionalistas, sin embargo, al situar el origen de la reflexión filosófica en la conciencia, aportaron, a través del desarrollo del análisis como método científico del pensar,[11] los temas que van a marcar el desarrollo de la lógica formal. Son de especial importancia la idea de Descartes de una Mathesis universalis[12] y de Leibniz que, con su Characteristica Universalis supone la posibilidad de un lenguaje universal, especificado con precisión matemática sobre la base de que la sintaxis de las palabras debería estar en correspondencia con las entidades designadas como individuos o elementos metafísicos, lo que haría posible un cálculo o computación mediante algoritmo en el descubrimiento de la verdad.[13][14]
+
+Aparecen los primeros intentos y realizaciones de máquinas de cálculo, (Pascal, Leibniz) y, aunque su desarrollo no fue eficaz, sin embargo la idea de una Mathesis Universal o Característica Universal, es el antecedente inmediato del desarrollo de la lógica simbólica a partir del siglo XX.
+
+Leibniz y Descartes seguían muy de cerca la escuela jesuita, sobre todo a Suárez, quienes a su vez utilizaban la Lógica Mexicana, de Fray Antonio de Rubio, filósofo mexicano (Novohispano).[15]
+
+Además se considera que las lógicas modernizantes nunca lograron la precisión de estos estudios. Sander Pierce, Gottlob Frege, Saussure y Wittgenstein siguieron criterios neoescolásticos para formular sus teorías lógicas, más acabadas.[16]
+
+La palabra «lógica» ha sido utilizada como lógica trascendental por Kant, en el sentido de investigar los conceptos puros a priori del entendimiento o categorías trascendentales.
+
+Hegel considera la lógica dentro del absoluto como proceso dialéctico del Absoluto, entendido éste como Principio Absoluto, Espíritu Absoluto, y Sujeto, como Sujeto Absoluto.[17][18]La lógica, la epistemología y la ontología van unidas y son expuestas en la filosofía entendida esta como Sistema Absoluto.
+
+Lógica como pensamiento informal
+En el lenguaje cotidiano, expresiones como «lógica» o «pensamiento lógico», aporta también un sentido alrededor de un «pensamiento lateral» comparado, haciendo los contenidos de la afirmación coherentes con un contexto, bien sea del discurso o de una teoría de la ciencia, o simplemente con las creencias o evidencias transmitidas por la tradición cultural.
+
+Del mismo modo existe el concepto sociológico y cultural de lógica como, p.e. «la lógica de las mujeres», «lógica deportiva», etc. que, en general, podríamos considerar como «lógica cotidiana» - también conocida como «lógica del sentido común».
+
+En estas áreas la «lógica» suele tener una referencia lingüística en la pragmática.
+
+Un argumento en este sentido tiene su «lógica» cuando resulta convincente, razonable y claro; en definitiva cuando cumple una función de eficacia. La habilidad de pensar y expresar un argumento así corresponde a la retórica, cuya relación con la verdad es una relación probable.
+
+Sistemas formales
+Un sistema formal es un tipo de sistema lógico-deductivo constituido por un lenguaje formal, una gramática formal que restringe cuales son las expresiones correctamente formadas de dicho lenguaje y las reglas de inferencia y un conjunto de axiomas que permite encontrar las proposiciones derivables de dichos axiomas. Los sistemas formales también han encontrado aplicación dentro de la informática, la teoría de la información, y la estadística, para proporcionar una definición rigurosa del concepto de demostración. La noción de sistema formal corresponde a una formalización rigurosa y completa del concepto de sistema axiomático, los cuales pueden ser expresados en lenguaje formal o en lenguaje natural formalizado.
+
+Llamamos formalización al acto de crear un sistema formal, con la que pretendemos capturar y abstraer la esencia de determinadas características del mundo real, en un modelo conceptual expresado en un determinado lenguaje formal.
+
+En la Teoría de la demostración, las demostraciones formales pueden expresarse en el lenguaje de los sistemas formales, consistentes en axiomas y reglas de inferencia. Los teoremas pueden ser obtenidos por medio de demostraciones formales. Este punto de vista de las matemáticas ha sido denominado formalista; aunque en muchas ocasiones este término conlleva una acepción peyorativa. En ese sentido David Hilbert creó la disciplina denominada metamatemática dedicada al estudio de los sistemas formales, entendiendo que el lenguaje utilizado para ello, denominado metalenguaje era distinto del lenguaje del sistema formal que se pretendía estudiar. El lenguaje formal que se estudia, en este caso se llama también, en ocasiones, lenguaje objeto.
+
+Un sistema así es la reducción de un lenguaje formalizado a meros símbolos, lenguaje formalizado y simbolizado sin contenido material alguno; un lenguaje reducido a mera forma que se expresa mediante fórmulas que reflejan las relaciones sintácticas entre los símbolos y las reglas de formación y transformación que permiten construir las fórmulas del sistema y pasar de una fórmula a otra.[19]
+
+El objetivo de un sistema formal es señalar como válidas determinadas cadenas. Estas cadenas válidas se denominan teoremas. Para obtener los teoremas se emplean las reglas de producción que convierten una cadena en otra. Hay ciertos teoremas iniciales que no se obtienen de ninguna regla, éstos son los axiomas que se suponen válidos por definición y se convierten en el germen de producción de teoremas.
+Lógicas clásicas
+Una lógica clásica o lógica estándar[20][21] es un sistema formal que respeta los siguientes principios:
+
+Principio del tercero excluido
+Principio de no contradicción
+Principio de explosión
+Monotonicidad de la implicación
+Los ejemplos más comunes de lógicas clásicas son la lógica proposicional, la lógica de primer orden y la lógica de segundo orden.
+Lógicas no clásicas
+Una lógica no clásica o lógica alternativa es un sistema formal que difiere de manera significativa de las lógicas clásicas. Hay varias formas de hacerlo, incluyendo a modo de extensiones, desviaciones, y variaciones, por ejemplo rechazando uno o varios de los principios de la lógica clásica. El objetivo de estas desviaciones es para hacer posible construir distintos modelos de consecuencia lógica y verdad lógica.
+
+La lógica filosófica, especialmente en la ciencia computacional teórica, se usa para abarcar y centrarse en las lógicas no clásicas, a pesar de que el término tiene otros significados también.[22]
+Lógicas modales
+Una lógica modal es un sistema formal que intenta capturar el comportamiento deductivo de algún grupo de operadores modales.[23] Los operadores modales son expresiones que califican la verdad de los juicios.[23] Por ejemplo, en la oración «es necesario que 2 + 2 = 4», la expresión «es necesario que» es un operador modal que califica de necesaria a la verdad del juicio «2 + 2 = 4». De manera análoga, la expresión «siempre» califica a un juicio verdadero como verdadero en cualquier momento, es decir, siempre. No es lo mismo decir «está lloviendo» que decir «siempre está lloviendo».
+
+En un sentido más restringido, sin embargo, una lógica modal es un sistema formal que intenta capturar el comportamiento deductivo de las expresiones «es necesario que» y «es posible que».[23] Este artículo trata exclusivamente sobre lógicas modales en este sentido restringido. Las lógicas modales pertenecen al grupo de las llamadas «extensiones de la lógica clásica» o «lógicas extendidas» entre las cuales se incluyen además la lógica deóntica, la lógica temporal, la lógica epistémica y la lógica doxástica.
+La lógica de Aristóteles se ocupa en gran parte de la teoría de la lógica no modalizada. Aunque hay pasajes en su obra, como el famoso argumento de la batalla naval en De Interpretatione , que ahora se ven como anticipaciones de la lógica modal y su conexión con la potencialidad y el tiempo, el primer sistema formal de lógica modal fue desarrollado por Avicenna, quien finalmente desarrolló una teoría de "temporalmente modalizada" silogística.
+
+Mientras que el estudio de la necesidad y la posibilidad seguía siendo importante para los filósofos, no hubo grandes avances en el campo de la lógica hasta las investigaciones de Marco de Clarence Irving Lewis en 1918, que formuló una familia de axiomas. Su obra desencadenó un torrente de nuevos trabajos sobre el tema, ampliando los tipos de modalidad tratados para incluir la lógica deóntica y la lógica epistémica. La obra seminal de Arthur Prior aplicó el mismo lenguaje formal para tratar la lógica temporal y allanó el camino para la unión de los dos sujetos. Saul Kripke descubrió (al mismo tiempo que sus rivales) su teoría de la semántica de los cuadros, que revolucionó la tecnología formal disponible para los lógicos modales y dio una nueva forma gráfica de mirar la modalidad que ha impulsado muchas aplicaciones en lingüística computacional e informática, lógica
+
+Ramas de la lógica
+Lógica filosófica
+La lógica filosófica se refiere a aquellas áreas de la filosofía en la que reconocidos métodos de la lógica tradicionalmente, han sido utilizadas para resolver o avanzar en la discusión de los problemas filosóficos.[24] Entre estos, Sybil Wolfram destaca el estudio del argumento, el significado y verdad,[25] mientras Colin McGinn presenta las nociones de identidad, existencia, predicado, estado de necesidad y verdad como ideas principales en su libro sobre este tema.[26] la lógica se usa únicamente para pensamientos sobre existencias relacionadas a nosotros, en el caso de la filosofia esto es en relación a todo lo posiblemente imaginativo.
+
+La lógica filosófica también dirige extensiones y alternativas a la lógica tradicional, la más conocida es las lógica no clásica. Estas reciben más atención en textos tales como Lógica Filosófica, la guía de Blackwell a la lógica filosófica de John P. Burgess o el Manual de lógica filosófica editado por Dov M. Gabbay y Franz Guenthner el cual dispone de múltiples volúmenes.[27][28][29]
+
+La lógica filosófica trata de las descripciones formales de lo ordinario, lenguaje natural no especificado, que es estrictamente único sobre los argumentos dentro de las ramas de otras filosofías. La mayoría de los filósofos suponen que la mayor parte del razonamiento cotidiano se podría capturar en la lógica si se pudiera encontrar un método o métodos para traducir el lenguaje ordinario a esa lógica.La lógica filosófica es esencialmente una continuación de la disciplina tradicional llamada "lógica" antes de la invención de la lógica matemática. La lógica filosófica tiene un mayor interés con la conexión entre el lenguaje natural y la lógica. Como resultado, los lógicos filosóficos han contribuido al desarrollo de lógica no convencional (por ejemplo lógicas libres, lógica temporal, etc) al igual que varias extensiones de la lógica clásica (por ejemplo, la lógica modal) y la semántica no convencional para tales lógicas (por ejemplo, el supervaluacionismo de Kripke en la semántica de la lógica).
+
+La lógica y la filosofía del lenguaje están estrechamente relacionadas. La filosofía del lenguaje tiene que ver con el estudio de cómo nuestra lengua se involucra e interactúa con nuestro pensamiento. La lógica tiene un impacto inmediato en otras áreas de estudio. Estudiar la lógica y la relación entre la lógica y la forma de expresión ordinaria puede ayudar a una persona a estructurar mejor sus propios argumentos y criticar (o analizar) los argumentos de otra persona. Muchos argumentos populares están llenos de errores porque mucha personas son inexperta en la lógica e ignoran cómo formular un argumento correctamente.
+Lógica matemática
+La lógica matemática, también llamada lógica simbólica, lógica teorética, lógica formal, o logística,[30] es parte tanto de la lógica como de la matemática, y consiste en el estudio matemático de la lógica, y en la aplicación de dicho estudio a otras áreas de la matemática y de las ciencias. La lógica matemática tiene estrechas conexiones con las ciencias de la computación y con la lógica filosófica.
+
+La lógica matemática estudia los sistemas formales en relación con el modo en el que codifican o definen nociones intuitivas de objetos matemáticos como conjuntos, números, demostraciones, y algoritmos, utilizando un lenguaje formal.
+
+La lógica matemática se suele dividir en cuatro subcampos: teoría de modelos, teoría de la demostración, teoría de conjuntos y teoría de la recursión. La investigación en lógica matemática ha jugado un papel fundamental en el estudio de las matemáticas.
+
+La lógica matemática no es la «lógica de las matemáticas» sino la «matemática de la lógica». Incluye aquellas partes de la lógica que pueden ser modeladas y estudiadas matemáticamente.
+
+La lógica matemática comprende dos áreas de investigación distintas: la primera es la aplicación de las técnicas de la lógica formal a las matemáticas y el razonamiento matemático y la segunda, en la otra dirección, la aplicación de técnicas matemáticas a la representación y el análisis de la lógica formal.
+
+Si la teoría de la demostración y la teoría de modelos han sido el fundamento de la lógica matemática, no han sido más que dos de los cuatro pilares del sujeto. La teoría de conjuntos se originó en el estudio del infinito por Georg Cantor y ha sido la fuente de muchos de los temas más desafiantes e importantes de la lógica matemática, a partir del teorema de Cantor, a través del estatus del axioma de elección y la cuestión de la independencia de la hipótesis del continuo, al debate moderno sobre grandes axiomas cardinales.
+
+La teoría de la recursión captura la idea de la computación en términos lógicos y aritméticos. Sus logros más clásicos son la indecidibilidad del Entscheidungsproblem de Alan Turing y su presentación de la tesis de Church-Turing. Hoy en día, la teoría de la recursión se ocupa principalmente del problema más refinado de las clases de complejidad (¿cuándo es un problema eficientemente solucionable?) y de la clasificación de los grados de insolubilidad.
+Lógica computacional
+La lógica computacional es la misma lógica matemática aplicada al contexto de las ciencias de la computación. Su uso es fundamental en varios niveles: en los circuitos computacionales, en la programación lógica y en el análisis y optimización (de recursos temporales y espaciales) de algoritmos.
+
+La lógica se extiende al corazón de la informática a medida que surge como una disciplina: El trabajo de Alan Turing sobre el Entscheidungsproblem seguido del trabajo de Kurt Gödel sobre teoremas incompletos. La noción de la computadora de uso general que surgió de este trabajo fue de gran importancia para los diseñadores de la maquinaria informática en la década de 1940.
+
+En los 50's y 60's, investigaciones predijeron que, cuando el conocimiento humano se pudiera expresar usando la lógica con notaciones matemáticas, sería posible crear una máquina capaz de razonar o una inteligencia artificial. Esto fue más difícil de lo esperado a causa de la complejidad del razonamiento humano. En la lógica de programación, un programa consiste en una colección de axiomas y reglas. Los sistemas de programación lógicos (como Prolog) calculan las consecuencias de los axiomas y las reglas organizadas para responder a una consulta.
+
+Hoy en día, la lógica es extensamente aplicada en los campos de inteligencia artificial y de ciencias de computación, y estos campos proporcionan una rica fuente de problemas en la lógica formal e informal. La teoría de la argumentación es un buen ejemplo de cómo la lógica está siendo aplicada a la inteligencia artificial. El sistema de clasificación computacional ACM, en particular, considera:
+
+Sección F.3 en Lógicas y significados de programas y F.4 en Lógica matemática y lenguajes formales como parte de la teoría de la ciencia de computación: este trabajo cubre la semántica formal de los lenguajes de programación tan bien como el trabajo de métodos formales como la lógica de Hoare.
+Lógica booleana como fundamento en el hardware de la computadora, particularmente la sección del sistema B.2 en la estructura aritmética y lógica, relacionado a operadores AND, NOT y OR.
+Muchos formalismos lógicos fundamentales son esenciales para la sección I.2 sobre inteligencia artificial, por ejemplo la lógica modal y la lógica por defecto en los formalismos y métodos de representación del conocimiento, las cláusulas de Horn en la programación lógica y la lógica de descripción.
+Además, las computadoras se pueden usar como herramientas para los lógicos. Por ejemplo, en lógica simbólica y lógica matemática, las pruebas de los seres humanos pueden ser asistidos por computadoras. Usando la prueba automatizada del teorema, las máquinas pueden encontrar y comprobar pruebas, así como trabajar con las pruebas demasiado largas para escribir a mano.
+Metalógica
+La metalógica es una rama de la lógica que estudia las propiedades y los componentes de los sistemas lógicos.[31] Las propiedades más importantes que se pueden demostrar de los sistemas lógicos son la consistencia, decidibilidad y completitud.[32]
+Consistencia
+En metalógica, la consistencia o consistencia lógica es la propiedad que tienen los sistemas formales cuando no es posible deducir una contradicción dentro del sistema. Es decir, dado un lenguaje formal y un aparato deductivo (axiomas y reglas de inferencia), no es posible deducir una fórmula y su negación. La existencia de un modelo implica que una teoría lógica es consistente.
+
+Generalizando, la consistencia es una propiedad que pueden tener los conjuntos de fórmulas. Intuitivamente, un conjunto de fórmulas es consistente cuando no es posible deducir una contradicción del mismo. Es decir, dado un lenguaje formal y un aparato deductivo, no es posible demostrar una fórmula y su negación. Equivalentemente, esto se puede expresar diciendo que para ninguna proposición lógica p: \mathcal{A}\vdash p y \mathcal{A}\vdash\neg p simultáneamente.
+Decidibilidad
+En metalógica, la decidibilidad es una propiedad de los sistemas formales cuando, para cualquier fórmula en el lenguaje del sistema, existe un método efectivo para determinar si esa fórmula pertenece o no al conjunto de las verdades del sistema. Por ejemplo, la lógica proposicional es decidible, porque existe un algoritmo (la tabla de verdad) que en un número finito de pasos puede decidir si la fórmula es válida o no.
+
+Cuando una fórmula no puede ser probada verdadera ni falsa, se dice que la fórmula es independiente, y que por lo tanto el sistema es no decidible. La única manera de incorporar una fórmula independiente a las verdades del sistema es postulándola como axioma. Dos ejemplos muy importantes de fórmulas independientes son el axioma de elección en la teoría de conjuntos, y el quinto postulado de la geometría euclidiana.
+Completitud
+En metalógica, la completitud o completitud semántica es la propiedad metateórica que tienen los sistemas formales cuando todas las fórmulas lógicamente válidas (todas las verdades lógicas) del sistema son además teoremas del sistema.[33] Es decir, cuando el conjunto de las verdades lógicas del sistema es un subconjunto del conjunto de teoremas. En otras palabras, si A es una fórmula cualquiera del lenguaje y S es el sistema formal bajo consideración, entonces se cumple que:
+
+Si  {\displaystyle \models _{\mathrm {S} }A}  entonces  {\displaystyle \vdash _{\mathrm {S} }A}[33]
+El segundo teorema de incompletitud de Gödel demuestra que ningún sistema (definido recursivamente) con cierto poder expresivo puede ser a la vez consistente y semánticamente completo.
+
+Por otra parte, la completitud sintáctica es la propiedad que tienen los sistemas formales cuando, para toda fórmula del lenguaje del sistema, o bien es un teorema o bien su negación lo es. Esto es, existe una prueba para cada fórmula o para su negación.
+
+La lógica proposicional y la lógica de primer orden son ambas semánticamente completas, pero no sintácticamente completas. Por ejemplo, en la lógica proposicional, la fórmula p no es un teorema, y tampoco lo es su negación, de modo que eso basta para mostrar que no es sintácticamente completa. No obstante, como ninguna de esas dos fórmulas es una verdad lógica, no afectan a la completitud semántica del sistema.
+
+Otra propiedad metateórica distinta es la completitud semántica fuerte, que dice: si en un sistema formal S, A es una fórmula bien formada cualquiera que es una consecuencia semántica de un conjunto \Gamma de fórmulas, entonces existe una derivación de A a partir de \Gamma. En símbolos:
+
+Si  {\displaystyle \Gamma \models _{\mathrm {S} }A}  entonces  {\displaystyle \Gamma \vdash _{\mathrm {S} }A}[34]
+Falacias
+Falacias
+Argumento a silentio
+Argumento ad antiquitatem
+Argumento ad baculum
+Argumento ad consequentiam
+Argumento ad crumenam
+Argumento ad hominem
+Argumento ad ignorantiam
+Argumento ad lazarum
+Argumento ad logicam
+Argumento ad misericordiam
+Argumento ad nauseam
+Argumento ad novitatem
+Argumento ad populum
+Argumento ad verecundiam
+Post hoc ergo propter hoc
+Conclusión irrelevante
+Petición de principio
+Falacia del hombre de paja
+Falacia ecológica
+Generalización apresurada
+En lógica, una falacia (del latín: fallacia, ‘engaño’) es un argumento que parece válido, pero no lo es.[35][36] Algunas falacias se cometen intencionalmente para persuadir o manipular a los demás, mientras que otras se cometen sin intención debido a descuidos o ignorancia. En ocasiones las falacias pueden ser muy sutiles y persuasivas, por lo que se debe poner mucha atención para detectarlas.[37]
+
+El que un argumento sea falaz no implica que sus premisas o su conclusión sean falsas ni que sean verdaderas. Un argumento puede tener premisas y conclusión verdaderas y aun así ser falaz. Lo que hace falaz a un argumento es la invalidez del argumento en sí. De hecho, inferir que una proposición es falsa porque el argumento que la contiene por conclusión es falaz es en sí una falacia conocida como argumento ad logicam.[38]
+
+El estudio de las falacias se remonta por lo menos hasta Aristóteles, quien en sus Refutaciones sofísticas identificó y clasificó trece clases de falacias.[35] Desde entonces se han agregado a la lista cientos de otras falacias y se han propuesto varios sistemas de clasificación.[39]
+
+Las falacias son de interés no solo para la lógica, sino también para la política, la retórica, el derecho, la ciencia, la religión, el periodismo, la mercadotecnia, el cine y, en general, cualquier área en la cual la argumentación y la persuasión sean de especial relevancia.
+Paradojas
+
+El cubo imposible es un objeto paradójico.
+Una paradoja (del latín paradoxa, ‘lo contrario a la opinión común’) o antilogía es una idea extraña opuesta a lo que se considera verdadero a la opinión general.[40] También se considera paradoja a una proposición en apariencia falsa o que infringe el sentido común, pero no conlleva una contradicción lógica, en contraposición a un sofisma que solo aparenta ser un razonamiento válido.[41] Algunas paradojas son razonamientos en apariencia válidos, que parten de premisas en apariencia verdaderas, pero que conducen a contradicciones o situaciones contrarias al sentido común.[42] En la retórica, es una figura de pensamiento que consiste en emplear expresiones o frases que implican contradicción. Las paradojas son estímulo para la reflexión y a menudo los filósofos se sirven de ellas para revelar la complejidad de la realidad. La paradoja también permite demostrar las limitaciones de la comprensión humana; la identificación de paradojas basadas en conceptos que a simple vista parecen simples y razonables ha impulsado importantes avances en la ciencia, la filosofía y las matemáticas.[43]
+Historia
+La historia de la lógica documenta el desarrollo de la lógica en varias culturas y tradiciones a lo largo de la historia. Aunque muchas culturas han empleado intrincados sistemas de razonamiento, e, incluso, el pensamiento lógico estaba ya implícito en Babilonia en algún sentido, la lógica como análisis explícito de los métodos de razonamiento ha recibido un tratamiento sustancial solo originalmente en tres tradiciones: la Antigua China, la Antigua India y la Antigua Grecia.
+
+Aunque las dataciones exactas son inciertas, particularmente en el caso de la India, es probable que la lógica emergiese en las tres sociedades hacia el siglo IV a. C. El tratamiento formalmente sofisticado de la lógica proviene de la tradición griega, especialmente del Organon aristotélico, cuyos logros serían desarrollados por los lógicos islámicos y, luego, por los lógicos de la Edad Media europea. El descubrimiento de la lógica india entre los especialistas británicos en el siglo XVIII influyó también en la lógica moderna.
+
+La historia de la lógica es producto de la confluencia de cuatro líneas de pensamiento, que aparecen en momentos históricos diferentes:[44]
+
+La lógica antigua, obra de Aristóteles, los megáricos y los estoicos.
+La idea de un lenguaje único, completo y exacto para razonar, sueño al que aspiraban Ramón Llull y Leibniz.
+Los progresos en álgebra y geometría al comienzo del siglo XIX, y el desarrollo de un cálculo completo, obra de Frege.
+Ya en el siglo XX, Bertrand Russell y Whitehead culminaron el proceso de creación de la lógica. A partir de este momento no cesarán de producirse nuevos desarrollos y de nacer escuelas y tendencias.
+Lógica aristotélica
+
+Aristóteles según un manuscrito de su Historia naturalis de 1457.
+La lógica aristotélica es la lógica basada en los trabajos del filósofo griego Aristóteles, quien es ampliamente reconocido como el padre fundador de la lógica. Sus trabajos principales sobre la materia tradicionalmente se agrupan bajo el nombre Órganon («herramienta»), y constituyen la primera investigación sistemática acerca de los principios del razonamiento válido o correcto.[45]
+
+Para Aristóteles, la lógica era una herramienta necesaria para adentrarse en el mundo de la filosofía y la ciencia. Sus propuestas ejercieron una influencia sin par durante más de dos milenios, a tal punto que en el siglo XVIII, Immanuel Kant llegó a afirmar:
+
+Que desde los tiempos más tempranos la lógica ha transitado por un camino seguro puede verse a partir del hecho de que desde la época de Aristóteles no ha dado un sólo paso atrás. [...] Lo que es aún más notable acerca de la lógica es que hasta ahora tampoco ha podido dar un sólo paso hacia adelante, y por lo tanto parece a todas luces terminada y completa.
+
+Crítica de la razón pura, B, VII
+El trabajo de Aristóteles se consideraba desde los tiempos clásicos, y durante la época medieval en Europa y el Medio Oriente como la imagen misma de un sistema completamente elaborado. Sin embargo no estaba solo: los estoicos propusieron un sistema de lógica proposicional que fue estudiado por los lógicos medievales. También se estudió el problema de la generalidad múltiple. No obstante, no se consideraba que los problemas de la lógica aristotélica necesitaran soluciones revolucionarias.
+
+En la actualidad, algunos académicos afirman que el sistema de Aristóteles no puede aportar mucho más que valor histórico, considerado como obsoleto por la llegada de la lógica matemática. Otros utilizan la lógica de Aristóteles en la teoría de la argumentación para ayudar a desarrollar y cuestionar críticamente los esquemas de argumentación que se utilizan en la inteligencia artificial y los argumentos legales.
+Véase también
+Lógica binaria
+Lógica dialéctica
+Lógica formal
+Lógica deóntica
+Lógica informal
+Lógica matemática
+Lógica polivalente
+Consecuencia lógica
+Cálculo lógico
+Sistema formal
+Constante lógica
+Aporía
+Silogismo
+Metodología
+MC-14, método científico en 14 etapas
+Argumento
+Contraargumento
+Declaración (lógica)
+Referencias
+↑ Simon Blackburn (ed.). «logic». The Oxford Dictionary of Philosophy (en inglés) (2008 Edition). Oxford University Press. «lógica: La ciencia general de la inferencia.»
+↑ Robert Audi (ed.). «Inference». The Cambridge Dictionary of Philosophy (en inglés) (2nd Edition). Cambridge University Press.
+↑ «inference». The Oxford Companion to Philosophy (en inglés). Oxford University Press. 2005. Consultado el 1º de agosto de 2009.
+1 2 Beall, J. C.; Restall, Greg. «Logical Consequence». En Edward N. Zalta. Stanford Encyclopedia of Philosophy (en inglés) (Summer 2009 Edition).
+↑ «formal system». Encyclopedia Britannica (en inglés). Consultado el 3 de agosto de 2009.
+↑ Otero, Carlos Peregrín (1989). Introducción a la lingüística transformacional. Siglo XXI. p. 213. ISBN 978-968-23-1541-1.
+↑ Corazón González, Rafael. Saber, entender... vivir: una aproximación a la filosofía. pp. 74-77.
+↑ Kuno Lorenz: Logik, II.. Die antike Logik in Historisches Wörterbuch der Philosophie, Bd. 5, 362 nach E. Kapp: Der Ursprung der Logik bei den Griechen, 1965, 25 und mit Verweis auf Cicero: De finibus 1, 7, 22
+↑ Aristóteles. «24b». Primeros analíticos. pp. 18-23. «Silogismo es un argumento en el cual, establecidas ciertas cosas, resulta necesariamente de ellas, por ser lo que son, otra cosa diferente.»
+↑ Correia, Manuel (2006). «La actualidad de la lógica de Aristóteles». Revista de filosofía online 62: 139-150.
+↑ René Descartes, Blaise Pascal y, sobre todo, Gottfried Leibniz que hicieron posible la aplicación del cálculo a la experiencia dando lugar al desarrollo de la lógica empírica como método científico que hizo posible la ciencia moderna.
+↑ Descartes, René. «Regla IV». Reglas para la dirección de la mente.
+↑ Honderich, T., ed. (2001). Enciclopedia Oxford de Filosofía (Carmen García Trevijano, trad.). Madrid. Editorial Tecnos. ISBN 84-309-3699-8.
+↑ Sobre el supuesto de que en el alma existen unos principios del pensar (ideas innatas) que se corresponden a los principios del ser, pues en el fondo responden a Dios, que no puede engañarse ni engañarnos, según Descartes o a una Armonía Preestablecida, según Leibniz, o a una unidad del pensar y ser en una única Sustancia sive Deus sive Natura, según Baruch Spinoza
+↑ Beuchot, Mauricio (2006). Lógica y metafísica en la nueva España. México: IIF-UNAM. pp. 28-31.
+↑ Beuchot, Mauricio (2006). Lógica y metafísica en la nueva España. IIF-UNAM. pp. 56-61.
+↑ Hegel, G. W. F. (1970). «Libro I: La doctrina del ser. Sección I: Determinación (cualidad). Capítulo I: c) Devenir. 1.- La unidad del ser y la nada.» [Clemente Fernández, S.I. Los filósofos modernos, selección de textos]. Ciencia de la Lógica. Madrid. «El puro ser y la pura nada son, por lo tanto, la misma cosa. Lo que constituye la verdad no es ni el ser ni la nada, sino aquello que no traspasa, sino que ha traspasado; vale decir, el ser [traspasado] en la nada y la nada [traspasada] en el ser. Pero, al mismo tiempo, la verdad no es su indistinción, sino el que ellos no son lo mismo sino que son separables, e inmediatamente cada uno desaparece en su opuesto. Su verdad, pues, consiste en este movimiento del inmediato desaparecer de uno en otro: el devenir; un movimiento donde los dos son diferentes, pero por vía de una diferencia que el mismo tiempo se ha resuelto inmediatamente.»
+↑ Para una exposición sintética del pensamiento de Hegel, véase Zubiri (1963). «Hegel y el problema metafísico». Naturaleza, Historia y Dios. Editora Nacional. pp. 223 y ss.
+↑ Encyclopædia Britannica, Formal system definition, 2007.
+↑ The Blackwell dictionary of Western philosophy. Wiley-Blackwell. 2004. p. 266. ISBN 978-1-4051-0679-5.
+↑ Gamut, L. T. F. (1991). Logic, language, and meaning, Volume 1: Introduction to Logic. University of Chicago Press. pp. 156-157. ISBN 978-0-226-28085-1.
+↑ Burgess, John P. (2009). Philosophical logic. Princeton University Press. pp. vii-viii. ISBN 978-0-691-13789-6.
+1 2 3 Garson, James. «Modal logic». En Edward N. Zalta. Stanford Encyclopedia of Philosophy (en inglés) (Summer 2009 Edition edición).
+↑ Dale Jacquette, A Companion to Philosophical Logic, Wiley-Blackwell: 2002.
+↑ Wolfram, Sybil. Philosophical Logic: An Introduction. Routledge: 1989. ISBN 0-415-02317-3.
+↑ Preface to Colin McGinn, Logical Properties: Identity, Existence, Predication, Necessity, Truth, Oxford: Oxford University Press, 2000 (ISBN 0-19-926263-2).
+↑ John P. Burgess, Philosophical Logic, Princeton University Press: 2009.
+↑ Lou Goble (ed.), The Blackwell Guide to Philosophical Logic, Oxford: Blackwell: 2009 (ISBN 0-631-20693-0).
+↑ Gabbay, Dov M.; Guenthner, Franz. Handbook of Philosophical Logic. Springer. Consultado el 16 de octubre de 2016.
+↑ Evandro Agazzi, 1986.
+↑ Shapiro, Stewart. «metalógica». The Oxford Companion to Philosophy. Oxford University Press. Consultado el 6 de octubre de 2009.
+↑ Padilla Gálvez, Jesús. (1995). Sobre metalógica. Un análisis histórico en torno a 1931. Arbor, 150, pp. 73-90.
+1 2 Hunter, Geoffrey (1971). «Sección 46.1». Metalogic: An Introduction to the Metatheory of Standard First-Order Logic. University of California Press.
+↑ Hunter, Geoffrey (1971). «Sección 46.2». Metalogic: An Introduction to the Metatheory of Standard First-Order Logic. University of California Press.
+1 2 Hamblin, Charles Leonard (1970). Fallacies. Methuen.
+↑ Groarke, Leo. «Informal Logic». En Edward N. Zalta. Stanford Encyclopedia of Philosophy (en inglés) (Spring 2013 Edition).
+↑ Hansen, Hans Vilhelm (2002). «The Straw Thing of Fallacy Theory: The Standard Definition of 'Fallacy'». Argumentation 16 (2): 133-155.
+↑ Kenneth, S. Pope (2003). «Logical Fallacies in Psychology: 22 Types» (en inglés). Consultado el 14 de junio de 2013.
+↑ ARP. Sociedad para el Avance del Pensamiento Crítico. Falacias lógicas
+↑ Real Academia Española y Asociación de Academias de la Lengua Española (2014). «paradoja». Diccionario de la lengua española (23.ª edición). Madrid: Espasa. ISBN 978-84-670-4189-7.
+↑ "Paradojas Y Sofismas Físicos" V. Langue, Ed. Mir, Moscú 1984: 11.
+↑ Robert Audi (ed.). «paradox». The Cambridge Dictionary of Philosophy (en inglés) (2nd Edition). Cambridge University Press. «A seemingly sound piece of reasoning based on seemingly true assuptions that leads to a contradiction (or other obviously false conclusión).»
+↑ Padilla Gálvez, Jesús (2007). «Capítulo III. La paradoja del mentiroso». Verdad y demostración. Madrid, Ciudad de México: Plaza y Valdés. pp. 125 y ss.
+↑ Izuzquiza Otero, Ignacio; Corellano Aznar, Luis; Frechilla García, Ana Rosa; Peña Calvo, José Vicente; Villamayor Lloro, Santiago (2008). «El Universo de la lógica». En Achón, Elena; Álvarez, Gema. Filosofía y ciudadanía (Manuel Andaluz edición). Madrid: Grupo Anaya Sociedad Anónima. p. 310. ISBN 9788466773195.
+↑ Véase la sección «Lógica» en Shields, Christopher. «Aristotle». En Edward N. Zalta. Stanford Encyclopedia of Philosophy (en inglés) (Winter 2009 Edition).
+Bibliografía adicional
+Priest, Graham (2008). An introduction to non-classical logic: From if to is (2ª edición). Nueva York: Cambridge University Press. ISBN 978-0521854337.
+Ferrater Mora, J. (1984). Diccionario de Filosofía (4 tomos). Barcelona. Alianza Diccionarios. ISBN 84-206-5299-7.
+Honderich, T.(Editor) (2001). Enciclopedia Oxford de Filosofía. Trd. Carmen García Trevijano. Madrid. Editorial Tecnos. ISBN 84-309-3699-8.
+Enlaces externos
+ Wikimedia Commons alberga una categoría multimedia sobre Lógica.
+ Wikcionario tiene definiciones y otra información sobre lógica.
+ Wikiquote alberga frases célebres de o sobre lógica.
+ Wikiversidad alberga proyectos de aprendizaje sobre Lógica.
+Aprende Lógica (Autor: Francisco José Calzado Fernández)
+Breve Historia de la Lógica
+Esta obra contiene una traducción parcial derivada de Logic de Wikipedia en inglés, concretamente de esta versión, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.
+Esta obra contiene una traducción parcial derivada de Logic de Wikipedia en inglés, concretamente de esta versión, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.
+
+
+Control de autoridades	
+Wd: Q8078
+GND: 4036202-4
+NDL: 00569686
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

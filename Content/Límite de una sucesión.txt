@@ -1,0 +1,148 @@
+Límite de una sucesión
+
+{\displaystyle a_{n}={\begin{cases}16&{\mbox{si }}n=0\\{\cfrac {a_{n-1}}{2}}&{\mbox{si }}n>0\end{cases}}}
+
+   a_{n} =
+   16 \cdot 2^{-n}
+El límite de una sucesión es uno de los conceptos más antiguos del análisis matemático. Es el valor al que tienden los términos de la sucesión cuando n toma valores muy grandes.[1] Se representa mediante {\displaystyle \lim _{n\to \infty }a_{n}}, y se lee límite cuando n tiende a más infinito de a sub n.[1]
+
+Este concepto está estrechamente ligado al de convergencia, una sucesión de elementos de un conjunto es convergente si y solo si en el mismo conjunto existe un elemento (al que se le conoce como límite) al cual la sucesión se aproxima tanto como se desee a partir de un momento dado. Si una sucesión tiene límite, se dice que es una sucesión convergente, y que la sucesión converge o tiende al límite. En caso contrario, la sucesión es divergente.[cita requerida]
+
+La definición significa que eventualmente todos los elementos de la sucesión se aproximan tanto como queramos al valor límite. La condición que impone que los elementos se encuentren arbitrariamente cercanos a los elementos subsiguientes no implica, en general, que la sucesión tenga un límite (véase sucesión de Cauchy).
+
+Qué se entiende por próximo da lugar a distintas definiciones de límite dependiendo del conjunto donde se ha definido la sucesión (véase distancia).
+
+Límite de una sucesión de números reales
+Definición formal
+El término general de una sucesión  \{\,x_n \}_{n\geq 1} tiene límite \,l, cuando \,n tiende a \infty , si para todo valor \,\varepsilon > 0 por pequeño que sea, existe un valor \,n_0 a partir del cual si \,n>n_0 tenemos que la distancia de \,l a \,x_n es menor que \,\varepsilon, es decir:
+
+\forall \varepsilon > 0, \exists n_0>0 : \forall n>n_0, d(x_n,l)<\varepsilon. x=a
+
+Notación
+\lim_{n\to\infty} x_n=l o bien  x_n \xrightarrow[{\;\; n \to \infty\;\; }]{}l
+
+o también
+
+ x_n\ \stackrel{d}{\longrightarrow}\ x \quad \mbox{cuando} \quad n \to \infty 
+
+o simplemente
+
+ x_n \to x.
+
+Ejemplos
+La sucesión 1/1, 1/2, 1/3, 1/4, ... converge al límite 0.
+La sucesión 1, -1, 1, -1, 1, ... es oscilante.
+La sucesión 1/2, 1/2 + 1/4, 1/2 + 1/4 + 1/8, 1/2 + 1/4 + 1/8 + 1/16, ... converge al límite 1.
+Si a es un número real con valor absoluto |a| < 1, entonces la sucesión an posee límite 0. Si 0 < a ≤ 1, entonces la sucesión a1/n posee límite 1.
+\lim_{n\to\infty} \frac{1}{n^p} = 0 \hbox{ si } p > 0
+\lim_{n\to\infty} n^{\frac{1}{n}} = 1
+\lim_{n\to\infty} a^{\frac{1}{n}} = 1 \hbox{ si } a>0
+Propiedades
+Si una sucesión \,\{a_n\} tiene límite positivo, existe un término a partir del cual todos los términos de la sucesión son positivos.
+Si una sucesión \,\{a_n\} tiene límite negativo, existe un término a partir del cual los términos de la sucesión son negativos.
+Si una sucesión \,\{a_n\} converge a cero, no se puede asegurar nada acerca del signo de cada uno de los términos de la sucesión.
+Si una sucesión \,\{a_n\} tiende a menos infinito y \,\{a_n\} < 0  entonces \frac{1}{a_n} tiende a 0.
+Límite de una sucesión compleja
+Véanse también: Sucesión de Cauchy y Serie convergente.
+Se dice que la sucesión converge hacia un complejo \ell  si y solo si
+
+(\forall \varepsilon \in \mathbb R_+^*)(\exists N \in \mathbb N) (\forall n \in \mathbb N) (n \geq N \Rightarrow |u_n - \ell| <\varepsilon)
+Nótese que es la misma definición que para \R, con módulo en lugar del valor absoluto.
+
+Se puede escribir
+
+\lim_{n \to + \infty}u_n = \ell o más simplemente, si no hay ambigüedad \lim u = \ell
+Las sucesiones complejas convergentes poseen las mismas propiedades que las sucesiones reales, excepto las de relación de orden: el límite es único, una sucesión convergente tiene módulo acotado, toda sucesión de Cauchy converge (en efecto, \mathbb C es también completo).
+
+Ejemplos
+Sucesiones en \mathbb R ó \mathbb C
+Sucesiones en \mathbb {R} ^{n}
+Sucesiones en el espacio \ell^p
+Sucesiones en el espacio L^2({\mathbb R}^n)
+Sucesiones en el espacio de las funciones continuas C[a,b]\,
+Tipos de convergencia
+Convergencia puntual
+El concepto de convergencia puntual es uno de los varios sentidos en los cuales una sucesión de funciones puede converger a una función particular.
+
+Una sucesión de funciones f_n:S\to M definidas en un conjunto no vacío S\, con valores en un espacio métrico (M,d\,) converge puntualmente a una función f:S\to M si
+
+ \lim_{n\to \infty} f_n(x) = f(x)
+
+para cada x\in S fijo. Esto significa que
+
+(5) \forall x\in S\quad \forall \varepsilon>0\quad \exist\, N\in \mathbb N\quad |\quad n \ge  N\ \Longrightarrow\ d(f_n(x),f(x)) < \varepsilon.
+
+La sucesión de funciones f_n(x):=x/n\, con x\in [0,1] converge puntualmente a la función f(x):=0\, puesto que
+
+ \left\vert\frac{x}{n}\right\vert \le \frac{1}{n} \to 0
+
+para cada x\in [0,1] fijo.
+
+Convergencia uniforme
+Una sucesión de funciones f_n:S\to M definidas en un conjunto no vacío S\, con valores en un espacio métrico (M,d\,) converge uniformemente a una función f:S\to M si para todo \varepsilon >0 existe un entero N\, (que depende de \varepsilon ) tal que
+
+ d(f_n(x),f(x)) < \varepsilon 
+
+para todo x\in S y todo n \ge  N. Es decir,
+
+(6)\forall \varepsilon>0\quad \exist\, N\in \mathbb N\quad |\quad d(f_n(x),f(x)) < \varepsilon\quad \forall x\in S\quad \forall n\ge N.
+
+El concepto de convergencia uniforme es un concepto más fuerte que el de convergencia puntual. En (5), N\, puede depender de \varepsilon  y de x\, mientras que en (6), N\, sólo puede depender de \varepsilon . Así, toda sucesión que converge uniformemente, converge puntualmente. El enunciado recíproco es falso, y un contraejemplo clásico lo constituyen las sucesión de funciones f_n:[0,1]\to \mathbb R definidas por f_n(x) = x^n\,. Esta sucesión converge puntualmente a la función
+
+f(x) = \begin{cases} 0, & \mbox{si}\quad 0\le x < 1  \\ 1,  & \mbox{si}\quad x=1 \end{cases}
+
+ya que
+
+ |f_n(x)-f(x)| = |x^n| \to 0 \quad \mbox{si}\quad 0\le x < 1
+
+mientras que  \vert f_n(1)-f(1)\vert = 0. Sin embargo esta sucesión no converge uniformemente, pues para \varepsilon=1/4, no existe un N\, que satisfaga (6).
+
+De especial interés es el espacio de las funciones continuas C(\Omega)\, definidas sobre un compacto \Omega\subset \mathbb R^n. En este caso, una sucesión de funciones f_n\in C(\Omega),\, converge uniformemente a una función f\in C(\Omega),\, si, y sólo si, converge en la norma del sup, i.e.,
+
+f_n \stackrel{u}{\longrightarrow}\ f \quad \Longleftrightarrow \quad f_n \stackrel{
+\Vert \cdot\Vert}{\longrightarrow}\ f
+
+Sucesiones en otros espacios matemáticos
+Una sucesión de elementos \{x_n\}\, de un espacio métrico (M,d\,) converge a un elemento x\in M si para todo número \varepsilon> 0, existe un entero positivo N \, (que depende de \varepsilon ) tal que
+
+(1) n\ge N  \quad \Longrightarrow \quad d(x_n,x) < \varepsilon.
+
+Intuitivamente, esto significa que los elementos x_n\, de la sucesión se pueden hacer arbitrariamente cercanos a x\, si n\, es suficientemente grande, ya que d(x_n,x\,) determina la distancia entre x_n\, y x\,. A partir de la definición es posible demostrar que si una sucesión converge, lo hace hacia un único límite.
+
+La definición se aplica en particular a los espacios vectoriales normados y a los espacios con producto interno. En el caso de un espacio normado (E,\Vert \cdot\Vert), la norma \Vert \cdot\Vert induce la métrica d(x,y):=\Vert y - x\Vert para cada x,y\in E; en el caso de un espacio con producto interno (E,\langle \cdot, \cdot\rangle), el producto interno \langle \cdot, \cdot\rangle induce la norma \Vert x\Vert = \sqrt{\langle x, x\rangle} para cada x\in E.
+
+Convergencia uniforme sobre compactos
+Convergencia débil
+Una sucesión se dice que converge débilmente a x o en sentido débil si para toda funcional lineal f, {\displaystyle f(x_{n})} converge a f(x).
+
+Por ejemplo la serie 1/n desde {\displaystyle n=1} hasta infinito converge débilmente a cero. Pues:[cita requerida]
+{\displaystyle \lim _{n\to \infty }f\left({\frac {1}{n}}\right)=\lim _{n\to \infty }{\frac {n}{n}}\cdot f\left({\frac {1}{n}}\right)=\lim _{n\to \infty }{\frac {f\left({\frac {n}{n}}\right)}{n}}=\lim _{n\to \infty }{\frac {f(1)}{n}}=0}
+Todo esto, pues f es lineal.
+
+Límite en un espacio topológico
+Una generalización de esta relación, para una sucesión de puntos \{x_n|n\in \mathbb{N}\}\; en un espacio topológico T:
+
+Si L\in T\; se dice que L es un límite de esta sucesión y se escribe
+ L = \lim_{n \to \infty} x_n 
+si y solo si para todo entorno S de L existe un número natural N tal que x_n\in S\; para todo n>N.\;
+De forma intuitiva, suponiendo que se tiene una sucesión de puntos (por ejemplo un conjunto infinito de puntos numerados utilizando los números naturales) en algún tipo de objeto matemático (por ejemplo los números reales o un espacio vectorial) que admite el concepto de entorno (en el sentido de "todos los puntos dentro de una cierta distancia de un dado punto fijo"). Un punto L es el límite de la sucesión si para todo entorno que se defina, todos los puntos de la sucesión (con la posible excepción de un número finito de puntos) están próximos a L. Esto puede ser interpretado como si hubiera un conjunto de esferas de tamaños decrecientes hasta cero, todas centradas en L, y para cualquiera de estas esferas, solo existiera un número finito de números fuera de ella.
+
+Es posible también que una sucesión en un espacio topológico general, pueda tener varios límites diferentes,[cita requerida] pero una sucesión convergente posee un único límite si T es un espacio de Hausdorff, por ejemplo la recta real (extendida), el plano complejo, sus subconjuntos (R, Q, Z...) y productos cartesianos (Rn...).
+
+Teoría de la probabilidad
+En teoría de la probabilidad existen diferentes nociones de convergencia: convergencia de funciones medibles, convergencia en distribución y límites de variables aleatorias.
+
+Véase también
+Sucesión matemática
+Serie matemática
+Serie convergente
+Orden de convergencia
+Límite de una función
+Límite matemático
+Radio de convergencia
+Referencias
+1 2 Arias Cabezas, José María; Maza Sáez, Ildefonso (2008). «Aritmética y Álgebra». En Carmona Rodríguez, Manuel; Díaz Fernández, Francisco Javier. Matemáticas 1. Madrid: Grupo Editorial Bruño, Sociedad Limitada. p. 19. ISBN 9788421659854.
+Enlaces externos
+Weisstein, Eric W. «Convergent Sequence». En Weisstein, Eric W. MathWorld (en inglés). Wolfram Research.
+Ejemplos de sucesiones
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

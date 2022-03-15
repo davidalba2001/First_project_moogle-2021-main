@@ -1,0 +1,52 @@
+Tf-idf
+Tf-idf (del inglés Term frequency – Inverse document frequency), frecuencia de término – frecuencia inversa de documento (o sea, la frecuencia de ocurrencia del término en la colección de documentos), es una medida numérica que expresa cuán relevante es una palabra para un documento en una colección. Esta medida se utiliza a menudo como un factor de ponderación en la recuperación de información y la minería de texto. El valor tf-idf aumenta proporcionalmente al número de veces que una palabra aparece en el documento, pero es compensada por la frecuencia de la palabra en la colección de documentos, lo que permite manejar el hecho de que algunas palabras son generalmente más comunes que otras.
+
+Variaciones del esquema de peso tf-idf son empleadas frecuentemente por los motores de búsqueda como herramienta fundamental para medir la relevancia de un documento dada una consulta del usuario, estableciendo así una ordenación o ranking de los mismos. Tf-idf puede utilizarse exitosamente para el filtrado de las denominadas stop-words (palabras que suelen usarse en casi todos los documentos), en diferentes campos como la clasificación y resumen de texto.[1]
+
+Una de las funciones de ranking más sencillas se calcula como la suma de los valores tf-idf de cada término de la consulta. Muchas funciones de ranking más complejas constituyen variaciones de este simple modelo.
+
+Motivación
+Supongamos que tenemos una colección de documentos y queremos determinar el documento más relevante a la consulta "la mochila azul". Una manera sencilla de comenzar es eliminando aquellos documentos que no contengan las tres palabras "la", "mochila" y "azul", pero todavía quedan muchos documentos. Para diferenciarlos aún más, debemos contar el número de veces que cada término ocurre en cada documento y sumarlos; el número de veces que un término ocurre en un documento se denomina su frecuencia de término (tf).
+
+Sin embargo, como el término "la" es tan común, esto provocará que se destaquen incorrectamente documentos que utilizan de casualidad la palabra "la" con más frecuencia, sin conceder suficiente peso a los términos más significativos "mochila" y "azul". El término "la" no es una buena palabra clave para distinguir documentos relevantes y no relevantes, a diferencia de las palabras menos comunes "mochila" y "azul". Por lo tanto, se incorpora un factor de frecuencia inversa de documento que atenúa el peso de los términos que ocurren con mucha frecuencia en la colección de documentos e incrementa el peso de los términos que ocurren pocas veces.
+
+Detalles matemáticos
+Tf-idf es el producto de dos medidas, frecuencia de término y frecuencia inversa de documento. Existen varias maneras de determinar el valor de ambas. En el caso de la frecuencia de término tf(t, d), la opción más sencilla es usar la frecuencia bruta del término t en el documento d, o sea, el número de veces que el término t ocurre en el documento d. Si denotamos la frecuencia bruta de t por f(t,d), entonces el esquema tf simple es tf(t, d) = f(t,d). Otras posibilidades son:[2]
+
+"frecuencias" booleanas: tf(t,d) = 1 si t ocurre en d, y 0 si no;
+frecuencia escalada logarítmicamente: tf(t,d) = 1 + log f(t,d) (y 0 si f(t,d)=0);
+frecuencia normalizada, para evitar una predisposición hacia los documentos largos. Por ejemplo, se divide la frecuencia bruta por la frecuencia máxima de algún término en el documento:[3]
+{\displaystyle \mathrm {tf} (t,d)={\frac {\mathrm {f} (t,d)}{\max\{\mathrm {f} (w,d):w\in d\}}}}
+La frecuencia inversa de documento es una medida de si el término es común o no, en la colección de documentos. Se obtiene dividiendo el número total de documentos por el número de documentos que contienen el término, y se toma el logaritmo de ese cociente:
+
+{\displaystyle \mathrm {idf} (t,D)=\log {\frac {|D|}{|\{d\in D:t\in d\}|}}}
+donde
+
+{\displaystyle |D|}: cardinalidad de D, o número de documentos en la colección.
+{\displaystyle |\{d\in D:t\in d\}|} : número de documentos donde aparece el término t. Si el término no está en la colección se producirá una división-por-cero. Por lo tanto, es común ajustar esta fórmula a {\displaystyle 1+|\{d\in D:t\in d\}|}.
+Matemáticamente, la base de la función logaritmo no es importante y constituye un factor constante en el resultado final.
+
+Luego, tf-idf se calcula como:
+
+{\displaystyle \mathrm {tfidf} (t,d,D)=\mathrm {tf} (t,d)\times \mathrm {idf} (t,D)}
+Un peso alto en tf-idf se alcanza con una elevada frecuencia de término (en el documento dado) y una pequeña frecuencia de ocurrencia del término en la colección completa de documentos. Como el cociente dentro de la función logaritmo del idf es siempre mayor o igual que 1, el valor del idf (y del tf-idf) es mayor o igual que 0. Cuando un término aparece en muchos documentos, el cociente dentro del logaritmo se acerca a 1, ofreciendo un valor de idf y de tf-idf cercano a 0.
+
+Véase también
+Okapi BM25
+Sintagma nominal
+Modelo de espacio vectorial
+PageRank
+Latent Dirichlet Allocation
+Divergencia de Kullback-Leibler
+Información mutua
+Bibliografía
+Esta obra contiene una traducción derivada de Tf-idf de Wikipedia en inglés, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.
+↑ TF*IDF Ranker
+↑ Manning, Raghavan and Schütze, p. 118.
+↑ Garcia, Dr. E. (27 de octubre de 2006). «Vector Models based on Normalized Frequencies». Mi Islita. Archivado desde el original el 8 de junio de 2012. Consultado el 17 de agosto de 2012.
+Jones KS (1972). A statistical interpretation of term specificity and its application in retrieval 28 (1). pp. 11-21. doi:10.1108/eb026526.
+Salton G; McGill MJ (1986). Introduction to modern information retrieval. McGraw-Hill. ISBN 0-07-054484-0.
+Salton G, Fox EA, Wu H (noviembre de 1983). Extended Boolean information retrieval 26 (11). pp. 1022-1036. doi:10.1145/182.358466.
+Salton G, Buckley C (1988). Term-weighting approaches in automatic text retrieval 24 (5). pp. 513-523. doi:10.1016/0306-4573(88)90021-0.
+Wu HC, Luk RWP, Wong KF, Kwok KL (2008). Interpreting tf–idf term weights as making relevance decisions 26 (3). pp. 1-37. doi:10.1145/1361684.1361686.
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

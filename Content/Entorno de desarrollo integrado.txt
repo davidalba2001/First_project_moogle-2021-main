@@ -1,0 +1,74 @@
+Entorno de desarrollo integrado
+
+Anjuta, un entorno de desarrollo integrado de C y C++ para el ambiente GNOME.
+Un entorno de desarrollo integrado[1][2] o entorno de desarrollo interactivo, en inglés Integrated Development Environment (IDE), es una aplicación informática que proporciona servicios integrales para facilitarle al desarrollador o programador el desarrollo de software.
+
+Normalmente, un IDE consiste de un editor de código fuente, herramientas de construcción automáticas y un depurador. La mayoría de los IDE tienen auto-completado inteligente de código (IntelliSense). Algunos IDE contienen un compilador, un intérprete, o ambos, tales como NetBeans y Eclipse; otros no, tales como SharpDevelop y Lazarus.
+
+El límite entre un IDE y otras partes del entorno de desarrollo de software más amplio no está bien definido. Muchas veces, a los efectos de simplificar la construcción de la interfaz gráfica de usuario (GUI, por sus siglas en inglés) se integran un sistema controlador de versión y varias herramientas. Muchos IDE modernos también cuentan con un navegador de clases, un buscador de objetos y un diagrama de jerarquía de clases, para su uso con el desarrollo de software orientado a objetos.
+
+Generalidades
+Los IDE están diseñados para maximizar la productividad del programador proporcionando componentes muy unidos con interfaces de usuario similares. Los IDE presentan un único programa en el que se lleva a cabo todo el desarrollo. Generalmente, este programa suele ofrecer muchas características para la creación, modificación, compilación, implementación y depuración de software. Esto contrasta con el desarrollo de software utilizando herramientas no relacionadas, como Vi, GNU Compiler Collection (GCC) o Make.
+
+Uno de los propósitos de los IDE es reducir la configuración necesaria para reconstruir múltiples utilidades de desarrollo, en vez de proveer el mismo set de servicios como una unidad cohesiva. Reduciendo ese tiempo de ajustes, se puede incrementar la productividad de desarrollo, en casos donde aprender a usar un IDE es más rápido que integrar manualmente todas las herramientas por separado.
+
+Una mejor integración de todos los procesos de desarrollo hace posible mejorar la productividad en general, más que únicamente ayudando con los ajustes de configuración. Por ejemplo, el código puede ser continuamente armado, mientras es editado, previendo retroalimentación instantánea, como cuando hay errores de sintaxis. Esto puede ayudar a aprender un nuevo lenguaje de programación de una manera más rápida, así como sus librerías asociadas.
+
+Algunos IDE están dedicados específicamente a un lenguaje de programación, permitiendo que las características sean lo más cercanas al paradigma de programación de dicho lenguaje. Por otro lado, existen muchos IDE de múltiples lenguajes tales como Eclipse, ActiveState Komodo, IntelliJ IDEA, MyEclipse, Oracle JDeveloper, NetBeans, Codenvy y Microsoft Visual Studio. Xcode, Xojo y Delphi están dedicados a un lenguaje cerrado o a un tipo de ajustes de tipos de lenguajes de programación.
+
+Mientras la mayoría de los IDE modernos son gráficos, los editores de textos (como Turbo Pascal) eran populares antes de que los sistemas de ventanas se hicieran disponibles, tales como Microsoft Windows y X Window System (X11). Estos usan funciones por medio de teclas rápidas para ejecutar comandos o macros frecuentemente usados.
+
+Reseña histórica
+
+GNU Emacs, un editor normalmente utilizado como IDE en sistemas tipo UNIX.
+Los IDE fueron posibles cuando se desarrollaba vía consola o terminal de la computadora. Los primeros sistemas no podían soportarlos, porque los programas eran preparados usando diagramas de flujo, introduciendo programas con tarjetas agujeradas (o papel cartón, etcétera) antes de enviarlos a un compilador. Dartmouth BASIC fue el primer lenguaje en ser creado con un IDE (también fue el primero en ser diseñado para ser utilizado enfrente de la consola o la terminal). Este IDE (parte de Dartmouth Time Sharing System) fue basado en código y basado en comandos, y por esto no se parecía mucho a los IDE tan gráficos actuales. Sin embargo, la edición integrada, manejo de archivos, compilación, depurador y ejecutable en una manera consistente con los IDE modernos.
+
+"Maestro I" es un producto de Softlab Múnich y fue el primer sistema de desarrollo integrado IDE,[3] para software, creado en 1975. Maestro I fue instalado por 22.000 programadores en todo el mundo. Hasta 1989, existían 6.000 instalaciones en la República Federal de Alemania. Maestro fue sin duda el líder mundial en este campo durante los años 1970 y 1980. Uno de los últimos Maestro I puede ser encontrado en el Museo de Tecnología e Informática en Arlington.
+
+Uno de los primeros IDE con un concepto de plug-in fue Softbench. En 1995 Computerwoche comentó que el uso de un IDE no era bien recibido por los programadores, ya que afectaría su creatividad.
+
+Tópicos
+Programación visual
+La programación visual es un marco de usuario en la que generalmente se requiere una IDE. Los IDE visuales le permiten a los usuarios crear nuevas aplicaciones de programación en movimiento, bloques de construcción, o nodos de código para crear diagramas de flujo o diagramas de estructura que luego son compilados o interpretados. Estos diagramas de flujo muchas veces se basan en el lenguaje de modelado unificado.
+
+Esta interfaz ha sido popularizada con los Lego Mindstorms, y se ha mantenido activa por un número de compañías deseando capitalizar el poder de los buscadores personalizados como los fundados en Mozilla. KTechlab apoya el flowcode y es un IDE de código abierto (opensource) y un simulador para desarrollar software para micro-controladores.
+
+La programación visual también es responsable del poder de la distribución de software (LabVIEW y software EICASLAB). Un primitivo sistema visual de programación, Max, fue modelado a partir de un sintetizador de diseño análogo siendo desarrollado para utilizar el desempeño de la música en tiempo real desde los años 1980. Otro ejemplo primitivo fue Prograph, un programa a base de flujo de datos, originalmente desarrollado para la Macintosh. El ambiente de programación gráfica "Grape" es usado para programar qfix robot kits.
+
+Este acercamiento es también utilizado por software especializados, tales como Openlab, donde el usuario final quiere la flexibilidad completa de un lenguaje de programación, sin la tradicional curva de aprendizaje.
+
+Soportes del lenguaje
+Algunos IDE soportan múltiples lenguajes, tales como GNU Emacs basados en C y Emacs Lisp, y Eclipse, IntelliJ IDEA, MyEclipse o NetBeans, todos basados en Java, o MonoDevelop, basados en C#.
+
+Normalmente, el soporte para lenguajes alternativos regularmente es proveído por un plug-in, permitiéndoles ser instalados en el mismo IDE, al mismo tiempo.[4] Eclipse, y Netbeans tienen plugins para C/C++, Ada, (por ejemplo AdaGIDE), Perl, Python, Ruby, y PHP, los cuales son seleccionados entre extensión de archivos, ambientes o ajustes de proyectos.
+
+Características entre diferentes plataformas computacionales
+Los programadores Unix pueden combinar herramientas de línea de comandos POSIX en un entorno de desarrollo completo, capaz de desarrollar grandes programas como el kernel de Linux y su entorno.[5] Las herramientas GNU de software libre (GNU Compiler Collection (GCC), depurador GNU (gdb), GNU make) están disponibles en muchas plataformas, incluyendo Windows.[6] Los desarrolladores que prefieren herramientas orientadas a la línea de comandos pueden utilizar los editores con soporte para muchos estándares de Unix y herramientas de construcción GNU, construyendo una IDE con programas como Emacs[7][8][9] o Vim. El Data Display Debugger está destinado a ser un front-end gráfico avanzado para muchas herramientas estándar depurador basados en texto. Algunos programadores prefieren Administración de makefiles y sus derivados a las herramientas similares de construcción de código incluidos en un IDE completo. Por ejemplo, muchas contribuciones a las bases de datos de PostgreSQL usan mark y gdb directamente a desarrollar nuevas características.[10] Aún cuando se construya PostgreSQL para Microsoft Windows utilizando Visual C++, se utilizan scripts Perl como reemplazo para el make, en lugar de depender de cualquier característica del IDE.[11] Algunos IDE de Linux como Atom.io o Geany intentan proporcionar una interfaz gráfica para las operaciones de construcción tradicionales.
+
+En las diversas plataformas de Microsoft Windows, rara vez se utilizan herramientas de línea de comandos para el desarrollo. Como consecuencia, hay muchos productos comerciales y no comerciales. Sin embargo, cada uno tiene un diseño diferente creando comúnmente incompatibilidades. La mayoría de los vendedores más importantes del compilador para Windows todavía proporcionan copias gratuitas de sus herramientas de línea de comandos, incluyendo Microsoft (Visual C++, Plataforma SDK, .NET Framework SDK, utilidad nmake), Embarcadero Technologies (compilador bcc32, utilidad make).
+
+Los IDE siempre han sido populares en Mac OS de Apple Macintosh, que se remonta al Taller de los programadores Macintosh, de los ambientes Turbo Pascal, THINK Pascal y THINK C de mediados de la década de 1980. A 2015 los programadores Mac OS X pueden elegir entre IDE nativos como Xcode y herramientas de código abierto como Eclipse y Netbeans. ActiveState Komodo es un IDE multilenguaje propietaria apoyado en el Mac OS.
+
+Con el advenimiento de la computación en nube, algunos IDE están disponibles en línea y se ejecutan dentro de los navegadores web.
+
+Referencias
+↑ Ramos Salavert, Isidro; Lozano Pérez, María Dolores (2000). Ingeniería del software y bases de datos: tendencias actuales. Universidad de Castilla La Mancha. ISBN 8484270777. «6.4 Entornos de Desarrollo Integrados, pág. 78».
+↑ Lidia Fuentes, Jos ́e M. Troya y Antonio Vallecillo. «Desarrollo de Software Basado en Componentes». Dept. Lenguajes y Ciencias de la Computación. Universidad de Málaga.: 16.
+↑ "Interaktives Programmieren als Systems-Schlager"
+Archivado el 21 de diciembre de 2008 en la Wayback Machine. de Computerwoche (alemán).
+↑ https://web.archive.org/web/20140310225211/http://flycheck.readthedocs.org/en/latest/manual/introduction.html
+↑ Rehman, Christopher Paul, Christopher R. Paul. "The Linux Development Platform: Configuring, Using and Maintaining a Complete Programming Environment". 2002. ISBN 0-13-009115-4.
+↑ "Use Emacs with Microsoft Visual C++ ... use Emacs as an IDE"
+↑ "Emacs: the Free Software IDE"
+↑ "Using Emacs as a Lisp IDE"
+↑ "Emacs as a Perl IDE"
+↑ "PostgreSQL Developer FAQ"
+↑ "PostgreSQL Installation from Source Code on Windows"
+Véase también
+Desarrollador de software
+Desarrollo de software
+Interfaz de programación de aplicaciones
+Programador
+Enlaces externos
+ Wikimedia Commons alberga una categoría multimedia sobre Entorno de desarrollo integrado.
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

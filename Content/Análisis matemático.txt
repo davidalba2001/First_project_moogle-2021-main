@@ -1,0 +1,60 @@
+Análisis matemático
+
+El estudio del conjunto de Mandelbrot que es un objeto fractal con autosimilaridad estadística involucra diversas áreas del análisis matemático, el análisis de la convergencia, la teoría de la medida, la geometría y la teoría de la probabilidad y la estadística.
+El análisis matemático es una rama de las matemáticas que estudia los números reales, los complejos, tanto del punto de vista algebraico como topológico, así como las funciones entre esos conjuntos y construcciones derivadas. Se empieza a desarrollar a partir del inicio de la formulación rigurosa de límite y estudia conceptos como la continuidad, la integración y la derivación de diversos tipos.[1]
+
+Una de las diferencias entre el álgebra y el análisis es que en este segundo recurre a construcciones que involucran sucesiones de un número infinito de elementos, mientras que álgebra usualmente es finitista.
+
+Historia
+Matemáticos griegos como Eudoxo de Cnidos y Arquímedes hicieron un uso informal de los conceptos de límite y convergencia cuando usaron el método exhaustivo para calcular el área y volumen de regiones y sólidos. De hecho, el número π fue aproximado usando el método exhaustivo. En la India del siglo XII el matemático Bhaskara concibió elementos del cálculo diferencial, así como el concepto de lo que ahora conocemos como el Teorema de Rolle.
+
+En el siglo XIV, el análisis matemático se origina con Madhava, en el Sur de Asia, quien desarrolló ideas fundamentales como la expansión de series infinitas, las series de potencias, series de Taylor, y la aproximación racional de series infinitas. Además desarrolló las series de Taylor de funciones trigonométricas —seno, coseno, tangente—, y estimó la magnitud de los errores de cálculo truncando estas series. También desarrolló fracciones continuas infinitas, integración término a término, y las serie de potencias de pi. Sus discípulos de la Escuela de Kerala continuaron su trabajo hasta el siglo XVI.
+
+El análisis en Europa se origina en el siglo siglo XVII, en el que Newton y Leibniz inventan el cálculo. Ahora sabemos que Newton desarrolló el cálculo infinitesimal unos diez años antes que Leibniz. Este último lo hizo en 1675 y publicó su obra en 1684, aproximadamente veinte años antes de que Newton se decidiera a hacer lo propio con sus trabajos. Newton había comunicado la novedad solamente a algunos pocos colegas suyos y de nada valieron las instigaciones de Halley para que Newton publicara sus trabajos más tempranamente. Esta actitud sirvió de base para crear una desagradable controversia por el padrinazgo de la idea; discusión que podría haber sido evitada si otro gran matemático, Fermat, no hubiera tenido también la inexplicable costumbre de no hacer públicos sus trabajos. En una carta de Fermat a Roberval, fechada el 22 de octubre de 1636, se hallan claramente descritos tanto la geometría analítica[2] como el análisis matemático.[3] En dicho siglo y en el siglo XVIII, ciertos temas sobre el análisis como el cálculo de variaciones, las ecuaciones diferenciales y ecuaciones en derivadas parciales, el análisis de Fourier y las funciones generadoras fueron desarrolladas principalmente para un trabajo de aplicación. Las técnicas del Cálculo fueron aplicadas con éxito en la aproximación de problemas discretos mediante los continuos.
+
+
+Aproximación de una función "onda cuadrada" discontinua mediante una serie de funciones trigonométricas continuas y diferenciables.
+A todo lo largo del siglo XVIII la definición del concepto de función estuvo sujeta a debate entre los matemáticos. En el siglo XIX, Cauchy fue el primero que estableció el cálculo sobre unos firmes fundamentos lógicos mediante el uso del concepto de sucesión de Cauchy. También inició la teoría formal del Análisis complejo. Poisson, Liouville, Fourier y otros, estudiaron ecuaciones en derivadas parciales y el Análisis armónico.
+
+Mediado dicho siglo, Riemann introduce su teoría de la integración. En el último tercio del siglo XIX Weierstrass lleva a la aritmetización del análisis, ya que pensaba que el razonamiento geométrico era engañoso por naturaleza, e introduce la definición ε-δ de límite. Entonces los matemáticos empezaron a preguntarse si no estarían asumiendo la existencia de cierto continuo de números reales sin probar su existencia. Dedekind entonces construye los números reales mediante las cortaduras de Dedekind. Sobre la misma época, los intentos de refinar los teoremas de integración de Riemann llevaron hacia el estudio del «tamaño» de los conjuntos de discontinuidad de funciones reales.
+
+También, funciones «monstruos» (funciones continuas en ninguna parte, funciones continuas pero no diferenciables en ningún punto, Curva que llena el espacio, Curva de Peano) comenzaron a surgir. En este contexto Jordan desarrolló su teoría de medida, Cantor lo hizo con lo que ahora se llama teoría de conjuntos, y Baire prueba el Teorema de la categoría de Baire. A principios del siglo XX, el cálculo se formaliza usando la teoría de conjuntos. Lebesgue resuelve el problema de la medida, y Hilbert introduce los espacios de Hilbert para resolver ecuaciones integrales. La idea de espacios vectoriales normados estuvo en ciernes, y en los años 1920 Banach crea el Análisis funcional.
+
+Subdivisiones
+Se ha discutido mucho cuántas y qué ramas compondrían el análisis, ya que a medida que la disciplina se desarrolla diversas ramas que previamente eran independientes acaban formando parte de un mismo cuerpo y en ocasiones parecen emerger ramas independientes. El análisis matemático incluye los siguientes campos:
+
+Análisis real, esto es, el estudio formalmente riguroso de las derivadas e integrales de las funciones real-valuadas, lo que incluye el estudio de límites, y series.
+Ecuaciones diferenciales ordinarias y en derivadas parciales
+Geometría diferencial, que extiende los métodos del análisis real sobre espacios euclídeos a espacios topológicos más generales.
+Integración y teoría de la medida, que generaliza en concepto de cálculo integral y de medida.
+Teoría de la probabilidad, que en gran medida comparte formalismo con la teoría de la medida, a partir de la axiomatización de Kolmogórov.
+Análisis numérico encarga de diseñar algoritmos para, a través de números y reglas matemáticas simples, simular procesos matemáticos más complejos aplicados a procesos del mundo real.
+Análisis no real, que extiende el análsis real a cuerpos diferentes de los números reales.
+Análisis complejo, que estudia funciones que van del plano complejo hacia sí mismo y que son complejo-diferenciables, las funciones holomorfas.
+Análisis p-ádico, el análisis en el contexto de los números p-ádicos, que difiere de forma interesante y sorprendente de su homólogo real y complejo.
+Análisis no estándar, que investiga ciertos números hiperreales y sus funciones y da un tratamiento riguroso de los números infinitesimales y los infinitamente grandes.
+Análisis funcional, que estudia espacios y funciones e introduce conceptos como los de espacios de Banach y espacios de Hilbert.
+Análisis armónico, que trata de las series de Fourier y de sus abstracciones[cita requerida] y adiciones analíticas subarmónicas.
+Geometría analítica
+Topología
+Topología diferencial, que generaliza el análisis real y complejo de varias variables a espacios topológicos más generales que \scriptstyle \mathbb{R} ^{n} o {\displaystyle \scriptstyle \mathbb {C} ^{n}}.
+Topología algebraica
+Grupos de Lie
+Otras áreas:
+Geometría algebraica
+Véase también
+Geometría diferencial
+Topología diferencial
+Referencias
+↑ Esquema planteado en Análisis matemático de Tom Apostol
+↑ Existe un ensayo escrito por Fermat en 1629 en el que crea la geometría analítica, pero no fue editado hasta 1669, treinta años después de la aparición de la Géométrie de Descartes.
+↑ Capítulo VII: Este Mundo Fluente, Tobías Dantzig, "El Número Lenguaje de la Ciencia, Editorial Hobbs Sudamericana S. A., Buenos Aires, 1971, página 143.
+Bibliografía
+Apostol, Tom M. (1960). Análisis matemático: Introducción moderna al cálculo superior. Reverté. ISBN 84-291-5000-5.
+Rey Pastor, Julio (1985). Análisis matemático: Teoría de ecuaciones; cálculo infinitesimal de una variable. Kapelusz. ISBN 950-13-3301-9.
+Gardner Bartle, Robert (1982). Introducción al análisis matemático. Limusa. ISBN 968-18-0997-1.
+Enlaces externos
+Blog de Análisis Matemático
+«Análisis matemático». CNICE. Archivado desde el original el 24 de agosto de 2007. Consultado el 4 de septiembre de 2007.
+Sokolovsky, Silvia. «Matemática: Análisis Matemático - Álgebra». Consultado el 4 de septiembre de 2007.
+This article is issued from Wikipedia. The text is licensed under Creative Commons - Attribution - Sharealike. Additional terms may apply for the media files.

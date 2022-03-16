@@ -1,6 +1,6 @@
 # Moogle
 
-![](moogle.png)
+![](Screenshots/moogle.png)
 
 **Proyecto de Programación I. Facultad de Matemática y Computación. Universidad de La Habana. Curso 2021.**
 
@@ -16,7 +16,7 @@ La aplicación está dividida en dos componentes fundamentales:
 Para que la búsqueda sea lo más inteligente posible, Hemos implementado un`Modelo vectorial` de recuperación de la información. Este modelo tiene su base en el álgebra lineal multidimensional. Los términos indexados, como los documentos se modelan como vectores, los cuales son llamados `vectores-términos` y `vectores-documentos`, respectivamente. En el modelo vectorial se intenta recoger la relación de cada
 documento Di, de una colección de N documentos, con el conjunto de las m características de la colección. Formalmente un documento puede considerarse como un vector que expresa la relación del documento con cada una de esas características.
 
-![](formula06_vector-documento.png)
+![](Screenshots/formula06_vector-documento.png)
 
 Es decir, ese vector identifica en qué grado el documento Di satisface cada una de las m características. En ese vector, Cik es un valor numérico que expresa en qué grado el documento Di posee la característica k. El concepto `característica` suele concretarse en la ocurrencia o relevancia de determinadas palabras o términos en el documento, aunque nada impide tomar en consideración otros aspectos.
 
@@ -35,14 +35,14 @@ Una vez modelado el sistema vectorial con el peso de cada termino; solo nos qued
 con un documento Di es:
 
 # Similaridad-producto-escalar
-![](formula07_similaridad-producto-escalar.png)
+![](Screenshots/formula07_similaridad-producto-escalar.png)
 
 # Similaridad-coseno
 *Nota: Implemente Similaridad-coseno*
-![](formula08_similaridad-coseno.png)
+![](Screenshots/formula08_similaridad-coseno.png)
 
 
-![](figura12_vectorial.png)
+![](Screenshots/figura12_vectorial.png)
 
 Los documentos con mayor grado de similitud son aquellos que mayor `score` tendrán. Los documentos de mayor `score` serán los devueltos por el buscador.
 
@@ -195,13 +195,16 @@ private static string GetFileText(string path)
 
 # Que es Normalizar un vector?
 
-![](9150ff25c140f6abd6da845d59533880324158a9.png)
+![](Screenshots/9150ff25c140f6abd6da845d59533880324158a9.png)
 
-![](f400c601f9a8be82ce642b4d0fc6f4962802bbd9.png)
+------------------------------------------------------------------------------------------------------------------------------------------
+![](Screenshots/f400c601f9a8be82ce642b4d0fc6f4962802bbd9.png)
 
-![](6ade290db694921cc465883fb070d8a1dbb3447e.png)
+------------------------------------------------------------------------------------------------------------------------------------------
+![](Screenshots/6ade290db694921cc465883fb070d8a1dbb3447e.png)
 
-![](653fdc7d4773c0b2844af3ed51e42debd6b4cb5f.png)
+------------------------------------------------------------------------------------------------------------------------------------------
+![](Screenshots/653fdc7d4773c0b2844af3ed51e42debd6b4cb5f.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 **El tipo `WordWeigther`** es una estructura básica que utilice para construir un ponderador de palabras. El parámetro `Operator` es del tipo char se le asigna un operador. El parámetro `Word` de tipo string contiene la palabra que tiene ese operador, El parámetro `Weigth` contiene una puntuación.
@@ -263,9 +266,9 @@ GetSnippet(Document document, Dictionary<string, float> query)
 # Diagrama de clases
 - *Nota: El diagrama de clases está en el proyecto con el podrá observar el flujo del proyecto*
 
-   ![]Namespace MoogleEngine.png)
+   ![](Screenshots/Namespace MoogleEngine.png)
 
-   ![](Vista Class Moogle.png)
+   ![](Screenshots/Vista Class Moogle.png)
 
 # Posibles mejoras a deficiencias 
 - Como posibles mejoras esta la optimización del proceso de búsqueda. 

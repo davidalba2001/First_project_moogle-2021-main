@@ -266,7 +266,7 @@ GetSnippet(Document document, Dictionary<string, float> query)
 # Diagrama de clases
 - *Nota: El diagrama de clases está en el proyecto con el podrá observar el flujo del proyecto*
 
-   ![](Screenshots/Namespace MoogleEngine.png)
+   ![](Screenshots\Namespace MoogleEngine.png)
 
    ![](Screenshots/Vista Class Moogle.png)
 
